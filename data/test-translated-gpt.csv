@@ -1,0 +1,3103 @@
+id,instruction,test_list
+1,"Write a Python function to remove the first and last occurrence of a given character from a string.
+
+Example:
+def remove_Occ(s, ch):
+    # your code
+    return s","['assert remove_Occ(\""hello\"",\""l\"") == \""heo\""']"
+2,"Write a function that sorts the rows of a given matrix in ascending order based on the sum of the elements in each row.
+
+Example:
+def sort_matrix(M):
+    # your code
+    return M","['assert sort_matrix([[1, 2, 3], [2, 4, 5], [1, 1, 1]])==[[1, 1, 1], [1, 2, 3], [2, 4, 5]]']"
+3,"Write a function that counts the most common words in a dictionary.
+
+Example:
+def count_common(words):
+    # your code
+    return words","['assert count_common([\'red\',\'green\',\'black\',\'pink\',\'black\',\'white\',\'black\',\'eyes\',\'white\',\'black\',\'orange\',\'pink\',\'pink\',\'red\',\'red\',\'white\',\'orange\',\'white\',\""black\"",\'pink\',\'green\',\'green\',\'pink\',\'green\',\'pink\',\'white\',\'orange\',\""orange\"",\'red\']) == [(\'pink\', 6), (\'black\', 5), (\'white\', 5), (\'red\', 4)]']"
+4,"Write a Python function to calculate the volume of a triangular prism.
+
+Example:
+def find_Volume(l, b, h):
+    # your code
+    return l","['assert find_Volume(10,8,6) == 240']"
+5,"Write a function to split a string into its lowercase letters.
+
+Example:
+def split_lowerstring(text):
+    # your code
+    return text","['assert split_lowerstring(\""AbCd\"")==[\'bC\',\'d\']']"
+6,"Write a function that finds the sequence of lowercase letters in a given string.
+
+Example:
+def text_lowercase_underscore(text):
+    # your code
+    return text","['assert text_lowercase_underscore(\""aab_cbbbc\"")==(\'Found a match!\')']"
+7,"Write a function to calculate the perimeter of a square.
+
+Example:
+def square_perimeter(a):
+    # your code
+    return a",['assert square_perimeter(10)==40']
+8,"Write a function that removes all characters from the first string that are present in the second string.
+
+Example:
+def str_to_list(string):
+    # your code
+    return string","['assert str_to_list(\""probasscurve\"", \""pros\"") == \'bacuve\'']"
+9,"Write a function to check whether there are any duplicate elements in a given integer array.
+
+Example:
+def test_duplicate(arraynums):
+    # your code
+    return arraynums","['assert test_duplicate(([1,2,3,4,5]))==False']"
+10,"Write a function to check whether the given number is a Woodall number or not.
+
+Example:
+def is_woodall(x):
+    # your code
+    return x",['assert is_woodall(383) == True']
+11,"Write a function that finds the first n multiples of m.
+
+Example:
+def multiples_of_num(m, n):
+    # your code
+    return m","['assert multiples_of_num(4,3)== [3,6,9,12]']"
+12,"Write a function to find the first duplicate element in an array of integers.
+
+Example:
+def find_first_duplicate(nums):
+    # your code
+    return nums","['assert find_first_duplicate(([1, 2, 3, 4, 4, 5]))==4']"
+13,"Write a Python function that finds the maximum sum among all the sublists in a list of lists.
+
+Example:
+def maximum_Sum(list1):
+    # your code
+    return list1","['assert maximum_Sum([[1,2,3],[4,5,6],[10,11,12],[7,8,9]]) == 33']"
+14,"Write a function that converts a given binary number to its decimal equivalent.
+
+Example:
+def binary_to_decimal(binary):
+    # your code
+    return binary",['assert binary_to_decimal(100) == 4']
+15,"Write a Python function to find the product of all unique (non-repeating) elements in a given array.
+
+Example:
+def find_Product(arr, n):
+    # your code
+    return arr","['assert find_Product([1,1,2,3],4) == 6']"
+16,"Rewrite in English:
+
+Write a function to check whether the given list of tuples contains exactly K elements.
+
+Example:
+def check_k_elements(test_list, K):
+    # your code
+    return test_list","['assert check_k_elements([(4, 4), (4, 4, 4), (4, 4), (4, 4, 4, 4), (4, )], 4) == True']"
+17,"Write a Python function to remove all digits from each string in a list of strings.
+
+Example:
+def remove(list):
+    # your code
+    return list","['assert remove([\'4words\', \'3letters\', \'4digits\']) == [\'words\', \'letters\', \'digits\']']"
+18,"Write a Python function to find the binomial coefficient.
+
+Example:
+def binomial_Coeff(n, k):
+    # your code
+    return n","['assert binomial_Coeff(5,2) == 10']"
+19,"Write a Python function to find the element that appears an odd number of times in the given list.
+
+Example:
+def get_Odd_Occurrence(arr, arr_size):
+    # your code
+    return arr","['assert get_Odd_Occurrence([1,2,3,1,2,3,1],7) == 1']"
+20,"Write a Python function to count all substrings of a given string that start and end with the same character.
+
+Example:
+def check_Equality(s):
+    # your code
+    return s","['assert check_Equality(\""abc\"") == 3']"
+21,"Write a function that uses the heap queue algorithm to find the top k most frequent integers from a sorted and unique list of integers.
+
+Example:
+def func(nums, k):
+    # your code
+    return nums","['assert func([[1, 2, 6], [1, 3, 4, 5, 7, 8], [1, 3, 5, 6, 8, 9], [2, 5, 7, 11], [1, 4, 7, 8, 12]],3)==[5, 7, 1]']"
+22,"Write a Python function to find the largest prime factor of a given number.
+
+Example:
+def max_Prime_Factors(n):
+    # your code
+    return n",['assert max_Prime_Factors(15) == 5']
+23,"Write a Python function to convert a decimal number to its binary representation.
+
+Example:
+def decimal_To_Binary(N):
+    # your code
+    return N",['assert decimal_To_Binary(10) == 1010']
+24,"Write a Python function to find the missing number in a sorted array.
+
+Example:
+def find_missing(ar, N):
+    # your code
+    return ar","['assert find_missing([1,2,3,5],4) == 4']"
+25,"Write a function to find the n-th rectangular number.
+
+Example:
+def find_rect_num(n):
+    # your code
+    return n",['assert find_rect_num(4) == 20']
+26,"Write a Python function to find the N-th digit after the decimal point in the exact fractional representation of two given numbers.
+
+Example:
+def find_Nth_Digit(p, q, N):
+    # your code
+    return p","['assert find_Nth_Digit(1,2,1) == 5']"
+27,"Write a function to sort a mixed list containing both integers and strings.
+
+Example:
+def sort_mixed_list(mixed_list):
+    # your code
+    return mixed_list","['assert sort_mixed_list([19,\'red\',12,\'green\',\'blue\', 10,\'white\',\'green\',1])==[1, 10, 12, 19, \'blue\', \'green\', \'green\', \'red\', \'white\']']"
+28,"Write a function to find the division (quotient) of the first even number by the first odd number in a given list.
+
+Example:
+def div_even_odd(list1):
+    # your code
+    return list1","['assert div_even_odd([1,3,5,7,4,1,6,8])==4']"
+29,"Write a function to check whether it is possible to rearrange the characters of a given string such that no two adjacent characters are the same.
+
+Example:
+def rearange_string(S):
+    # your code
+    return S","['assert rearange_string(\""aab\"")==(\'aba\')']"
+30,"Write a function that uses the collections module to find the frequency of each element in a given list.
+
+Example:
+def freq_element(nums):
+    # your code
+    return nums","['assert freq_element([[1, 2, 3, 2], [4, 5, 6, 2], [7, 1, 9, 5]])==({2: 3, 1: 2, 5: 2, 3: 1, 4: 1, 6: 1, 7: 1, 9: 1})']"
+31,"Write a function that filters out even numbers from a list using a lambda function.
+
+Example:
+def filter_evennumbers(nums):
+    # your code
+    return nums","['assert filter_evennumbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])==[2, 4, 6, 8, 10]']"
+32,"Rewrite in English:
+
+Write a Python function to find the sum of the duplicate elements in a given array.
+
+Example:
+def find_Sum(arr, n):
+    # your code
+    return arr","['assert find_Sum([1,2,3,1,1,4,5,6],8) == 3']"
+33,"Write a function using regex to find a sequence of lowercase letters joined by an underscore.
+
+Example:
+def text_match(text):
+    # your code
+    return text","['assert text_match(\""aab_cbbbc\"") == \'Found a match!\'']"
+34,"Write a function that checks if a string starts with a specific word.
+
+Example:
+def text_match_string(text):
+    # your code
+    return text","['assert text_match_string(\"" python\"")==(\'Not matched!\')']"
+35,"Write a function to find the greatest common divisor (GCD) of the given array elements.
+
+Example:
+def find_gcd(x, y):
+    # your code
+    return x","['assert find_gcd([2, 4, 6, 8, 16]) == 2']"
+36,"Write a Python function that determines whether all the numbers in a given list are distinct from each other.
+
+Example:
+def test_distinct(data):
+    # your code
+    return data","['assert test_distinct([1,5,7,9]) == True']"
+37,"Write a Python function that finds the last digit of the result when the factorial of A is divided by the factorial of B.
+
+Example:
+def compute_Last_Digit(A,B):
+    # your code
+    return A","['assert compute_Last_Digit(2,4) == 2']"
+38,"Write a Python function to set all the odd-positioned bits of a given number.
+
+Example:
+def odd_bit_set_number(n):
+    # your code
+    return n",['assert odd_bit_set_number(10) == 15']
+39,"Write a function that takes a given two-dimensional list and returns each first or specified element from its sublists.
+
+Example:
+def specified_element(nums, N):
+    # your code
+    return nums","['assert specified_element([[1, 2, 3, 2], [4, 5, 6, 2], [7, 1, 9, 5]],0)==[1, 4, 7]']"
+40,"Rewrite in English:
+
+Write a function that uses a lambda function to find the list with the minimum length from a list of lists.
+
+Example:
+def min_length_list(input_list):
+    # your code
+    return input_list","['assert min_length_list([[0], [1, 3], [5, 7], [9, 11], [13, 15, 17]])==(1, [0])']"
+41,"Write a function that checks whether a triangle is equilateral or not.
+
+Example:
+def check_equilateral(x, y, z):
+    # your code
+    return x
+
+Here, x, y, and z represent the lengths of the sides of a triangle. The function should determine if all three sides are equal, indicating that the triangle is equilateral.","['assert check_equilateral(6,8,12)==False ']"
+42,"Write a function to calculate the area of a parallelogram.
+
+Example:
+def parallelogram_area(b, h):
+    # your code
+    return b","['assert parallelogram_area(10,20)==200']"
+43,"Write a Python function to check whether the first and last characters of a given string are the same.
+
+Example:
+def check_Equality(str):
+    # your code
+    return str","['assert check_Equality(\""abcda\"") == \""Equal\""']"
+44,"Write a function that sorts the given array using counting sort.
+
+Example:
+def counting_sort(my_list):
+    # your code
+    return my_list","['assert counting_sort([1,23,4,5,6,7,8]) == [1, 4, 5, 6, 7, 8, 23]']"
+45,"Write a function to find the n-th term of a geometric progression (GP).
+
+Example:
+def tn_gp(a, n, r):
+    # your code
+    return a
+
+Here,  
+- a is the first term of the geometric progression,  
+- n is the term number to find,  
+- r is the common ratio.  
+
+Return the value of the n-th term.","['assert tn_gp(1,5,2)==16']"
+46,"Write a Python function to check whether a given number is exactly one less than twice its reverse.
+
+Example:
+def rev(num):
+    # your code
+    return num",['assert rev(70) == False']
+47,"Write a Python function that rearranges the given numbers to form the largest possible number.
+
+Example:
+def find_Max_Num(arr, n):
+    # your code
+    return arr","['assert find_Max_Num([1,2,3],3) == 321']"
+48,"Write a Python function that checks whether two given integers have opposite signs.
+
+Example:
+def opposite_Signs(x, y):
+    # your code
+    return x","['assert opposite_Signs(1,-2) == True']"
+49,"Write a function to find the nth octagonal number.
+
+Example:
+def is_octagonal(n):
+    # your code
+    return n",['assert is_octagonal(5) == 65']
+50,"Given an array, write a function to find the maximum length of a subarray where the difference between every pair of adjacent elements is the same.
+
+Example:
+def max_len_sub(arr, n):
+    # your code
+    return arr","['assert max_len_sub([2, 5, 6, 3, 7, 6, 5, 8], 8) == 5']"
+51,"Write a Python function that counts the number of substrings in a given string whose length is equal to the given number n.
+
+Example:
+def count_Substrings(s, n):
+    # your code
+    return s","['assert count_Substrings(\'112112\',6) == 6']"
+52,"Write a Python function to find the smallest number in a list.
+
+Example:
+def smallest_num(xs):
+    # your code
+    return xs","['assert smallest_num([10, 20, 1, 45, 99]) == 1']"
+53,"Rewrite of the problem in English:
+
+Write a function that finds the maximum difference among the pairs available in the given list of tuples.
+
+Example:
+def max_difference(test_list):
+    # your code
+    return test_list","['assert max_difference([(3, 5), (1, 7), (10, 3), (1, 2)]) == 7']"
+54,"Write a function that sorts a list of tuples using a lambda function.
+
+Example:
+def subject_marks(subjectmarks):
+    # your code
+    return subjectmarks","['assert subject_marks([(\'English\', 88), (\'Science\', 90), (\'Maths\', 97), (\'Social sciences\', 82)])==[(\'Social sciences\', 82), (\'English\', 88), (\'Science\', 90), (\'Maths\', 97)]']"
+55,"Write a function that calculates the sum of all elements in a (possibly nested) list using recursion.
+
+Example:
+def recursive_list_sum(data_list):
+    # your code
+    return data_list","['assert recursive_list_sum(([1, 2, [3,4],[5,6]]))==21']"
+56,"Write a Python function to count the number of positive numbers in a list.
+
+Example:
+def pos_count(list):
+    # your code
+    return list","['assert pos_count([1,-2,3,-4]) == 2']"
+57,"Write a function that calculates the number of ways to partition a set of n elements (i.e., computes the nth Bell number).
+
+Example:
+def bell_number(n):
+    # your code
+    return n",['assert bell_number(2)==2']
+58,"Write a Python function to check whether the given array is monotonic or not.
+
+Example:
+def is_Monotonic(A):
+    # your code
+    return A","['assert is_Monotonic([6, 5, 4, 4]) == True']"
+59,"Write a function to check whether a given list contains a given sublist.
+
+Example:
+def is_sublist(l, s):
+    # your code
+    return l","['assert is_sublist([2,4,3,5,7],[3,7])==False']"
+60,"Write a function that checks whether all the tuples have the same length.
+
+Example:
+def find_equal_tuple(Input, k):
+    # your code
+    return Input","['assert find_equal_tuple([(11, 22, 33), (44, 55, 66)], 3) == \'All tuples have same length\'']"
+61,"Write a function that sorts a list of elements using the comb sort algorithm.
+
+Example:
+def comb_sort(nums):
+    # your code
+    return nums","['assert comb_sort([5, 15, 37, 25, 79]) == [5, 15, 25, 37, 79]']"
+62,"Write a Python function that checks whether a given number can be expressed as the difference of two perfect squares.
+
+Example:
+def dif_Square(n):
+    # your code
+    return n",['assert dif_Square(5) == True']
+63,"Write a function that splits a given string using multiple delimiters with the help of regular expressions.
+
+Example:
+def multiple_split(text):
+    # your code
+    return text","['assert multiple_split(\'Forces of the \\ndarkness*are coming into the play.\') == [\'Forces of the \', \'darkness\', \'are coming into the play.\']']"
+64,"Write a function that checks whether the given sequence in the colors array follows the same order as specified in the patterns array.
+
+Example:
+def is_samepatterns(colors, patterns):
+    # your code
+    return colors","['assert is_samepatterns([\""red\"",\""green\"",\""green\""], [\""a\"", \""b\"", \""b\""])==True ']"
+65,"Write a function that finds all tuples where every element is divisible by k.
+
+Example:
+def find_tuples(test_list, K):
+    # your code
+    return test_list","['assert find_tuples([(6, 24, 12), (7, 9, 6), (12, 18, 21)], 6) == \'[(6, 24, 12)]\'']"
+66,"Write a Python function to count the total number of squares that can be formed in a rectangle of size m × n.
+
+Example:
+def count_Squares(m, n):
+    # your code
+    return m","['assert count_Squares(4,3) == 20']"
+67,"Write a Python function that calculates the difference between the sum of the even digits and the sum of the odd digits of a given number.
+
+Example:
+def is_Diff(n):
+    # your code
+    return n",['assert is_Diff (12345) == False']
+68,"Write a Python function to find the number of integers, from 1 to n (inclusive), that have an odd number of set bits (i.e., 1s) in their binary representation.
+
+Example:
+def count_With_Odd_SetBits(n):
+    # your code
+    return n",['assert count_With_Odd_SetBits(5) == 3']
+69,"Write a Python function that checks whether the length of a given word is odd.
+
+Example:
+def word_len(s):
+    # your code
+    return s","['assert word_len(\""Hadoop\"") == False']"
+70,"Write a function to find the nth tetrahedral number.
+
+Example:
+def tetrahedral_number(n):
+    # your code
+    return n",['assert tetrahedral_number(5) == 35.0']
+71,"Write a function that takes two tuples and returns their zipped version as a tuple of pairs.
+
+Example:
+def zip_tuples(test_tup1, test_tup2):
+    # your code
+    return test_tup1","['assert zip_tuples((7, 8, 4, 5, 9, 10),(1, 5, 6) ) == [(7, 1), (8, 5), (4, 6), (5, 1), (9, 5), (10, 6)]']"
+72,"Write a function to calculate the volume of a sphere.
+
+Example:
+def volume_sphere(r):
+    # your code
+    return r",['assert volume_sphere(10)==4188.790204786391']
+73,"Write a Python function that finds the character corresponding to the sum of the Unicode values of all the characters in the given string.
+
+Example:
+def get_Char(strr):
+    # your code
+    return strr","['assert get_Char(\""abc\"") == \""f\""']"
+74,"Write a function to find the n-th number in the Newman-Conway sequence.
+
+Example:
+def sequence(n):
+    # your code
+    return n",['assert sequence(10) == 6']
+75,"Write a function to calculate the surface area of a sphere.
+
+Example:
+def surfacearea_sphere(r):
+    # your code
+    return r",['assert surfacearea_sphere(10)==1256.6370614359173']
+76,"Write a function that finds the nth centered hexagonal number.
+
+Example:
+def centered_hexagonal_number(n):
+    # your code
+    return n",['assert centered_hexagonal_number(10) == 271']
+77,"Write a function that merges three dictionaries into one in a single expression.
+
+Example:
+def merge_dictionaries_three(dict1, dict2, dict3):
+    # your code
+    return dict1","['assert merge_dictionaries_three({ \""R\"": \""Red\"", \""B\"": \""Black\"", \""P\"": \""Pink\"" }, { \""G\"": \""Green\"", \""W\"": \""White\"" },{ \""O\"": \""Orange\"", \""W\"": \""White\"", \""B\"": \""Black\"" })=={\'B\': \'Black\', \'R\': \'Red\', \'P\': \'Pink\', \'G\': \'Green\', \'W\': \'White\', \'O\': \'Orange\'}']"
+78,"Write a function to find the frequency of each element in a list.
+
+Example:
+def freq_count(list1):
+    # your code
+    return list1","['assert freq_count([10,10,10,10,20,20,20,20,40,40,50,50,30])==({10: 4, 20: 4, 40: 2, 50: 2, 30: 1}) ']"
+79,"Write a function to find the closest number less than N.
+
+Example:
+def closest_num(N):
+    # your code
+    return N",['assert closest_num(11) == 10']
+80,"Write a Python function to find the length of the longest word in a list.
+
+Example:
+def len_log(list1):
+    # your code
+    return list1","['assert len_log([\""python\"",\""PHP\"",\""bigdata\""]) == 7']"
+81,"Rewrite in English:
+
+Write a function to check whether a given substring is present in a list of strings.
+
+Example:
+def find_substring(str1, sub_str):
+    # your code
+    return str1","['assert find_substring([\""red\"", \""black\"", \""white\"", \""green\"", \""orange\""],\""ack\"")==True']"
+82,"Write a function to check whether the given number is undulating.
+
+Example:
+def is_undulating(n):
+    # your code
+    return n
+
+An undulating number is a number in which the digits alternate between two distinct digits (for example, 1212, 2323, 8989, etc.). Write a function that determines if the given number n is undulating.","['assert is_undulating(\""1212121\"") == True']"
+83,"Write a function to calculate the value of 'a' raised to the power of 'b'.
+
+Example:
+def power(a, b):
+    # your code
+    return a","['assert power(3,4) == 81']"
+84,"Write a function to find the index of the minimum value in a given tuple.
+
+Example:
+def index_minimum(test_list):
+    # your code
+    return test_list","['assert index_minimum([(\'Rash\', 143), (\'Manjeet\', 200), (\'Varsha\', 100)]) == \'Varsha\'']"
+85,"Write a Python function that finds the minimum length among all the sublists in a given list.
+
+Example:
+def Find_Min_Length(lst):
+    # your code
+    return lst","['assert Find_Min_Length([[1],[1,2]]) == 1']"
+86,"Write a Python function to find the number of divisors of a given integer.
+
+Example:
+def divisor(n):
+    # your code
+    return n",['assert divisor(15) == 4 ']
+87,"Write a function that calculates the frequency of each element in a list of lists.
+
+Example:
+def frequency_lists(list1):
+    # your code
+    return list1","['assert frequency_lists([[1, 2, 3, 2], [4, 5, 6, 2], [7, 8, 9, 5]])=={1: 1, 2: 3, 3: 1, 4: 1, 5: 2, 6: 1, 7: 1, 8: 1, 9: 1}']"
+88,"Rewrite in English:
+
+Write a function that multiplies all the numbers in a list together and then divides the result by the length of the list.  
+Example:  
+def multiply_num(numbers):  
+    # your code  
+    return numbers","['assert multiply_num((8, 2, 3, -1, 7))==-67.2']"
+89,"Write a function that converts a given decimal number to its binary equivalent.
+
+Example:
+def decimal_to_binary(n):
+    # your code
+    return n",['assert decimal_to_binary(8) == \'1000\'']
+90,"Write a function to find the smallest palindrome number that is greater than a given number.
+
+Example:
+def next_smallest_palindrome(num):
+    # your code
+    return num",['assert next_smallest_palindrome(99)==101']
+91,"Write a function to find the k-th element in the given array.
+
+Example:
+def kth_element(arr, n, k):
+    # your code
+    return arr","['assert kth_element([12,3,5,7,19], 5, 2) == 3']"
+92,"Write a function that converts a string from snake_case to camelCase.
+
+Example:
+def snake_to_camel(word):
+    # your code
+    return word",['assert snake_to_camel(\'python_program\')==\'PythonProgram\'']
+93,"Write a function to find the Eulerian number a(n, m).
+
+Example:
+def eulerian_num(n, m):
+    # your code
+    return n","['assert eulerian_num(3, 1) == 4']"
+94,"Rewrite in English:
+
+Write a function that uses a lambda function to sort each sublist of strings in a given list of lists.  
+Example:
+def sort_sublists(input_list):
+    # your code
+    return input_list","['assert sort_sublists(([\""green\"", \""orange\""], [\""black\"", \""white\""], [\""white\"", \""black\"", \""orange\""]))==[[\'green\', \'orange\'], [\'black\', \'white\'], [\'black\', \'orange\', \'white\']]']"
+95,"Write a Python function to count the number of True boolean values in the given list.
+
+Example:
+def count(lst):
+    # your code
+    return lst","['assert count([True,False,True]) == 2']"
+96,"Write a function that adds the given tuple to the provided list.
+
+Example:
+def add_lists(test_list, test_tup):
+    # your code
+    return test_list","['assert add_lists([5, 6, 7], (9, 10)) == (9, 10, 5, 6, 7)']"
+97,"Write a Python function to count the number of hexadecimal numbers within a given range.
+
+Example:
+def count_Hexadecimal(L, R):
+    # your code
+    return L","['assert count_Hexadecimal(10,15) == 6']"
+98,"Write a function that merges multiple sorted input lists into a single sorted list using the heap queue algorithm.
+
+Example:
+def merge_sorted_list(num1, num2, num3):
+    # your code
+    return num1","['assert merge_sorted_list([25, 24, 15, 4, 5, 29, 110],[19, 20, 11, 56, 25, 233, 154],[24, 26, 54, 48])==[4, 5, 11, 15, 19, 20, 24, 24, 25, 25, 26, 29, 48, 54, 56, 110, 154, 233]']"
+99,"Write a Python function to find the number of rotations of a binary string.
+
+Example:
+def odd_Equivalent(s, n):
+    # your code
+    return s","['assert odd_Equivalent(\""011001\"",6) == 3']"
+100,"Write a function that, given a list and specified start and end range values, returns the missing ranges within that interval that are not present in the list.
+
+Example:
+def extract_missing(test_list, strt_val, stop_val):
+    # your code
+    return test_list","['assert extract_missing([(6, 9), (15, 34), (48, 70)], 2, 100) == [(2, 6), (9, 100), (9, 15), (34, 100), (34, 48), (70, 100)]']"
+101,"Write a function that finds the common elements among the given nested lists.
+
+Example:
+def common_in_nested_lists(nestedlist):
+    # your code
+    return nestedlist","['assert common_in_nested_lists([[12, 18, 23, 25, 45], [7, 12, 18, 24, 28], [1, 5, 8, 12, 15, 16, 18]])==[18, 12]']"
+102,"Write a Python function to calculate the perimeter (circumference) of a cylinder.  
+Example:  
+def perimeter(diameter, height):  
+    # your code  
+    return diameter","['assert perimeter(2,4) == 12']"
+103,"Write a function to check whether a given string represents an integer.
+
+Example:
+def check_integer(text):
+    # your code
+    return text","['assert check_integer(\""python\"")==False']"
+104,"Write a function that assigns a frequency to each tuple in a given list of tuples.  
+Example:  
+def assign_freq(test_list):  
+    # your code  
+    return test_list","['assert assign_freq([(6, 5, 8), (2, 7), (6, 5, 8), (6, 5, 8), (9, ), (2, 7)] ) == \'[(6, 5, 8, 3), (2, 7, 2), (9, 1)]\'']"
+105,"Write a function to check whether all the dictionaries in a given list are empty.
+
+Example:
+def empty_dit(list1):
+    # your code
+    return list1","['assert empty_dit([{},{},{}])==True']"
+106,"Write a function that converts a given tuple of positive integers into a single integer.
+
+Example:
+def tuple_to_int(nums):
+    # your code
+    return nums","['assert tuple_to_int((1,2,3))==123']"
+107,"Write a function that converts all possible convertible elements in a list to floats.
+
+Example:
+def list_to_float(test_list):
+    # your code
+    return test_list","['assert list_to_float( [(\""3\"", \""4\""), (\""1\"", \""26.45\""), (\""7.32\"", \""8\""), (\""4\"", \""8\"")] ) == \'[(3.0, 4.0), (1.0, 26.45), (7.32, 8.0), (4.0, 8.0)]\'']"
+108,"Write a function to convert a string into a list.
+
+Example:
+def string_to_list(string):
+    # your code
+    return string","['assert string_to_list(\""python programming\"")==[\'python\',\'programming\']']"
+109,"Write a Python function to find the element that appears only once in a sorted array.
+
+Example:
+def search(arr, n):
+    # your code
+    return arr","['assert search([1,1,2,2,3],5) == 3']"
+110,"Write a function that finds the maximum product from all pairs of tuples in a given list.
+
+Example:
+def max_product_tuple(list1):
+    # your code
+    return list1","['assert max_product_tuple([(2, 7), (2, 6), (1, 8), (4, 9)] )==36']"
+111,"Write a function to find a triplet in the given array whose sum is equal to the given value.
+
+Example:
+def check_triplet(A, n, sum, count):
+    # your code
+    return A","['assert check_triplet([2, 7, 4, 0, 9, 5, 1, 3], 8, 6, 0) == True']"
+112,"Write a function to find the nth smart number.
+
+Example:
+def smartNumber(n):
+    # your code
+    return n",['assert smartNumber(1) == 30']
+113,"Write a function that calculates the sum of all amicable numbers between 1 and a given number (inclusive).
+
+Example:
+def amicable_numbers_sum(limit):
+    # your code
+    return limit",['assert amicable_numbers_sum(999)==504']
+114,"Write a function to find the angle (in radians) of a complex number.
+
+Example:
+def angle_complex(a, b):
+    # your code
+    return a","['assert angle_complex(0,1j)==1.5707963267948966 ']"
+115,"Write a function that finds the maximum difference between the number of 0s and 1s in any substring of a given binary string.
+
+Example:
+def find_length(string, n):
+    # your code
+    return string","['assert find_length(\""11000010001\"", 11) == 6']"
+116,"Write a Python function to find the sum of all common divisors of two given numbers.
+
+Example:
+def sum(a, b):
+    # your code
+    return a","['assert sum(10,15) == 6']"
+117,"Write a function in Python to multiply two integers without using the * operator.
+
+Example:
+def multiply_int(x, y):
+    # your code
+    return x","['assert multiply_int(10,20)==200']"
+118,"Write a function that takes a list of words and returns a new list containing only the words that are longer than n.
+
+Example:
+def long_words(n, str):
+    # your code
+    return n","['assert long_words(3,\""python is a programming language\"")==[\'python\',\'programming\',\'language\']']"
+119,"Write a function to determine whether a given matrix is a magic square.
+
+Example:
+def magic_square_test(my_matrix):
+    # your code
+    return my_matrix","['assert magic_square_test([[7, 12, 1, 14], [2, 13, 8, 11], [16, 3, 10, 5], [9, 6, 15, 4]])==True']"
+120,"Write a function to find the most frequently occurring item in a given list.
+
+Example:
+def max_occurrences(nums):
+    # your code
+    return nums","['assert max_occurrences([2,3,8,4,7,9,8,2,6,5,1,6,1,2,3,2,4,6,9,1,2])==(2, 5)']"
+121,"Write a Python function that reverses only the vowels in a given string.
+
+Example:
+def reverse_vowels(str1):
+    # your code
+    return str1","['assert reverse_vowels(\""Python\"") == \""Python\""']"
+122,"Write a function that converts a tuple into a string.
+
+Example:
+def tup_string(tup1):
+    # your code
+    return tup1","['assert tup_string((\'e\', \'x\', \'e\', \'r\', \'c\', \'i\', \'s\', \'e\', \'s\'))==(\""exercises\"")']"
+123,"Write a function using a lambda function to calculate the sum of all negative numbers in a given list of numbers.
+
+Example:
+def sum_negativenum(nums):
+    # your code
+    return nums","['assert sum_negativenum([2, 4, -6, -9, 11, -12, 14, -5, 17])==-32']"
+124,"Write a Python function that checks whether the last element of a given array is even or odd after performing an operation p times.  
+Example:  
+def check_last(arr, n, p):  
+    # your code  
+    return arr","['assert check_last([5,7,10],3,1) == \""ODD\""']"
+125,"Write a function to find the nth hexagonal number.
+
+Example:
+def hexagonal_num(n):
+    # your code
+    return n",['assert hexagonal_num(10) == 190']
+126,"Write a function to calculate the electricity bill.
+
+Example:
+def cal_electbill(units):
+    # your code
+    return units",['assert cal_electbill(75)==246.25']
+127,"Write a function that finds the proportion of zeros in an array of integers.
+
+Example:
+def zero_count(nums):
+    # your code
+    return nums","['assert zero_count([0, 1, 2, -1, -5, 6, 0, -3, -2, 3, 4, 6, 8])==0.15']"
+128,"Write a Python function that checks whether a given number can be represented as a sum of distinct powers of two (i.e., without repeating any power of two).
+
+Example:
+def is_Sum_Of_Powers_Of_Two(n):
+    # your code
+    return n",['assert is_Sum_Of_Powers_Of_Two(10) == True']
+129,"Write a function to calculate the circumference of a circle.
+
+Example:
+def circle_circumference(r):
+    # your code
+    return r",['assert circle_circumference(10)==62.830000000000005']
+130,"Write a function to extract elements that appear only once from a given list of tuples.
+
+Example:
+def extract_singly(test_list):
+    # your code
+    return test_list","['assert extract_singly([(3, 4, 5), (4, 5, 7), (1, 4)]) == [3, 4, 5, 7, 1]']"
+131,"Write a function to sort a list of elements using pancake sorting.
+
+Example:
+def pancake_sort(nums):
+    # your code
+    return nums","['assert pancake_sort([15, 79, 25, 38, 69]) == [15, 25, 38, 69, 79]']"
+132,"Write a function that counts how many pairs of elements are the same at the same positions in all three given lists.
+
+Example:
+def count_samepair(list1, list2, list3):
+    # your code
+    return list1","['assert count_samepair([1,2,3,4,5,6,7,8],[2,2,3,1,2,6,7,9],[2,1,3,1,2,6,7,9])==3']"
+133,"Write a function to count the number of lists present in the given tuple.
+
+Example:
+def find_lists(Input):
+    # your code
+    return Input","['assert find_lists(([1, 2, 3, 4], [5, 6, 7, 8])) == 2']"
+134,"Write a Python function to find the sum of the absolute differences for all pairs in the given array.
+
+Example:
+def sum_Pairs(arr, n):
+    # your code
+    return arr","['assert sum_Pairs([1,8,9,15,16],5) == 74']"
+135,"Rewrite in English:
+
+Write a Python function to find the maximum difference between any two elements in a given array.
+
+Example:
+def max_Abs_Diff(arr, n):
+    # your code
+    return arr","['assert max_Abs_Diff((2,1,5,3),4) == 4']"
+136,"Write a function to find the total sum of the ASCII values of all characters in a given string.
+
+Example:
+def ascii_value_string(str1):
+    # your code
+    return str1","['assert ascii_value_string(\""python\"")==112']"
+137,"Write a function to find the maximum total path sum in a given triangle.
+
+Example:
+def max_path_sum(tri, m, n):
+    # your code
+    return tri","['assert max_path_sum([[1, 0, 0], [4, 8, 0], [1, 5, 3]], 2, 2) == 14']"
+138,"Write a function to split a number into two parts such that the sum of the digits of both parts is maximized.
+
+Example:
+def sum_digits_single(x):
+    # your code
+    return x",['assert sum_digits_single(35)==17']
+139,"Write a function that finds the length of the longest subsequence in the given array such that the difference between any two adjacent elements in the subsequence is exactly one.
+
+Example:
+def longest_subseq_with_diff_one(arr, n):
+    # your code
+    return arr","['assert longest_subseq_with_diff_one([1, 2, 3, 4, 5, 3, 2], 7) == 6']"
+140,"Write a Python function that checks whether a given number is present in an infinite arithmetic sequence.
+
+Example:
+def does_Contain_B(a, b, c):
+    # your code
+    return a
+
+Here,  
+- a: the first term of the sequence  
+- b: the common difference  
+- c: the number to check
+
+The function should return True if c is present in the sequence starting from a with common difference b, otherwise return False.","['assert does_Contain_B(1,7,3) == True']"
+141,"Write a Python function to check whether the given number is co-prime (i.e., relatively prime) to another number.  
+Example:  
+def gcd(p, q):  
+    # your code  
+    return p","['assert gcd(17,13) == True']"
+142,"Write a function that sorts a given array using merge sort.
+
+Example:
+def merge(a, b):
+    # your code
+    return a","['assert merge([3, 4, 2, 6, 5, 7, 1, 9]) == [1, 2, 3, 4, 5, 6, 7, 9]']"
+143,"Write a function to find the vertex of a parabola.
+
+Example:
+def parabola_vertex(a, b, c):
+    # your code
+    return a","['assert parabola_vertex(5,3,2)==(-0.3, 1.55)']"
+144,"Write a function that extracts each specified element from a given two-dimensional list.
+
+Example:
+def specified_element(nums, N):
+    # your code
+    return nums","['assert specified_element([[1, 2, 3, 2], [4, 5, 6, 2], [7, 1, 9, 5]],0)==[1, 4, 7]']"
+145,"Write a Python function to toggle all even-positioned bits of a given number.
+
+Example:
+def even_bit_toggle_number(n):
+    # your code
+    return n",['assert even_bit_toggle_number(10) == 0']
+146,"Write a function that converts a tuple of string values into a tuple of integer values.
+
+Example:
+def tuple_int_str(tuple_str):
+    # your code
+    return tuple_str","['assert tuple_int_str(((\'333\', \'33\'), (\'1416\', \'55\')))==((333, 33), (1416, 55))']"
+147,"Write a function to perform run-length encoding on a given list.
+
+Example:
+def encode_list(list1):
+    # your code
+    return list1","['assert encode_list([1,1,2,3,4,4.3,5,1])==[[2, 1], [1, 2], [1, 3], [1, 4], [1, 4.3], [1, 5], [1, 1]]']"
+148,"Write a Python function that determines whether it is possible to make all elements of the given array equal using exactly k operations.  
+Each operation can be defined as needed (for example, incrementing or decrementing an element by 1), based on the problem's requirements.
+
+Example:
+def min_Ops(arr, n, k):
+    # your code
+    return arr","['assert min_Ops([2,2,2,2],4,3) == 0']"
+149,"Write a function that prints the season for a given month and day.
+
+Example:
+def month_season(month, days):
+    # your code
+    return month","['assert month_season(\'January\',4)==(\'winter\')']"
+150,"Write a function for given values of x and y that satisfies the equation ax + by = n.
+
+Example:
+def solution(a, b, n):
+    # your code
+    return a","['assert solution(2, 3, 7) == (\'x = \', 2, \', y = \', 1)']"
+151,"Write a function that removes all elements from list1 that are present in list2.
+
+Example:
+def remove_elements(list1, list2):
+    # your code
+    return list1","['assert remove_elements([1,2,3,4,5,6,7,8,9,10],[2,4,6,8])==[1, 3, 5, 7, 9, 10]']"
+152,"Write a function to calculate the sum of the positive integers in the series n + (n-2) + (n-4) + ... as long as each term is a positive integer (i.e., continue subtracting 2 from n until the result is less than or equal to 0). 
+
+Example:
+def sum_series(n):
+    # your code
+    return n",['assert sum_series(6)==12']
+153,"Write a function to calculate the area of a regular polygon.
+
+Example:
+def area_polygon(s, l):
+    # your code
+    return s","['assert area_polygon(4,20)==400.00000000000006']"
+154,"Write a Python function that checks whether the sum of the divisors of a number is equal to the number itself.
+
+Example:
+def divSum(n):
+    # your code
+    return n","['assert divSum(36,57) == False']"
+155,"Rewrite the problem in English:
+
+Write a Python function that counts the number of characters in a given string (containing both lowercase and uppercase letters) that are in the same position as they appear in the English alphabet. For example, 'A' or 'a' at position 1, 'B' or 'b' at position 2, and so on.
+
+Example:
+def count_char_position(str1):
+    # your code
+    return str1","['assert count_char_position(\""xbcefg\"") == 2']"
+156,"Write a Python function that counts the number of pairs whose XOR is an even number.
+
+Example:
+def find_even_Pair(A, N):
+    # your code
+    return A","['assert find_even_Pair([5,4,7,2,1],5) == 4']"
+157,"Write a Python function that finds the smallest power of 2 that is greater than or equal to n.
+
+Example:
+def next_Power_Of_2(n):
+    # your code
+    return n",['assert next_Power_Of_2(0) == 1']
+158,"Write a Python function to find the frequency of a given number in a provided array.
+
+Example:
+def frequency(a, x):
+    # your code
+    return a","['assert frequency([1,2,3],4) == 0']"
+159,"Write a function to calculate the nth Pell number.
+
+Example:
+def get_pell(n):
+    # your code
+    return n",['assert get_pell(4) == 12']
+160,"Write a function to find the sum of the numbers in a list between two given indices (inclusive).  
+Example:  
+def sum_range_list(list1, m, n):  
+    # your code  
+    return list1","['assert sum_range_list( [2,1,5,6,8,3,4,9,10,11,8,12],8,10)==29']"
+161,"Write a function to calculate the perimeter of a pentagon.
+
+Example:
+def perimeter_pentagon(a):
+    # your code
+    return a",['assert perimeter_pentagon(5)==25']
+162,"Write a function to find the number of times the substring 'std' appears in the given string.
+
+Example:
+def count_occurance(s):
+    # your code
+    return s","['assert count_occurance(\""letstdlenstdporstd\"") == 3']"
+163,"Write a function that removes all characters from a string except alphanumeric characters.
+
+Example:
+def remove_splchar(text):
+    # your code
+    return text",['assert remove_splchar(\'python  @#&^%$*program123\')==(\'pythonprogram123\')']
+164,"Write a function that groups a sequence of key-value pairs into a dictionary of lists.
+
+Example:
+def group_keyvalue(l):
+    # your code
+    return l","['assert group_keyvalue([(\'yellow\', 1), (\'blue\', 2), (\'yellow\', 3), (\'blue\', 4), (\'red\', 1)])=={\'yellow\': [1, 3], \'blue\': [2, 4], \'red\': [1]}']"
+165,"Write a function that checks whether a given string of parentheses is valid.
+
+Example:
+def is_valid_parenthese(str1):
+    # your code
+    return str1","['assert is_valid_parenthese(\""(){}[]\"")==True']"
+166,"Write a function to calculate the perimeter of a triangle.
+
+Example:
+def perimeter_triangle(a, b, c):
+    # your code
+    return a","['assert perimeter_triangle(10,20,30)==60']"
+167,"Write a Python function that finds two distinct numbers such that their LCM (Least Common Multiple) lies within the given range [L, R] (inclusive).
+
+Example:
+def answer(L, R):
+    # your code
+    return L
+
+Note: Return any two such numbers, or specify your own return format if needed.","['assert answer(3,8) == (3,6)']"
+168,"Write a function that searches for a list of literal strings within a given string.
+
+Example:
+def string_literals(patterns, text):
+    # your code
+    return patterns","['assert string_literals([\'language\'],\'python language\')==(\'Matched!\')']"
+169,"Write a function that determines whether the given number is a Keith number or not.
+
+Example:
+def is_num_keith(x):
+    # your code
+    return x",['assert is_num_keith(14) == True']
+170,"Write a function to calculate the distance between two points using their latitude and longitude values.
+
+Example:
+def distance_lat_long(slat, slon, elat, elon):
+    # your code
+    return slat","['assert distance_lat_long(23.5,67.5,25.5,69.5)==12179.372041317429']"
+171,"Write a function that finds the longest common prefix among a given set of strings.
+
+Example:
+def common_prefix_util(str1, str2):
+    # your code
+    return str1","['assert common_prefix_util([\""tablets\"", \""tables\"", \""taxi\"", \""tamarind\""], 4) == \'ta\'']"
+172,"Write a function using regex to find uppercase letters, lowercase letters, special characters, and numeric values in a string.
+
+Example:
+def find_character(string):
+    # your code
+    return string","['assert find_character(\""ThisIsGeeksforGeeks\"") == ([\'T\', \'I\', \'G\', \'G\'], [\'h\', \'i\', \'s\', \'s\', \'e\', \'e\', \'k\', \'s\', \'f\', \'o\', \'r\', \'e\', \'e\', \'k\', \'s\'], [], [])']"
+173,"Write a function that counts all distinct pairs in an array that have a difference of k.
+
+Example:
+def count_pairs(arr, n, k):
+    # your code
+    return arr","['assert count_pairs([1, 5, 3, 4, 2], 5, 3) == 2']"
+174,"Write a function that finds all the values in a list that are greater than a given number.
+
+Example:
+def greater_specificnum(list, num):
+    # your code
+    return list","['assert greater_specificnum([220, 330, 500],200)==True']"
+175,"Write a function to find the focus of a parabola.
+
+Example:
+def parabola_focus(a, b, c):
+    # your code
+    return a","['assert parabola_focus(5,3,2)==(-0.3, 1.6)']"
+176,"Write a function that uses regex to search for certain literal strings within a given string.
+
+Example:
+def check_literals(text, patterns):
+    # your code
+    return text","['assert check_literals(\'The quick brown fox jumps over the lazy dog.\',[\'fox\']) == \'Matched!\'']"
+177,"Write a function to find the longest common subsequence between two given sequences.
+
+Example:
+def longest_common_subsequence(X, Y, m, n):
+    # your code
+    return X","['assert longest_common_subsequence(\""AGGTAB\"" , \""GXTXAYB\"", 6, 7) == 4']"
+178,"Write a Python function that checks whether a given number can be represented as the product of two square numbers.
+
+Example:
+def prod_Square(n):
+    # your code
+    return n",['assert prod_Square(25) == False']
+179,"Write a Python function to find the first missing positive integer from the given array.
+
+Example:
+def first_Missing_Positive(arr, n):
+    # your code
+    return arr","['assert first_Missing_Positive([1,2,3,-1,5],5) == 4']"
+180,"Write a Python function to count the number of integer coordinate points (integral points) that lie inside a square.  
+Example:  
+def count_Intgral_Points(x1, y1, x2, y2):  
+    # your code  
+    return x1","['assert count_Intgral_Points(1,1,4,4) == 4']"
+181,"Write a function that checks whether the given month name has 30 days.
+
+Example:
+def check_monthnumber(monthname3):
+    # your code
+    return monthname3","['assert check_monthnumber(\""February\"")==False']"
+182,"Rewrite in English:
+
+Write a Python function to check whether a string contains at least one letter and at least one digit.
+
+Example:
+def check_String(str):
+    # your code
+    return str",['assert check_String(\'thishasboth29\') == True']
+183,"Write a function to remove duplicates from the given tuple.
+
+Example:
+def remove_tuple(test_tup):
+    # your code
+    return test_tup","['assert remove_tuple((1, 3, 5, 2, 3, 5, 1, 1, 3)) == (1, 2, 3, 5)']"
+184,"Write a Python function to convert an octal number to its decimal equivalent.
+
+Example:
+def octal_To_Decimal(n):
+    # your code
+    return n",['assert octal_To_Decimal(25) == 21']
+185,"Write a Python function to find the first occurrence of an element in a sorted array.
+
+Example:
+def first(arr, x, n):
+    # your code
+    return arr","['assert first([1,2,3,4,5,6,6],6,6) == 5']"
+186,"Write a function that removes all tuples of length K from a given list.
+
+Example:
+def remove_tuples(test_list, K):
+    # your code
+    return test_list","['assert remove_tuples([(4, 5), (4, ), (8, 6, 7), (1, ), (3, 4, 6, 7)] , 1) == [(4, 5), (8, 6, 7), (3, 4, 6, 7)]']"
+187,"Write a function to perform exponentiation element-wise on two given tuples.
+
+Example:
+def find_exponentio(test_tup1, test_tup2):
+    # your code
+    return test_tup1
+
+Here, for each index i, raise the element at index i of test_tup1 to the power of the element at index i of test_tup2, and return the resulting tuple.","['assert find_exponentio((10, 4, 5, 6), (5, 6, 7, 5)) == (100000, 4096, 78125, 7776)']"
+188,"Write a function that finds the largest triangle that can be inscribed inside a circle.
+
+Example:
+def largest_triangle(a, b):
+    # your code
+    return a","['assert largest_triangle(4,2)==10.392304845413264']"
+189,"Write a Python function that returns the highest power of 2 that is less than or equal to the given number.
+
+Example:
+def highest_Power_of_2(n):
+    # your code
+    return n",['assert highest_Power_of_2(10) == 8']
+190,"Write a function to find all the index positions of the maximum value in a given list.
+
+Example:
+def position_max(list1):
+    # your code
+    return list1","['assert position_max([12,33,23,10,67,89,45,667,23,12,11,10,54])==[7]']"
+191,"Write a Python function to check whether all the elements in a given list are the same.
+
+Example:
+def chkList(lst):
+    # your code
+    return lst","['assert chkList([\'one\',\'one\',\'one\']) == True']"
+192,"Write a function that removes the characters at even indices from a given string.
+
+Example:
+def remove_even(str1):
+    # your code
+    return str1","['assert remove_even(\""python\"")==(\""pto\"")']"
+193,"Write a Python function that calculates the Hamming distance between two integers.
+
+Example:
+def hamming_Distance(n1, n2):
+    # your code
+    return n1","['assert hamming_Distance(4,8) == 2']"
+194,"Write a Python function that counts the occurrences of a given character in a string.
+
+Example:
+def count(s, c):
+    # your code
+    return s","['assert count(\""abcc\"",\""c\"") == 2']"
+195,"Rewrite the following problem in English:
+
+Write a function that takes a list of tuples and returns a list where each tuple has its elements reversed.
+
+Example:
+def inversion_elements(test_tup):
+    # your code
+    return test_tup","['assert inversion_elements((7, 8, 9, 1, 10, 7)) == (-8, -9, -10, -2, -11, -8)']"
+196,"Write a function that concatenates adjacent elements in the given tuple.
+
+Example:
+def concatenate_elements(test_tup):
+    # your code
+    return test_tup","['assert concatenate_elements((\""DSP \"", \""IS \"", \""BEST \"", \""FOR \"", \""ALL \"", \""UTS\"")) == (\'DSP IS \', \'IS BEST \', \'BEST FOR \', \'FOR ALL \', \'ALL UTS\')']"
+197,"Write a function that calculates the length of the longest repeating subsequence in a given string, such that no two subsequences have the same character at the same position in the original string.
+
+Example:
+def find_longest_repeating_subseq(str):
+    # your code
+    return str","['assert find_longest_repeating_subseq(\""AABEBCDD\"") == 3']"
+198,"Write a function that uses regular expressions to check whether the given decimal number is accurate to 2 decimal places.
+
+Example:
+def is_decimal(num):
+    # your code
+    return num",['assert is_decimal(\'123.11\') == True']
+199,"Write a function that removes the smallest element from the given heap and then inserts a new item into it.
+
+Example:
+def heap_replace(heap, a):
+    # your code
+    return heap","['assert heap_replace( [25, 44, 68, 21, 39, 23, 89],21)==[21, 25, 23, 44, 39, 68, 89]']"
+200,"Write a function that uses regex to check whether the given string contains only a specific set of allowed characters.
+
+Example:
+def is_allowed_specific_char(string):
+    # your code
+    return string","['assert is_allowed_specific_char(\""ABCDEFabcdef123450\"") == True']"
+201,"Write a Python function that counts how many numbers have both the m-th and n-th bits set.
+
+Example:
+def count_Num(n):
+    # your code
+    return n",['assert count_Num(2) == 1']
+202,"Write a Python function that calculates the sum of the fourth powers of the first n natural numbers.
+
+Example:
+def fourth_Power_Sum(n):
+    # your code
+    return n",['assert fourth_Power_Sum(2) == 17']
+203,"Write a function to concatenate two tuples of strings.
+
+Example:
+def concatenate_strings(test_tup1, test_tup2):
+    # your code
+    return test_tup1","['assert concatenate_strings((\""Manjeet\"", \""Nikhil\"", \""Akshat\""), (\"" Singh\"", \"" Meherwal\"", \"" Garg\"")) == (\'Manjeet Singh\', \'Nikhil Meherwal\', \'Akshat Garg\')']"
+204,"Write a function to convert radians to degrees.
+
+Example:
+def degree_radian(radian):
+    # your code
+    return radian",['assert degree_radian(90)==5156.620156177409']
+205,"Write a function to decode a run-length encoded list.
+
+Example:
+def decode_list(alist):
+    # your code
+    return alist","['assert decode_list([[2, 1], 2, 3, [2, 4], 5,1])==[1,1,2,3,4,4,5,1]']"
+206,"Write a function to check whether one nested list is a subset of another nested list.
+
+Example:
+def check_subset_list(list1, list2):
+    # your code
+    return list1","['assert check_subset_list([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],[[12, 18, 23, 25, 45], [7, 11, 19, 24, 28], [1, 5, 8, 18, 15, 16]])==False']"
+207,"Rewrite in English:
+
+Write a Python function to find the first repeated character in a given string.
+
+Example:
+def first_Repeated_Char(str):
+    # your code
+    return str","['assert first_Repeated_Char(\""Google\"") == \""o\""']"
+208,"Rewrite the problem in English:
+
+Write a Python function to find the minimum number of operations required to make two numbers equal.
+
+Example:
+def min_Operations(A, B):
+    # your code
+    return A","['assert min_Operations(2,4) == 1']"
+209,"Rewrite in English:
+
+Write a function to extract the largest and smallest k elements from a given tuple.
+
+Example:
+def extract_min_max(test_tup, K):
+    # your code
+    return test_tup","['assert extract_min_max((5, 20, 3, 7, 6, 8), 2) == (3, 5, 8, 20)']"
+210,"Write a function that replaces up to n occurrences of spaces, commas, or periods in a given text with a colon (:).  
+Example:  
+def replace_max_specialchar(text, n):  
+    # your code  
+    return text","['assert replace_max_specialchar(\'Python language, Programming language.\',2)==(\'Python:language: Programming language.\')']"
+211,"Write a Python function that finds and returns the first even number in a given list of numbers.
+
+Example:
+def first_even(nums):
+    # your code
+    return nums","['assert first_even ([1, 3, 5, 7, 4, 1, 6, 8]) == 4']"
+212,"Write a function that checks whether all elements in a tuple are of the same data type.
+
+Example:
+def check_type(test_tuple):
+    # your code
+    return test_tuple","['assert check_type((5, 6, 7, 3, 5, 6) ) == True']"
+213,"Rewrite of the Bangla problem in English:
+
+Write a function to check if a given element x is the majority element in a sorted array arr of size n. An element is called a majority element if it appears more than n/2 times in the array.
+
+Example:
+def is_majority(arr, n, x):
+    # your code
+    return arr","['assert is_majority([1, 2, 3, 3, 3, 3, 10], 7, 3) == True']"
+214,"Write a Python function to count the number of set bits (1s) in the binary representation of a given number.
+
+Example:
+def count_Set_Bits(n):
+    # your code
+    return n",['assert count_Set_Bits(2) == 1']
+215,"Write a Python function to find the minimum element in a sorted and rotated array.
+
+Example:
+def find_Min(arr, low, high):
+    # your code
+    return arr","['assert find_Min([1,2,3,4,5],0,4) == 1']"
+216,"Write a Python function that removes the characters from a given string that are at odd indices.
+
+Example:
+def odd_values_string(str):
+    # your code
+    return str",['assert odd_values_string(\'abcdef\') == \'ace\'']
+217,"Write a function that takes at least three numbers as input and returns the smallest of them.
+
+Example:
+def min_of_three(a, b, c):
+    # your code
+    return a","['assert min_of_three(10,20,0)==0']"
+218,"Write a Python function that checks whether all the bits in a given range [l, r] are unset (i.e., 0) in the integer n.
+
+Example:
+def all_Bits_Set_In_The_Given_Range(n, l, r):
+    # your code
+    return n","['assert all_Bits_Set_In_The_Given_Range(4,1,2) == True']"
+219,"Write a function to rearrange the elements of the given array so that all negative elements appear before the positive elements.
+
+Example:
+def re_arrange_array(arr, n):
+    # your code
+    return arr","['assert re_arrange_array([-1, 2, -3, 4, 5, 6, -7, 8, 9], 9) == [-1, -3, -7, 4, 5, 6, 2, 8, 9]']"
+220,"Write a function that replaces every blank space in a given string with a specified character.
+
+Example:
+def replace_blank(str1, char):
+    # your code
+    return str1","['assert replace_blank(\""hello people\"",\'@\')==(\""hello@people\"")']"
+221,"Write a function that, given a triangle of numbers, finds the maximum sum from the top to the bottom of the triangle by moving to adjacent numbers on the row below at each step.
+
+Example:
+def max_sum(tri, n):
+    # your code
+    return tri","['assert max_sum([[1], [2,1], [3,3,2]], 3) == 6']"
+222,"Write a function that retrieves the n largest items from a given dataset.
+
+Example:
+def larg_nnum(list1, n):
+    # your code
+    return list1","['assert larg_nnum([10, 20, 50, 70, 90, 20, 50, 40, 60, 80, 100],2)==[100,90]']"
+223,"Write a function to calculate the lateral surface area of a cylinder.
+
+Example:
+def lateralsuface_cylinder(r, h):
+    # your code
+    return r","['assert lateralsuface_cylinder(10,5)==314.15000000000003']"
+224,"Write a function to calculate the volume of a cube.
+
+Example:
+def volume_cube(l):
+    # your code
+    return l",['assert volume_cube(3)==27']
+225,"Write a Python function that sets all even-positioned bits of a given number.
+
+Example:
+def even_bit_set_number(n):
+    # your code
+    return n",['assert even_bit_set_number(10) == 10']
+226,"Write a Python function that calculates the maximum number of right-angled triangles that can be formed within a given right-angled triangle.
+
+Example:
+def No_of_Triangle(N, K):
+    # your code
+    return N","['assert No_of_Triangle(4,2) == 7']"
+227,"Write a function to check for events that occurred at the same time within the given tuples.
+
+Example:
+def check_occurences(test_list):
+    # your code
+    return test_list","['assert check_occurences([(3, 1), (1, 3), (2, 5), (5, 2), (6, 3)] ) == {(1, 3): 2, (2, 5): 2, (3, 6): 1}']"
+228,"Rewrite in English:
+
+Write a Python function to count the number of non-empty substrings in a given string.
+
+Example:
+def number_of_substrings(str):
+    # your code
+    return str","['assert number_of_substrings(\""abc\"") == 6']"
+229,"Write a function that calculates the number of possible sequences of length n such that each subsequent element in the sequence is greater than or equal to twice the previous element, and all elements are less than or equal to m.
+
+Example:
+def get_total_number_of_sequences(m, n):
+    # your code
+    return m","['assert get_total_number_of_sequences(10, 4) == 4']"
+230,"Write a function that replaces the last element of a list with another list.
+
+Example:
+def replace_list(list1, list2):
+    # your code
+    return list1","['assert replace_list([1, 3, 5, 7, 9, 10],[2, 4, 6, 8])==[1, 3, 5, 7, 9, 2, 4, 6, 8]']"
+231,"Write a function that creates a 3D array where every element is '*'.
+
+Example:
+def array_3d(m, n, o):
+    # your code
+    return m
+
+Here, m, n, and o represent the dimensions of the 3D array. The function should return a 3D array of size m × n × o, where each element is the character '*'.","['assert array_3d(6,4,3)==[[[\'*\', \'*\', \'*\', \'*\', \'*\', \'*\'], [\'*\', \'*\', \'*\', \'*\', \'*\', \'*\'], [\'*\', \'*\', \'*\', \'*\', \'*\', \'*\'], [\'*\', \'*\', \'*\', \'*\', \'*\', \'*\']], [[\'*\', \'*\', \'*\', \'*\', \'*\', \'*\'], [\'*\', \'*\', \'*\', \'*\', \'*\', \'*\'], [\'*\', \'*\', \'*\', \'*\', \'*\', \'*\'], [\'*\', \'*\', \'*\', \'*\', \'*\', \'*\']], [[\'*\', \'*\', \'*\', \'*\', \'*\', \'*\'], [\'*\', \'*\', \'*\', \'*\', \'*\', \'*\'], [\'*\', \'*\', \'*\', \'*\', \'*\', \'*\'], [\'*\', \'*\', \'*\', \'*\', \'*\', \'*\']]]']"
+232,"Write a function to count the total number of characters in a given string.
+
+Example:
+def count_charac(str1):
+    # your code
+    return str1","['assert count_charac(\""python programming\"")==18']"
+233,"Write a function that sorts the given list of tuples based on the frequency of the first element in each tuple.
+
+Example:
+def sort_on_occurence(lst):
+    # your code
+    return lst","['assert sort_on_occurence([(1, \'Jake\'), (2, \'Bob\'), (1, \'Cara\')]) == [(1, \'Jake\', \'Cara\', 2), (2, \'Bob\', 1)]']"
+234,"Rewrite in English:
+
+Write a Python function to find the next perfect square greater than a given number.
+
+Example:
+def next_Perfect_Square(N):
+    # your code
+    return N",['assert next_Perfect_Square(35) == 36']
+235,"Write a function to find the maximum sum of a bitonic subsequence in the given array.
+
+Example:
+def max_sum(arr, n):
+    # your code
+    return arr","['assert max_sum([1, 15, 51, 45, 33, 100, 12, 18, 9], 9) == 194']"
+236,"Write a function to calculate the square root of a number using the Babylonian method.
+
+Example:
+def babylonian_squareroot(number):
+    # your code
+    return number",['assert babylonian_squareroot(10)==3.162277660168379']
+237,"Write a function to find the longest palindromic subsequence in the given string.
+
+Example:
+def lps(str):
+    # your code
+    return str","['assert lps(\""TENS FOR TENS\"") == 5 ']"
+238,"Write a function to calculate the harmonic sum of n-1.
+
+Example:
+def harmonic_sum(n):
+    # your code
+    return n
+
+Here, the harmonic sum of n-1 is defined as: 1 + 1/2 + 1/3 + ... + 1/(n-1).  
+Your function should return this sum for a given integer n.",['assert harmonic_sum(7) == 2.5928571428571425']
+239,"Write a function using a lambda function to find the intersection of two arrays.
+
+Example:
+def intersection_array(array_nums1, array_nums2):
+    # your code
+    return array_nums1","['assert intersection_array([1, 2, 3, 5, 7, 8, 9, 10],[1, 2, 4, 8, 9])==[1, 2, 8, 9]']"
+240,"Write a Python function to count the number of times a given element appears in a tuple.
+
+Example:
+def count_X(tup, x):
+    # your code
+    return tup","['assert count_X((10, 8, 5, 2, 10, 15, 10, 8, 5, 8, 8, 2),4) == 0']"
+241,"Write a function that inserts a given element before every item in a list.
+
+Example:
+def insert_element(list, element):
+    # your code
+    return list","['assert insert_element([\'Red\', \'Green\', \'Black\'] ,\'c\')==[\'c\', \'Red\', \'c\', \'Green\', \'c\', \'Black\'] ']"
+242,"Write a Python function to convert complex numbers into their polar coordinates.
+
+Example:
+def convert(numbers):
+    # your code
+    return numbers","['assert convert(1) == (1.0, 0.0)']"
+243,"Write a Python function to count the number of integers in a given list.
+
+Example:
+def count_integer(list1):
+    # your code
+    return list1","['assert count_integer([1,2,\'abc\',1.2]) == 2']"
+244,"Write a function that finds all the words in a given string that start with either 'a' or 'e'.
+
+Example:
+def words_ae(text):
+    # your code
+    return text","['assert words_ae(\""python programe\"")==[\'ame\']']"
+245,"Write a function that, given a list of three different colors and a number n, generates all possible combinations (with repetition allowed) of n colors chosen from the list.  
+Example:  
+def combinations_colors(l, n):  
+    # your code  
+    return l","['assert combinations_colors( [\""Red\"",\""Green\"",\""Blue\""],1)==[(\'Red\',), (\'Green\',), (\'Blue\',)]']"
+246,"Write a Python function to count how many prime numbers are less than a given non-negative number.
+
+Example:
+def count_Primes_nums(n):
+    # your code
+    return n",['assert count_Primes_nums(5) == 2']
+247,"Write a function to swap two numbers.
+
+Example:
+def swap_numbers(a, b):
+    # your code
+    return a","['assert swap_numbers(10,20)==(20,10)']"
+248,"Write a function using a lambda function to count the number of odd elements in the given list.
+
+Example:
+def count_odd(array_nums):
+    # your code
+    return array_nums","['assert count_odd([1, 2, 3, 5, 7, 8, 10])==4']"
+249,"Write a function that takes two tuples and returns a new tuple where each element is the maximum of the corresponding elements from the two input tuples.
+
+Example:
+def maximize_elements(test_tup1, test_tup2):
+    # your code
+    return test_tup1","['assert maximize_elements(((1, 3), (4, 5), (2, 9), (1, 10)), ((6, 7), (3, 9), (1, 1), (7, 3))) == ((6, 7), (4, 9), (2, 9), (7, 10))']"
+250,"Write a function to find the nth Newman–Shanks–Williams prime number.
+
+Example:
+def newman_prime(n):
+    # your code
+    return n",['assert newman_prime(3) == 7 ']
+251,"Write a function that performs element-wise mathematical division on the given tuples.
+
+Example:
+def division_elements(test_tup1, test_tup2):
+    # your code
+    return test_tup1","['assert division_elements((10, 4, 6, 9),(5, 2, 3, 3)) == (2, 2, 2, 3)']"
+252,"Write a function that splits a list into two parts, where the length of the first part is given as input.  
+Example:  
+def split_two_parts(list1, L):  
+    # your code  
+    return list1","['assert split_two_parts([1,1,2,3,4,4,5,1],3)==([1, 1, 2], [3, 4, 4, 5, 1])']"
+253,"Write a function to merge two dictionaries into one.
+
+Example:
+def merge_dict(d1, d2):
+    # your code
+    return d1","['assert merge_dict({\'a\': 100, \'b\': 200},{\'x\': 300, \'y\': 200})=={\'x\': 300, \'y\': 200, \'a\': 100, \'b\': 200}']"
+254,"Write a function to calculate the age of a dog.
+
+Example:
+def dog_age(h_age):
+    # your code
+    return h_age",['assert dog_age(12)==61']
+255,"Write a function that splits a list into sublists, each containing every n-th element.
+
+Example:
+def list_split(S, step):
+    # your code
+    return S","['assert list_split([\'a\', \'b\', \'c\', \'d\', \'e\', \'f\', \'g\', \'h\', \'i\', \'j\', \'k\', \'l\', \'m\', \'n\'],3)==[[\'a\', \'d\', \'g\', \'j\', \'m\'], [\'b\', \'e\', \'h\', \'k\', \'n\'], [\'c\', \'f\', \'i\', \'l\']] ']"
+256,"Write a function to calculate the lateral surface area of a cube given the length of its side.
+
+Example:
+def lateralsurface_cube(l):
+    # your code
+    return l",['assert lateralsurface_cube(5)==100']
+257,"Write a Python function to find the sum of the squares of the first n odd natural numbers.
+
+Example:
+def square_Sum(n):
+    # your code
+    return n",['assert square_Sum(2) == 10']
+258,"Write a function to find the nth star number.
+
+Example:
+def find_star_num(n):
+    # your code
+    return n",['assert find_star_num(3) == 37']
+259,"Write a function to find the ASCII value of a given character.
+
+Example:
+def ascii_value(k):
+    # your code
+    return k",['assert ascii_value(\'A\')==65']
+260,"Write a Python function that calculates the sum of all even numbers that are located at even indices in the given list.
+
+Example:
+def sum_even_and_even_index(arr, n):
+    # your code
+    return arr","['assert sum_even_and_even_index([5, 6, 12, 1, 18, 8],6) == 30']"
+261,"Write a Python function to calculate the sum of the fifth powers of the first n even numbers.
+
+Example:
+def even_Power_Sum(n):
+    # your code
+    return n",['assert even_Power_Sum(2) == 1056']
+262,"Write a function to perform rear element extraction from a list of tuple records.
+
+Example:
+def rear_extract(test_list):
+    # your code
+    return test_list","['assert rear_extract([(1, \'Rash\', 21), (2, \'Varsha\', 20), (3, \'Kil\', 19)]) == [21, 20, 19]']"
+263,"Write a function that subtracts the elements of one tuple from the corresponding elements of another tuple, index by index.
+
+Example:
+def substract_elements(test_tup1, test_tup2):
+    # your code
+    return test_tup1","['assert substract_elements((10, 4, 5), (2, 5, 18)) == (8, -1, -13)']"
+264,"Write a Python function that calculates the sum of binomial coefficients at even indices for a given integer n.
+
+Example:
+def even_binomial_Coeff_Sum(n):
+    # your code
+    return n",['assert even_binomial_Coeff_Sum(4) == 8']
+265,"Write a Python function to find the position of the last removed element from a given array.
+
+Example:
+def get_Position(a, n, m):
+    # your code
+    return a","['assert get_Position([2,5,4],3,2) == 2']"
+266,"Write a function to calculate the volume of a cylinder.
+
+Example:
+def volume_cylinder(r, h):
+    # your code
+    return r","['assert volume_cylinder(10,5)==1570.7500000000002']"
+267,"Write a function to filter a dictionary based on its values.
+
+Example:
+def dict_filter(dict, n):
+    # your code
+    return dict","['assert dict_filter({\'Cierra Vega\': 175, \'Alden Cantrell\': 180, \'Kierra Gentry\': 165, \'Pierre Cox\': 190},170)=={\'Cierra Vega\': 175, \'Alden Cantrell\': 180, \'Pierre Cox\': 190}']"
+268,"Write a function to count how many times the first element appears in the given tuple.
+
+Example:
+def count_first_elements(test_tup):
+    # your code
+    return test_tup","['assert count_first_elements((1, 5, 7, (4, 6), 10) ) == 3']"
+269,"Rewrite in English:
+
+Write a function to find the nth decagonal number.
+
+Example:
+def is_num_decagonal(n):
+    # your code
+    return n",['assert is_num_decagonal(3) == 27']
+270,"Write a function to search for an element in a given array using sequential search.
+
+Example:
+def sequential_search(dlist, item):
+    # your code
+    return dlist","['assert sequential_search([11,23,58,31,56,77,43,12,65,19],31) == (True, 3)']"
+271,"Rewrite in English:
+
+Write a Python function to check whether all elements in a given list are unique.
+
+Example:
+def all_unique(test_list):
+    # your code
+    return test_list","['assert all_unique([1,2,3]) == True']"
+272,"Write a function using map and lambda functions to subtract the elements of two lists.  
+Example:  
+def sub_list(nums1, nums2):  
+    # your code  
+    return nums1","['assert sub_list([1, 2, 3],[4,5,6])==[-3,-3,-3]']"
+273,"Write a Python function that checks whether the frequency of each digit in a number is less than or equal to the digit itself.
+
+Example:
+def validate(n):
+    # your code
+    return n",['assert validate(1234) == True']
+274,"Write a function to check whether all items in a given list are equal to a specified string.
+
+Example:
+def check_element(list, element):
+    # your code
+    return list","['assert check_element([\""green\"", \""orange\"", \""black\"", \""white\""],\'blue\')==False']"
+275,"Write a function that checks if a given string contains an 'a' followed by two or three 'b's.
+
+Example:
+def text_match_two_three(text):
+    # your code
+    return text","['assert text_match_two_three(\""ac\"")==(\'Not matched!\')']"
+276,"Write a function that finds the maximum sum of a contiguous subarray in a new array formed by repeating the given array 'a' exactly 'k' times.
+
+Example:
+def max_sub_array_sum_repeated(a, n, k):
+    # your code
+    return a","['assert max_sub_array_sum_repeated([10, 20, -30, -1], 4, 3) == 30']"
+277,"Rewrite in English:
+
+Write a Python function to find the sum of the squares of the first n even natural numbers.
+
+Example:
+def square_Sum(n):
+    # your code
+    return n",['assert square_Sum(2) == 20']
+278,"Write a function that counts the number of elements in an array whose modular inverse under a given prime number P is equal to the element itself.
+
+Example:
+def modular_inverse(arr, N, P):
+    # your code
+    return arr","['assert modular_inverse([ 1, 6, 4, 5 ], 4, 7) == 2']"
+279,"Write a Python function to count the number of odd days in a given year.
+
+Example:
+def odd_Days(N):
+    # your code
+    return N",['assert odd_Days(100) == 5']
+280,"Write a function to find the list with the maximum length from a given list of lists.
+
+Example:
+def max_length(list1):
+    # your code
+    return list1","['assert max_length([[0], [1, 3], [5, 7], [9, 11], [13, 15, 17]])==(3, [13, 15, 17])']"
+281,"Write a function that calculates the number of ways to paint a fence with n posts using k colors, such that no more than 2 adjacent posts have the same color.
+
+Example:
+def count_no_of_ways(n, k):
+    # your code
+    return n","['assert count_no_of_ways(2, 4) == 16']"
+282,"Write a Python function to find the quotient of dividing two numbers.
+
+Example:
+def find(n, m):
+    # your code
+    return n","['assert find(10,3) == 3']"
+283,"Write a function to calculate the length of the third side (the hypotenuse) of a right-angled triangle, given the lengths of the other two sides.
+
+Example:
+def otherside_rightangle(w, h):
+    # your code
+    return w","['assert otherside_rightangle(7,8)==10.63014581273465']"
+284,"Write a function to find the maximum value in a given non-empty list.
+
+Example:
+def max_val(listval):
+    # your code
+    return listval","['assert max_val([\'Python\', 3, 2, 4, 5, \'version\'])==5']"
+285,"Write a function that returns the sum of all divisors of a given number.
+
+Example:
+def sum_div(number):
+    # your code
+    return number",['assert sum_div(8)==7']
+286,"Write a Python function to count the number of inversions in an array.
+
+Example:
+def get_Inv_Count(arr, n):
+    # your code
+    return arr","['assert get_Inv_Count([1,20,6,4,5],5) == 5']"
+287,"Write a function to flatten a given nested list structure.
+
+Example:
+def flatten_list(list1):
+    # your code
+    return list1","['assert flatten_list([0, 10, [20, 30], 40, 50, [60, 70, 80], [90, 100, 110, 120]])==[0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120]']"
+288,"Write a function to find the elements from a nested list in one list that are also present in another list.
+
+Example:
+def intersection_nested_lists(l1, l2):
+    # your code
+    return l1","['assert intersection_nested_lists( [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],[[12, 18, 23, 25, 45], [7, 11, 19, 24, 28], [1, 5, 8, 18, 15, 16]])==[[12], [7, 11], [1, 5, 8]]']"
+289,"Write a function to calculate the maximum sum from a list of tuples.
+
+Example:
+def max_aggregate(stdata):
+    # your code
+    return stdata","['assert max_aggregate([(\'Juan Whelan\',90),(\'Sabah Colley\',88),(\'Peter Nichols\',7),(\'Juan Whelan\',122),(\'Sabah Colley\',84)])==(\'Juan Whelan\', 212)']"
+290,"Write a function that counts all binary sequences of length 2n such that the sum of the first n bits is equal to the sum of the last n bits.
+
+Example:
+def count_binary_seq(n):
+    # your code
+    return n",['assert count_binary_seq(1) == 2.0']
+291,"Write a function to find the depth of a dictionary.
+
+Example:
+def dict_depth(d):
+    # your code
+    return d","['assert dict_depth({\'a\':1, \'b\': {\'c\': {\'d\': {}}}})==4']"
+292,"Write a Python function to find the most significant set bit number of a given integer n.  
+Example:  
+def set_Bit_Number(n):  
+    # your code  
+    return n",['assert set_Bit_Number(6) == 4']
+293,"Write a Python function that checks whether two types of reverse counts are the same or not.
+
+Example:
+def solve(a, n):
+    # your code
+    return a","['assert solve([1,0,2],3) == True']"
+294,"Write a Python function to find the element at a given index after performing a specified number of rotations on a given array. 
+
+Example:
+def find_Element(arr, ranges, rotations, index):
+    # your code
+    return arr","['assert find_Element([1,2,3,4,5],[[0,2],[0,3]],2,1) == 3']"
+295,"Write a function that takes a list of words and returns the words that start with the letter 'p'.
+
+Example:
+def start_withp(words):
+    # your code
+    return words","['assert start_withp([\""Python PHP\"", \""Java JavaScript\"", \""c c++\""])==(\'Python\', \'PHP\')']"
+296,"Write a function that finds the maximum sum of an increasing prefix subsequence from the start of the array up to the ith index, and also returns the value of the kth element in the array, where k > i.
+
+Example:
+def max_sum_increasing_subseq(a, n, index, k):
+    # your code
+    return a","['assert max_sum_increasing_subseq([1, 101, 2, 3, 100, 4, 5 ], 7, 4, 6) == 11']"
+297,"Write a function to extract a slice from a tuple using colon notation.
+
+Example:
+def colon_tuplex(tuplex, m, n):
+    # your code
+    return tuplex
+
+Here, tuplex is the input tuple, m is the starting index, and n is the ending index (exclusive). The function should return the sliced tuple from index m up to, but not including, index n.","['assert colon_tuplex((\""HELLO\"", 5, [], True) ,2,50)==(\""HELLO\"", 5, [50], True) ']"
+298,"Write a function that finds the top N largest products that can be formed by multiplying an element from the first list with an element from the second list.
+
+Example:
+def large_product(nums1, nums2, N):
+    # your code
+    return nums1","['assert large_product([1, 2, 3, 4, 5, 6],[3, 6, 8, 9, 10, 6],3)==[60, 54, 50]']"
+299,"Write a Python function to find the greater of two numbers.
+
+Example:
+def maximum(a, b):
+    # your code
+    return a","['assert maximum(5,10) == 10']"
+300,"Rewrite in English:
+
+Write a function to convert a given string into a tuple.
+
+Example:
+def string_to_tuple(str1):
+    # your code
+    return str1","['assert string_to_tuple(\""python 3.0\"")==(\'p\', \'y\', \'t\', \'h\', \'o\', \'n\', \'3\', \'.\', \'0\')']"
+301,"Write a Python function to set the leftmost unset bit (0) in the binary representation of a given integer n.  
+If all bits are already set (i.e., n is of the form 2^k - 1), return n as it is.
+
+Example:
+def set_left_most_unset_bit(n):
+    # your code
+    return n",['assert set_left_most_unset_bit(10) == 14']
+302,"Write a function to calculate the volume of a cone.
+
+Example:
+def volume_cone(r, h):
+    # your code
+    return r","['assert volume_cone(5,12)==314.15926535897927']"
+303,"Write a Python function to print all the positive numbers in a given list.
+
+Example:
+def pos_nos(list1):
+    # your code
+    return list1","['assert pos_nos([-1,-2,1,2]) == 1,2']"
+304,"Write a function that finds the maximum possible sum from a given 2 x n rectangular grid, such that no two selected numbers are adjacent (i.e., you cannot select two numbers that are next to each other either horizontally or vertically). 
+
+Example:
+def max_sum_rectangular_grid(grid, n):
+    # your code
+    return grid","['assert max_sum_rectangular_grid([ [1, 4, 5], [2, 0, 0 ] ], 3) == 7']"
+305,"Write a Python function that finds the first longest word in a string that has an even number of characters.
+
+Example:
+def find_Max_Len_Even(str):
+    # your code
+    return str","['assert find_Max_Len_Even(\""python language\"") == \""language\""']"
+306,"Write a function to find the index of the last occurrence of a given number in a sorted array.
+
+Example:
+def find_last_occurrence(A, x):
+    # your code
+    return A","['assert find_last_occurrence([2, 5, 5, 5, 6, 6, 8, 9, 9, 9], 5) == 3']"
+307,"Write a function that performs modified run-length encoding on a given list.
+
+Example:
+def modified_encode(alist):
+    # your code
+    return alist","['assert modified_encode([1,1,2,3,4,4,5,1])==[[2, 1], 2, 3, [2, 4], 5, 1]']"
+308,"Write a Python function that calculates the maximum possible volume of a cuboid whose sum of side lengths is given.
+
+Example:
+def max_volume(s):
+    # your code
+    return s",['assert max_volume(8) == 18']
+309,"Write a function that uses regex to find all words in the given string that are exactly five letters long.
+
+Example:
+def find_long_word(text):
+    # your code
+    return text",['assert find_long_word(\'Please move back to strem\') == [\'strem\']']
+310,"Write a function to calculate the difference between the square of the sum of the first n natural numbers and the sum of the squares of the first n natural numbers.
+
+Example:
+def sum_difference(n):
+    # your code
+    return n",['assert sum_difference(12)==5434']
+311,"Write a function to find the Demlo number for the given input number.
+
+Example:
+def find_demlo(s):
+    # your code
+    return s","['assert find_demlo(\""111111\"") == \'12345654321\'']"
+312,"Write a function that finds all the index positions of the minimum value in a given list.
+
+Example:
+def position_min(list1):
+    # your code
+    return list1","['assert position_min([12,33,23,10,67,89,45,667,23,12,11,10,54])==[3,11]']"
+313,"Write a function that rearranges the given array so that positive and negative items appear alternately.  
+Example:  
+def right_rotate(arr, n, out_of_place, cur):  
+    # your code  
+    return arr","['assert right_rotate([-5, -2, 5, 2, 4,	7, 1, 8, 0, -8], 10) == [-5, 5, -2, 2, -8, 4, 7, 1, 8, 0]']"
+314,"Write a function that calculates the sum of alternate elements in a tuple of numbers.
+
+Example:
+def sum_of_alternates(test_tuple):
+    # your code
+    return test_tuple","['assert sum_of_alternates((5, 6, 3, 6, 10, 34)) == (46, 18)']"
+315,"Write a Python function that finds the minimum number of perfect squares whose sum equals a given number.
+
+Example:
+def get_Min_Squares(n):
+    # your code
+    return n",['assert get_Min_Squares(6) == 3']
+316,"Write a function that returns the word with the highest number of occurrences in a given list of strings.
+
+Example:
+def most_occurrences(test_list):
+    # your code
+    return test_list","['assert most_occurrences([\""UTS is best for RTF\"", \""RTF love UTS\"", \""UTS is best\""] ) == \'UTS\'']"
+317,"Write a function that checks whether a triangle is isosceles or not.
+
+Example:
+def check_isosceles(x, y, z):
+    # your code
+    return x","['assert check_isosceles(6,8,12)==False ']"
+318,"Write a function that rotates a given list to the left by a specified number of items.
+
+Example:
+def rotate_left(list1, m, n):
+    # your code
+    return list1","['assert rotate_left([1, 2, 3, 4, 5, 6, 7, 8, 9, 10],3,4)==[4, 5, 6, 7, 8, 9, 10, 1, 2, 3, 4]']"
+319,"Write a Python function to count the number of negative numbers in a list.
+
+Example:
+def neg_count(list):
+    # your code
+    return list","['assert neg_count([-1,-2,3,-4,-5]) == 4']"
+320,"Write a function that uses regex to find all words in the given string that are exactly three, four, or five letters long.
+
+Example:
+def find_char(text):
+    # your code
+    return text","['assert find_char(\'For the four consumer complaints contact manager AKR reddy\') == [\'For\', \'the\', \'four\', \'AKR\', \'reddy\']']"
+321,"Write a Python function to count the number of unset bits (bits with value 0) in a given number.
+
+Example:
+def count_unset_bits(n):
+    # your code
+    return n",['assert count_unset_bits(2) == 1']
+322,"Write a function to count the frequency of each character in a given string.
+
+Example:
+def char_frequency(str1):
+    # your code
+    return str1","['assert char_frequency(\'python\')=={\'p\': 1, \'y\': 1, \'t\': 1, \'h\': 1, \'o\': 1, \'n\': 1}']"
+323,"Write a Python function to sort a list of sublists based on the second element of each sublist.
+
+Example:
+def Sort(sub_li):
+    # your code
+    return sub_li","['assert Sort([[\'a\', 10], [\'b\', 5], [\'c\', 20], [\'d\', 15]]) == [[\'b\', 5], [\'a\', 10], [\'d\', 15], [\'c\', 20]]']"
+324,"Write a Python function to check whether a triangle is valid or not, given its three sides.
+
+Example:
+def check_Validity(a, b, c):
+    # your code
+    return a","['assert check_Validity(1,2,3) == False']"
+325,"Write a function that calculates the sum of an arithmetic progression (AP).
+
+Example:
+def ap_sum(a, n, d):
+    # your code
+    return a","['assert ap_sum(1,5,2)==25']"
+326,"Write a function that checks whether the given month has 28 days or not.
+
+Example:
+def check_monthnum(monthname1):
+    # your code
+    return monthname1","['assert check_monthnum(\""February\"")==True']"
+327,"Write a function that checks if a given string ends with a specific word, optionally followed by punctuation marks.
+
+Example:
+def text_match_word(text):
+    # your code
+    return text","['assert text_match_word(\""python.\"")==(\'Found a match!\')']"
+328,"Rewrite in English:
+
+Write a Python function to count the number of substrings that have the same first and last character.
+
+Example:
+def check_Equality(s):
+    # your code
+    return s",['assert check_Equality(\'aba\') == 4']
+329,"Write a Python function to find the divisor that occurs most frequently within a given range.
+
+Example:
+def find_Divisor(x, y):
+    # your code
+    return x","['assert find_Divisor(2,2) == 2']"
+330,"Write a Python function that takes a list of numbers and returns the sum of the three smallest positive numbers in the list.
+
+Example:
+def sum_three_smallest_nums(lst):
+    # your code
+    return lst","['assert sum_three_smallest_nums([10,20,30,40,50,60,7]) == 37']"
+331,"Write a function to convert the given set into an ordered tuple.
+
+Example:
+def set_to_tuple(s):
+    # your code
+    return s","['assert set_to_tuple({1, 2, 3, 4, 5}) == (1, 2, 3, 4, 5)']"
+332,"Write a function that finds the smallest range such that at least one element from each of the given arrays is included within this range.
+
+Example:
+def __init__(self, value, list_num, index):
+    # your code
+    return value","['assert __init__([[3, 6, 8, 10, 15], [1, 5, 12], [4, 8, 15, 16], [2, 6]]) == (4, 6)']"
+333,"Write a function to count the number of letters and digits in a given string.
+
+Example:
+def dig_let(s):
+    # your code
+    return s","['assert dig_let(\""python\"")==(6,0)']"
+334,"Write a Python function to find the number of elements within a given range that have an odd factor.
+
+Example:
+def count_Odd_Squares(n, m):
+    # your code
+    return n","['assert count_Odd_Squares(5,100) == 8']"
+335,"Write a function that finds the difference between each pair of consecutive numbers in a given list.
+
+Example:
+def diff_consecutivenums(nums):
+    # your code
+    return nums","['assert diff_consecutivenums([1, 1, 3, 4, 4, 5, 6, 7])==[0, 2, 1, 0, 1, 1, 1]']"
+336,"Rewrite in English:
+
+Write a function that takes two input numbers, n and k.  
+Example:  
+def zigzag(n, k):  
+    # your code  
+    return n","['assert zigzag(4, 3) == 5']"
+337,"Write a Python function to count the total number of squares that can be formed inside a rectangle of size m × n.
+
+Example:
+def count_Squares(m, n):
+    # your code
+    return m","['assert count_Squares(4,3) == 20']"
+338,"Write a function that counts the number of sequences of a given length whose non-negative prefix sums can be generated by a given value.
+
+Example:
+def bin_coff(n, r):
+    # your code
+    return n",['assert bin_coff(4) == 2']
+339,"Rewrite in English:
+
+Write a Python function to check whether the given string is a binary string (i.e., contains only '0' and '1').  
+Example:  
+def check(string) :  
+    # your code  
+    return string","['assert check(\""01010101010\"") == \""Yes\""']"
+340,"Write a Python function that removes all occurrences of only one type of character from the string in order to minimize its length.  
+Example:  
+def minimum_Length(s):  
+    # your code  
+    return s","['assert minimum_Length(\""mnm\"") == 1']"
+341,"Rewrite in English:
+
+Write a Python function to find the first element in the given array that occurs exactly k times.
+
+Example:
+def first_Element(arr, n, k):
+    # your code
+    return arr","['assert first_Element([0,1,2,3,4,5],6,1) == 0']"
+342,"Rewrite in English:
+
+Write a Python function to check if all characters in a given string are unique.
+
+Example:
+def unique_Characters(str):
+    # your code
+    return str",['assert unique_Characters(\'aba\') == False']
+343,"Write a function to remove a specific column from a given nested list.
+
+Example:
+def remove_column(list1, n):
+    # your code
+    return list1","['assert remove_column([[1, 2, 3], [2, 4, 5], [1, 1, 1]],0)==[[2, 3], [4, 5], [1, 1]]']"
+344,"Write a function that finds the nth term of an arithmetic progression.
+
+Example:
+def tn_ap(a, n, d):
+    # your code
+    return a","['assert tn_ap(1,5,2)==9']"
+345,"Write a Python function that counts the number of rectangles that can fit inside a circle with radius r.
+
+Example:
+def count_Rectangles(radius):
+    # your code
+    return radius",['assert count_Rectangles(2) == 8']
+346,"Write a function to find the third angle of a triangle.
+
+Example:
+def find_angle(a, b):
+    # your code
+    return a
+
+Here, a and b are the measures of two angles of a triangle. The function should return the measure of the third angle.","['assert find_angle(47,89)==44']"
+347,"Write a function that finds the maximum element from each given tuple record in a list.
+
+Example:
+def find_max(test_list):
+    # your code
+    return test_list","['assert find_max([(2, 4), (6, 7), (5, 1), (6, 10), (8, 7)]) == 10']"
+348,"Rewrite in English:
+
+Write a function that uses map and lambda functions to find the modulo division of two lists.  
+Example:  
+def moddiv_list(nums1, nums2):  
+    # your code  
+    return nums1","['assert moddiv_list([4,5,6],[1, 2, 3])==[0, 1, 0]']"
+349,"Write a Python function to check whether one root of a quadratic equation is exactly double the other root.
+
+Example:
+def Check_Solution(a, b, c):
+    # your code
+    return a","['assert Check_Solution(1,3,2) == \""Yes\""']"
+350,"Write a function to find the nth Carol number.
+
+Example:
+def get_carol(n):
+    # your code
+    return n",['assert get_carol(2) == 7']
+351,"Write a function to remove all empty lists from a given list.
+
+Example:
+def remove_empty(list1):
+    # your code
+    return list1","['assert remove_empty([[], [], [], \'Red\', \'Green\', [1,2], \'Blue\', [], []])==[\'Red\', \'Green\', [1, 2], \'Blue\']']"
+352,"Write a Python function to find the item that appears the most times in a given list.
+
+Example:
+def max_occurrences(nums):
+    # your code
+    return nums","['assert max_occurrences([1,2,3,1,2,3,12,4,2]) ==  2']"
+353,"Write a function that adds the value K to each element of the given tuple.
+
+Example:
+def add_K_element(test_list, K):
+    # your code
+    return test_list","['assert add_K_element([(1, 3, 4), (2, 4, 6), (3, 8, 1)], 4) == [(5, 7, 8), (6, 8, 10), (7, 12, 5)]']"
+354,"Write a function that takes a given binary string and returns the minimum number of flips required to make the string alternate between characters (i.e., no two adjacent characters are the same).
+
+Example:
+def make_flip(ch):
+    # your code
+    return ch","['assert make_flip(\""0001010111\"") == 2']"
+355,"Rewrite in English:
+
+Write a Python function to count the number of digits in a given number.
+
+Example:
+def count_Digit(n):
+    # your code
+    return n",['assert count_Digit(12345) == 5']
+356,"Write a Python function that finds the largest product of any pair of adjacent elements in a given list of integers.
+
+Example:
+def adjacent_num_product(list_nums):
+    # your code
+    return list_nums","['assert adjacent_num_product([1,2,3,4,5,6]) == 30']"
+357,"Write a function to check whether a given binary tree is balanced or not.  
+Example:  
+def __init__(self, data):  
+    # your code  
+    return data",['assert __init__(root) == False']
+358,"Write a function that repeats the given tuple n times.
+
+Example:
+def repeat_tuples(test_tup, N):
+    # your code
+    return test_tup","['assert repeat_tuples((1, 3), 4) == ((1, 3), (1, 3), (1, 3), (1, 3))']"
+359,"Write a function that calculates the lateral surface area of a cuboid given its length, width, and height.
+
+Example:
+def lateralsurface_cuboid(l, w, h):
+    # your code
+    return l","['assert lateralsurface_cuboid(8,5,6)==156']"
+360,"Write a function that takes a tuple and returns a new tuple sorted by its float elements.
+
+Example:
+def float_sort(price):
+    # your code
+    return price","['assert float_sort([(\'item1\', \'12.20\'), (\'item2\', \'15.10\'), (\'item3\', \'24.5\')])==[(\'item3\', \'24.5\'), (\'item2\', \'15.10\'), (\'item1\', \'12.20\')] ']"
+361,"Write a function to find the smallest missing element in a sorted array.
+
+Example:
+def smallest_missing(A, left_element, right_element):
+    # your code
+    return A","['assert smallest_missing([0, 1, 2, 3, 4, 5, 6], 0, 6) == 7']"
+362,"Write a function that sorts a given list of elements in ascending order using the heap queue algorithm.
+
+Example:
+def heap_assending(nums):
+    # your code
+    return nums","['assert heap_assending([18, 14, 10, 9, 8, 7, 9, 3, 2, 4, 1])==[1, 2, 3, 4, 7, 8, 9, 9, 10, 14, 18]']"
+363,"Write a function to calculate the volume of a cuboid.
+
+Example:
+def volume_cuboid(l, w, h):
+    # your code
+    return l","['assert volume_cuboid(1,2,3)==6']"
+364,"Rewrite in English:
+
+Write a function that prints all permutations of a given string, including duplicates.
+
+Example:
+def permute_string(str):
+    # your code
+    return str","['assert permute_string(\'ab\')==[\'ab\', \'ba\']']"
+365,"Write a function to round a given number to the nearest multiple of another specified number.
+
+Example:
+def round_num(n, m):
+    # your code
+    return n","['assert round_num(4722,10)==4720']"
+366,"Write a function that removes duplicate elements from a tuple and replaces the duplicates with a custom value of your choice.
+
+Example:
+def remove_replica(test_tup):
+    # your code
+    return test_tup","['assert remove_replica((1, 1, 4, 4, 4, 5, 5, 6, 7, 7)) == (1, \'MSP\', 4, \'MSP\', \'MSP\', 5, \'MSP\', 6, 7, \'MSP\')']"
+367,"Rewrite in English:
+
+Write a Python function to remove all occurrences of a given character from a given string.
+
+Example:
+def remove_Char(s, c):
+    # your code
+    return s","['assert remove_Char(\""aba\"",\'a\') == \""b\""']"
+368,"Write a Python function that moves the last element of a given list to the first position.
+
+Example:
+def move_first(test_list):
+    # your code
+    return test_list","['assert move_first([1,2,3,4]) == [4,1,2,3]']"
+369,"Write a function to calculate the surface area of a cuboid.
+
+Example:
+def surfacearea_cuboid(l, w, h):
+    # your code
+    return l","['assert surfacearea_cuboid(1,2,3)==22']"
+370,"Write a function to create a two-dimensional array.
+
+Example:
+def multi_list(rownum, colnum):
+    # your code
+    return rownum","['assert multi_list(3,4)==[[0, 0, 0, 0], [0, 1, 2, 3], [0, 2, 4, 6]] ']"
+371,"Write a function that sorts a list of lists based on the given index of the inner lists.
+
+Example:
+def index_on_inner_list(list_data, index_no):
+    # your code
+    return list_data","['assert index_on_inner_list([(\'Greyson Fulton\', 98, 99), (\'Brady Kent\', 97, 96), (\'Wyatt Knott\', 91, 94), (\'Beau Turnbull\', 94, 98)] ,0)==[(\'Beau Turnbull\', 94, 98), (\'Brady Kent\', 97, 96), (\'Greyson Fulton\', 98, 99), (\'Wyatt Knott\', 91, 94)]']"
+372,"Write a function to find the number of rotations in a circularly (rotated) sorted array.
+
+Example:
+def find_rotation_count(A):
+    # your code
+    return A","['assert find_rotation_count([8, 9, 10, 1, 2, 3, 4, 5, 6, 7]) == 3']"
+373,"Write a Python function to toggle all the odd-positioned bits of a given number.
+
+Example:
+def even_bit_toggle_number(n):
+    # your code
+    return n",['assert even_bit_toggle_number(10) == 15']
+374,"Rewrite in English:
+
+Write a Python function to find the frequency of the smallest value in a given array.
+
+Example:
+def frequency_Of_Smallest(n, arr):
+    # your code
+    return n","['assert frequency_Of_Smallest(5,[1,2,3,4,3]) == 1']"
+375,"Write a function that finds the n'th Perrin number using recursion.
+
+Example:
+def get_perrin(n):
+    # your code
+    return n",['assert get_perrin(9) == 12']
+376,"Write a function to determine the minimum number of swaps required to balance the brackets in the given string.
+
+Example:
+def swap_count(s):
+    # your code
+    return s","['assert swap_count(\""[]][][\"") == 2']"
+377,"Write a Python function to check whether a hexadecimal number is even or odd.
+
+Example:
+def even_or_odd(N):
+    # your code
+    return N","['assert even_or_odd(\""AB3454D\"") ==\""Odd\""']"
+378,"Write a Python function to find the highest power of 2 that is less than or equal to n.
+
+Example:
+def highest_Power_of_2(n):
+    # your code
+    return n",['assert highest_Power_of_2(10) == 8']
+379,"Write a function to find the n'th Lucas number.
+
+Example:
+def find_lucas(n):
+    # your code
+    return n",['assert find_lucas(9) == 76']
+380,"Write a function that inserts a given string at the beginning of every item in a list.
+
+Example:
+def add_string(list, string):
+    # your code
+    return list","['assert add_string([1,2,3,4],\'temp{0}\')==[\'temp1\', \'temp2\', \'temp3\', \'temp4\']']"
+381,"Write a function to convert more than one list into a nested dictionary.
+
+Example:
+def convert_list_dictionary(l1, l2, l3):
+    # your code
+    return l1","['assert convert_list_dictionary([\""S001\"", \""S002\"", \""S003\"", \""S004\""],[\""Adina Park\"", \""Leyton Marsh\"", \""Duncan Boyle\"", \""Saim Richards\""] ,[85, 98, 89, 92])==[{\'S001\': {\'Adina Park\': 85}}, {\'S002\': {\'Leyton Marsh\': 98}}, {\'S003\': {\'Duncan Boyle\': 89}}, {\'S004\': {\'Saim Richards\': 92}}]']"
+382,"Given the equation f(n) = max(f(n/2) + f(n/3) + f(n/4) + f(n/5)), write a function to find the maximum possible sum using the value n.
+
+Example:
+def get_max_sum(n):
+    # your code
+    return n",['assert get_max_sum(60) == 106']
+383,"Rewrite in English:
+
+Write a function that uses a lambda function to find the list with the maximum length from a list of lists.
+
+Example:
+def max_length_list(input_list):
+    # your code
+    return input_list","['assert max_length_list([[0], [1, 3], [5, 7], [9, 11], [13, 15, 17]])==(3, [13, 15, 17])']"
+384,"Write a function to check whether the given tuple contains all distinct elements or not.  
+Example:  
+def check_distinct(test_tup):  
+    # your code  
+    return test_tup","['assert check_distinct((1, 4, 5, 6, 1, 4)) == False']"
+385,"Write a Python function to find the first non-repeating character in a given string.
+
+Example:
+def first_non_repeating_character(str1):
+    # your code
+    return str1","['assert first_non_repeating_character(\""abcabc\"") == None']"
+386,"Write a function that checks whether a given string starts and ends with the same character, without using regular expressions.
+
+Example:
+def check_char(string):
+    # your code
+    return string","['assert check_char(\""abba\"") == \""Valid\""']"
+387,"Write a function to find the median of three given numbers.
+
+Example:
+def median_numbers(a, b, c):
+    # your code
+    return a","['assert median_numbers(25,55,65)==55.0']"
+388,"Write a function that calculates the sum of the digits of each number in a given list.
+
+Example:
+def sum_of_digits(nums):
+    # your code
+    return nums","['assert sum_of_digits([10,2,56])==14']"
+389,"Write a function to perform element-wise bitwise XOR operation on the given tuples.
+
+Example:
+def bitwise_xor(test_tup1, test_tup2):
+    # your code
+    return test_tup1","['assert bitwise_xor((10, 4, 6, 9), (5, 2, 3, 3)) == (15, 6, 5, 10)']"
+390,"Write a function to find the frequency of unique tuples in the given list, regardless of their order.
+
+Example:
+def extract_freq(test_list):
+    # your code
+    return test_list","['assert extract_freq([(3, 4), (1, 2), (4, 3), (5, 6)] ) == 3']"
+391,"Write a function that, given two nested tuples, adds the elements at corresponding indices of the inner tuples.
+
+Example:
+def add_nested_tuples(test_tup1, test_tup2):
+    # your code
+    return test_tup1","['assert add_nested_tuples(((1, 3), (4, 5), (2, 9), (1, 10)), ((6, 7), (3, 9), (1, 1), (7, 3))) == ((7, 10), (7, 14), (3, 10), (8, 13))']"
+392,"Write a function to calculate the value of nCr modulo p.
+
+Example:
+def ncr_modp(n, r, p):
+    # your code
+    return n","['assert ncr_modp(10,2,13)==6']"
+393,"Write a function to check whether a given URL is valid or not.
+
+Example:
+def is_valid_URL(str):
+    # your code
+    return str","['assert is_valid_URL(\""https://www.google.com\"") == True']"
+394,"Write a Python function to find the minimum of two numbers.
+
+Example:
+def minimum(a, b):
+    # your code
+    return a","['assert minimum(1,2) == 1']"
+395,"Write a function that checks whether an element exists in a tuple.
+
+Example:
+def check_tuplex(tuplex, tuple1):
+    # your code
+    return tuplex","['assert check_tuplex((\""w\"", 3, \""r\"", \""e\"", \""s\"", \""o\"", \""u\"", \""r\"", \""c\"", \""e\""),\'r\')==True']"
+396,"Write a Python function to determine the parity of a given number.
+
+Example:
+def find_Parity(x):
+    # your code
+    return x","['assert find_Parity(12) == \""Even Parity\""']"
+397,"Write a function that rearranges the digits of a given number to form the next greater number possible.  
+Example:  
+def rearrange_bigger(n):  
+    # your code  
+    return n",['assert rearrange_bigger(12)==21']
+398,"Write a function to find k pairs, where each pair consists of one element from the first array and one element from the second array.
+
+Example:
+def k_smallest_pairs(nums1, nums2, k):
+    # your code
+    return nums1","['assert k_smallest_pairs([1,3,7],[2,4,6],2)==[[1, 2], [1, 4]]']"
+399,"Rewrite of the problem in English:
+
+Write a function that finds the minimum product among all pairs of tuples in a given list.  
+Example:  
+def min_product_tuple(list1):  
+    # your code  
+    return list1","['assert min_product_tuple([(2, 7), (2, 6), (1, 8), (4, 9)] )==8']"
+400,"Write a function to find the minimum value in a given non-empty list.
+
+Example:
+def min_val(listval):
+    # your code
+    return listval","['assert min_val([\'Python\', 3, 2, 4, 5, \'version\'])==2']"
+401,"Write a function that uses regex to convert a given snake_case string to camelCase.
+
+Example:
+def snake_to_camel(word):
+    # your code
+    return word",['assert snake_to_camel(\'android_tv\') == \'AndroidTv\'']
+402,"Write a Python function to remove all odd numbers from a given list.
+
+Example:
+def remove_odd(l):
+    # your code
+    return l","['assert remove_odd([1,2,3]) == [2]']"
+403,"Write a function to extract the n-th element from each tuple in a given list of tuples.
+
+Example:
+def extract_nth_element(list1, n):
+    # your code
+    return list1","['assert extract_nth_element([(\'Greyson Fulton\', 98, 99), (\'Brady Kent\', 97, 96), (\'Wyatt Knott\', 91, 94), (\'Beau Turnbull\', 94, 98)] ,0)==[\'Greyson Fulton\', \'Brady Kent\', \'Wyatt Knott\', \'Beau Turnbull\']']"
+404,"Write a Python function that checks whether any element from one sequence exists in another sequence.
+
+Example:
+def overlapping(list1, list2):
+    # your code
+    return list1","['assert overlapping([1,2,3,4,5],[6,7,8,9]) == False']"
+405,"Rewrite in English:
+
+Write a Python function to find the pair of numbers in a given integer array that has the maximum product.
+
+Example:
+def max_Product(arr):
+    # your code
+    return arr","['assert max_Product([1,2,3,4,7,0,8,4]) == (7,8)']"
+406,"Write a function that calculates the maximum possible sum by breaking a given number into three parts. You can split the number into three integers in any way, and then find the sum for that number based on the split.
+
+Example:
+def breakSum(n):
+    # your code
+    return n",['assert breakSum(12) == 13']
+407,"Write a function that finds the common first element among a list of tuples.
+
+Example:
+def group_tuples(Input):
+    # your code
+    return Input","['assert group_tuples([(\'x\', \'y\'), (\'x\', \'z\'), (\'w\', \'t\')]) == [(\'x\', \'y\', \'z\'), (\'w\', \'t\')]']"
+408,"Write a Python function to find the sublist with the maximum length from a list.
+
+Example:
+def Find_Max(lst):
+    # your code
+    return lst","['assert Find_Max([[\'A\'],[\'A\',\'B\'],[\'A\',\'B\',\'C\']]) == [\'A\',\'B\',\'C\']']"
+409,"Write a function that takes a list of numbers, rounds each number to the nearest integer, and then multiplies the total sum of these rounded numbers by the length of the list.  
+Example:  
+def round_and_sum(list1):  
+    # your code  
+    return list1","['assert round_and_sum([22.4, 4.0, -16.22, -9.10, 11.00, -12.22, 14.20, -5.20, 17.50])==243']"
+410,"Rewrite in English:
+
+Write a Python function to find the sum of the cubes of the first n even numbers.
+
+Example:
+def cube_Sum(n):
+    # your code
+    return n",['assert cube_Sum(2) == 72']
+411,"Write a function that joins all the elements of a tuple into a single string, separated by a delimiter.
+
+Example:
+def concatenate_tuple(test_tup):
+    # your code
+    return test_tup","['assert concatenate_tuple((\""ID\"", \""is\"", 4, \""UTS\"") ) == \'ID-is-4-UTS\'']"
+412,"Write a Python function to find the average of the cubes of the first n natural numbers.
+
+Example:
+def find_Average_Of_Cube(n):
+    # your code
+    return n",['assert find_Average_Of_Cube(2) == 4.5']
+413,"Write a function to solve the gold mine problem.
+
+Example:
+def get_maxgold(gold, m, n):
+    # your code
+    return gold
+
+Description:  
+Given a 2D list `gold` of size `m x n`, where each cell represents the amount of gold in that cell, write a function to find the maximum amount of gold that can be collected. You can start from any cell in the first column and move to the cell diagonally up-right, right, or diagonally down-right in each step until you reach the last column. Return the maximum amount of gold that can be collected.","['assert get_maxgold([[1, 3, 1, 5],[2, 2, 4, 1],[5, 0, 2, 3],[0, 6, 1, 2]],4,4)==16']"
+414,"Rewrite in English:
+
+Write a function that, given a tuple, extracts only the last (rear) character from each string in the tuple.
+
+Example:
+def extract_rear(test_tuple):
+    # your code
+    return test_tuple","['assert extract_rear((\'Mers\', \'for\', \'Vers\') ) == [\'s\', \'r\', \'s\']']"
+415,"Write a function to count the number of sublists in a list that contain a specific element.
+
+Example:
+def count_element_in_list(list1, x):
+    # your code
+    return list1","['assert count_element_in_list([[1, 3], [5, 7], [1, 11], [1, 15, 7]],1)==3']"
+416,"Write a function using a lambda function to filter out the odd numbers from a list.
+
+Example:
+def filter_oddnumbers(nums):
+    # your code
+    return nums","['assert filter_oddnumbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])==[1,3,5,7,9]']"
+417,"Rewrite in English:
+
+Write a function that uses regex to convert a date from the format yyyy-mm-dd to dd-mm-yyyy format.
+
+Example:
+def change_date_format(dt):
+    # your code
+    return dt","['assert change_date_format(\""2026-01-02\"") == \'02-01-2026\'']"
+418,"Write a function to sort a given array using Shell Sort.
+
+Example:
+def shell_sort(my_list):
+    # your code
+    return my_list","['assert shell_sort([12, 23, 4, 5, 3, 2, 12, 81, 56, 95]) == [2, 3, 4, 5, 12, 12, 23, 56, 81, 95]']"
+419,"Rewrite of the problem in English:
+
+Write a function that extracts both the elements and the tuples from two given tuples.
+
+Example:
+def and_tuples(test_tup1, test_tup2):
+    # your code
+    return test_tup1","['assert and_tuples((10, 4, 6, 9), (5, 2, 3, 3)) == (0, 0, 2, 1)']"
+420,"Write a function to find the directrix of a parabola.
+
+Example:
+def parabola_directrix(a, b, c):
+    # your code
+    return a","['assert parabola_directrix(5,3,2)==-198']"
+421,"Write a function that takes two lists as input and returns True if they have at least one common element.  
+Example:
+def common_element(list1, list2):
+    # your code
+    return list1","['assert common_element([1,2,3,4,5], [5,6,7,8,9])==True']"
+422,"Write a function to find the median of a trapezium.
+
+Example:
+def median_trapezium(base1, base2, height):
+    # your code
+    return base1","['assert median_trapezium(15,25,35)==20']"
+423,"Write a function to check whether the given number is greater than all the elements in the provided array.
+
+Example:
+def check_greater(arr, number):
+    # your code
+    return arr","['assert check_greater([1, 2, 3, 4, 5], 4) == \'No, entered number is less than those in the array\'']"
+424,"Write a function that checks if a given string contains one or more occurrences of the letter 'b'.
+
+Example:
+def text_match_one(text):
+    # your code
+    return text","['assert text_match_one(\""ac\"")==(\'Not matched!\')']"
+425,"Write a Python function to find the last digit of a given number.
+
+Example:
+def last_Digit(n):
+    # your code
+    return n",['assert last_Digit(123) == 3']
+426,"Write a Python function to print the negative numbers in a list.
+
+Example:
+def neg_nos(list1):
+    # your code
+    return list1","['assert neg_nos([-1,4,5,-6]) == -1,-6']"
+427,"Write a function to remove the characters at odd indices from a given string.
+
+Example:
+def remove_odd(str1):
+    # your code
+    return str1","['assert remove_odd(\""python\"")==(\""yhn\"")']"
+428,"Write a function to count the number of bidirectional tuple pairs.
+
+Example:
+def count_bidirectional(test_list):
+    # your code
+    return test_list","['assert count_bidirectional([(5, 6), (1, 2), (6, 5), (9, 1), (6, 5), (2, 1)] ) == \'3\'']"
+429,"Write a function to convert a list of multiple integers into a single integer.
+
+Example:
+def multiple_to_single(L):
+    # your code
+    return L","['assert multiple_to_single([11, 33, 50])==113350']"
+430,"Write a function that finds all the adverbs in a given sentence and returns their positions.
+
+Example:
+def find_adverb_position(text):
+    # your code
+    return text","['assert find_adverb_position(\""clearly!! we can see the sky\"")==(0, 7, \'clearly\')']"
+431,"Write a function to calculate the surface area of a cube.
+
+Example:
+def surfacearea_cube(l):
+    # your code
+    return l",['assert surfacearea_cube(5)==150']
+432,"Write a function that calculates the proportion of positive numbers in an array of integers.
+
+Example:
+def positive_count(nums):
+    # your code
+    return nums","['assert positive_count([0, 1, 2, -1, -5, 6, 0, -3, -2, 3, 4, 6, 8])==0.54']"
+433,"Write a Python function to find the largest negative number from the given list.
+
+Example:
+def largest_neg(list1):
+    # your code
+    return list1","['assert largest_neg([1,2,3,-4,-6]) == -6']"
+434,"Rewrite in English:
+
+Write a function to trim each tuple in a given list of tuples by K elements.
+
+Example:
+def trim_tuple(test_list, K):
+    # your code
+    return test_list","['assert trim_tuple([(5, 3, 2, 1, 4), (3, 4, 9, 2, 1),(9, 1, 2, 3, 5), (4, 8, 2, 1, 7)], 2) == \'[(2,), (9,), (2,), (2,)]\'']"
+435,"Write a function that takes two tuples as input and performs index-wise multiplication of their elements.
+
+Example:
+def index_multiplication(test_tup1, test_tup2):
+    # your code
+    return test_tup1","['assert index_multiplication(((1, 3), (4, 5), (2, 9), (1, 10)),((6, 7), (3, 9), (1, 1), (7, 3)) ) == ((6, 21), (12, 45), (2, 9), (7, 30))']"
+436,"Write a Python function that takes a tuple and a list as input, and returns the tuple containing only those elements that are present in the list.
+
+Example:
+def count_Occurrence(tup, lst):
+    # your code
+    return tup","['assert count_Occurrence((\'a\', \'a\', \'c\', \'b\', \'d\'),[\'a\', \'b\'] ) == 3']"
+437,"Write a function that uses a lambda function to find the cubes of the distinct elements in a list.
+
+Example:
+def cube_nums(nums):
+    # your code
+    return nums","['assert cube_nums([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])==[1, 8, 27, 64, 125, 216, 343, 512, 729, 1000]']"
+438,"Write a function to calculate the sum of even numbers up to n.
+
+Example:
+def cal_sum(n):
+    # your code
+    return n",['assert cal_sum(9) == 49']
+439,"Write a Python function to check whether three given points can form a valid triangle.
+
+Example:
+def check_Triangle(x1, y1, x2, y2, x3, y3):
+    # your code
+    return x1","['assert check_Triangle(1,5,2,5,4,6) == \'Yes\'']"
+440,"Write a function that extracts and returns all strings of a specified length from a given list of strings.
+
+Example:
+def extract_string(str, l):
+    # your code
+    return str","['assert extract_string([\'Python\', \'list\', \'exercises\', \'practice\', \'solution\'] ,8)==[\'practice\', \'solution\']']"
+441,"Write a function that removes all whitespaces from the given string using regex.
+
+Example:
+def remove_whitespaces(text1):
+    # your code
+    return text1",['assert remove_whitespaces(\' Google    Flutter \') == \'GoogleFlutter\'']
+442,"Write a function that returns the amount of loss if there is a loss for the given amounts; otherwise, it should not return anything.
+
+Example:
+def loss_amount(actual_cost, sale_amount):
+    # your code
+    return actual_cost","['assert loss_amount(1500,1200)==None']"
+443,"Rewrite in English:
+
+Write a Python function to find the sum of all pairs of factors of a given number.
+
+Example:
+def sumofFactors(n) :
+    # your code
+    return n",['assert sumofFactors(18) == 26']
+444,"Write a function that matches a word containing the letter 'z'.
+
+Example:
+def text_match_wordz(text):
+    # your code
+    return text","['assert text_match_wordz(\""pythonz.\"")==(\'Found a match!\')']"
+445,"Write a function that checks whether the given month number corresponds to a month with 31 days.
+
+Example:
+def check_monthnumb_number(monthnum2):
+    # your code
+    return monthnum2",['assert check_monthnumb_number(5)==True']
+446,"Write a function that takes a list of strings and reverses each string in the list.
+
+Example:
+def reverse_string_list(stringlist):
+    # your code
+    return stringlist","['assert reverse_string_list([\'Red\', \'Green\', \'Blue\', \'White\', \'Black\'])==[\'deR\', \'neerG\', \'eulB\', \'etihW\', \'kcalB\']']"
+447,"Write a Python function to find the sublist with the minimum length from a given list.
+
+Example:
+def Find_Min(lst):
+    # your code
+    return lst","['assert Find_Min([[1],[1,2],[1,2,3]]) == [1]']"
+448,"Write a function to calculate the area of a rectangle.
+
+Example:
+def rectangle_area(l, b):
+    # your code
+    return l","['assert rectangle_area(10,20)==200']"
+449,"Write a function that removes all uppercase substrings from a given string using regex.
+
+Example:
+def remove_uppercase(str1):
+    # your code
+    return str1",['assert remove_uppercase(\'cAstyoUrFavoRitETVshoWs\') == \'cstyoravoitshos\'']
+450,"Write a Python function that extracts the first element from each sublist in a list of sublists.
+
+Example:
+def Extract(lst):
+    # your code
+    return lst","['assert Extract([[1, 2], [3, 4, 5], [6, 7, 8, 9]]) == [1, 3, 6]']"
+451,"Write a Python function to count the number of uppercase letters in a given string.
+
+Example:
+def upper_ctr(str):
+    # your code
+    return str",['assert upper_ctr(\'PYthon\') == 1']
+452,"Write a function that finds all possible combinations of the elements in a given list.
+
+Example:
+def combinations_list(list1):
+    # your code
+    return list1","['assert combinations_list([\'orange\', \'red\', \'green\', \'blue\'])==[[], [\'orange\'], [\'red\'], [\'red\', \'orange\'], [\'green\'], [\'green\', \'orange\'], [\'green\', \'red\'], [\'green\', \'red\', \'orange\'], [\'blue\'], [\'blue\', \'orange\'], [\'blue\', \'red\'], [\'blue\', \'red\', \'orange\'], [\'blue\', \'green\'], [\'blue\', \'green\', \'orange\'], [\'blue\', \'green\', \'red\'], [\'blue\', \'green\', \'red\', \'orange\']]']"
+453,"Write a function to find the subarray with the maximum product in the given array.
+
+Example:
+def max_subarray_product(arr):
+    # your code
+    return arr","['assert max_subarray_product([1, -2, -3, 0, 7, -8, -2]) == 112']"
+454,"Write a function that checks whether all the values in a given dictionary are the same.
+
+Example:
+def check_value(dict, n):
+    # your code
+    return dict","['assert check_value({\'Cierra Vega\': 12, \'Alden Cantrell\': 12, \'Kierra Gentry\': 12, \'Pierre Cox\': 12},10)==False']"
+455,"Write a function that removes all empty items from a given dictionary.
+
+Example:
+def drop_empty(dict1):
+    # your code
+    return dict1","['assert drop_empty({\'c1\': \'Red\', \'c2\': \'Green\', \'c3\':None})=={\'c1\': \'Red\', \'c2\': \'Green\'}']"
+456,"Write a function to find a peak element in the given array.
+
+Example:
+def find_peak_util(arr, low, high, n):
+    # your code
+    return arr","['assert find_peak_util([1, 3, 20, 4, 1, 0], 6) == 2']"
+457,"Write a Python function to convert a decimal number to its octal representation.
+
+Example:
+def decimal_to_Octal(deciNum):
+    # your code
+    return deciNum",['assert decimal_to_Octal(10) == 12']
+458,"Write a function that finds the maximum product that can be obtained by multiplying the elements of any increasing subsequence of the given array.
+
+Example:
+def max_product(arr, n ):
+    # your code
+    return arr","['assert max_product([3, 100, 4, 5, 150, 6], 6) == 45000 ']"
+459,"Write a function that finds the maximum possible profit from at most k stock transactions.
+
+Example:
+def max_profit(price, k):
+    # your code
+    return price","['assert max_profit([1, 5, 2, 3, 7, 6, 4, 5], 3) == 10']"
+460,"Write a function to add the elements of each pair in the given tuples.
+
+Example:
+def add_pairwise(test_tup):
+    # your code
+    return test_tup","['assert add_pairwise((1, 5, 7, 8, 10)) == (6, 12, 15, 18)']"
+461,"Write a Python function that calculates the product of all elements in the given array and returns the remainder when this product is divided by n.
+
+Example:
+def find_remainder(arr, lens, n):
+    # your code
+    return arr","['assert find_remainder([ 100, 10, 5, 25, 35, 14 ],6,11) ==9']"
+462,"Rewrite in English:
+
+Write a Python function to check whether the given list contains consecutive numbers or not.
+Example:
+def check_Consecutive(l):
+    # your code
+    return l","['assert check_Consecutive([1,2,3,4,5]) == True']"
+463,"Write a function that finds the intersection of elements from two given lists of tuples, regardless of their order.
+
+Example:
+def tuple_intersection(test_list1, test_list2):
+    # your code
+    return test_list1","['assert tuple_intersection([(3, 4), (5, 6), (9, 10), (4, 5)] , [(5, 4), (3, 4), (6, 5), (9, 11)]) == {(4, 5), (3, 4), (5, 6)}']"
+464,"Write a function to replace all occurrences of a given character in a string with another character.
+
+Example:
+def replace_char(str1, ch, newch):
+    # your code
+    return str1","['assert replace_char(\""polygon\"",\'y\',\'l\')==(\""pollgon\"")']"
+465,"Write a function to sort a counter (dictionary) based on its values.
+
+Example:
+def sort_counter(dict1):
+    # your code
+    return dict1","['assert sort_counter({\'Math\':81, \'Physics\':83, \'Chemistry\':87})==[(\'Chemistry\', 87), (\'Physics\', 83), (\'Math\', 81)]']"
+466,"Write a Python function that finds the sum of the largest and smallest values in a given array.
+
+Example:
+def big_sum(nums):
+    # your code
+    return nums","['assert big_sum([1,2,3]) == 4']"
+467,"Write a Python function to convert the given string to lowercase letters.
+
+Example:
+def is_lower(string):
+    # your code
+    return string","['assert is_lower(\""InValid\"") == \""invalid\""']"
+468,"Rewrite in English:
+
+Write a function that removes all lowercase substrings from a given string.
+
+Example:
+def remove_lowercase(str1):
+    # your code
+    return str1","['assert remove_lowercase(\""PYTHon\"")==(\'PYTH\')']"
+469,"Rewrite in English:
+
+Write a Python function to find the first digit of a given number.
+
+Example:
+def first_Digit(n):
+    # your code
+    return n",['assert first_Digit(123) == 1']
+470,"Rewrite in English:
+
+Write a Python function to find the character that appears most frequently in a given string.
+
+Example:
+def get_max_occuring_char(str1):
+    # your code
+    return str1","['assert get_max_occuring_char(\""data\"") == \""a\""']"
+471,"Write a function that determines whether there exists a subset of the given set whose sum is equal to the specified value.
+
+Example:
+def is_subset_sum(set, n, sum):
+    # your code
+    return set","['assert is_subset_sum([3, 34, 4, 12, 5, 2], 6, 9) == True']"
+472,"Write a function that uses regex to find a sequence of lowercase letters that comes immediately after an uppercase letter in the given string.
+
+Example:
+def match(text):
+    # your code
+    return text","['assert match(\""Geeks\"") == \'Yes\'']"
+473,"Write a Python function to find the smallest natural number whose factorial is divisible by x.
+
+Example:
+def first_Factorial_Divisible_Number(x):
+    # your code
+    return x",['assert first_Factorial_Divisible_Number(10) == 5']
+474,"Write a function that removes all tuples from the first given list that are also present in the second given list.
+
+Example:
+def remove_matching_tuple(test_list1, test_list2):
+    # your code
+    return test_list1","['assert remove_matching_tuple([(\'Hello\', \'dude\'), (\'How\', \'are\'), (\'you\', \'?\')], [(\'Hello\', \'dude\'), (\'How\', \'are\')]) == [(\'you\', \'?\')]']"
+475,"Write a function to find the largest palindromic number in the given array.
+
+Example:
+def is_palindrome(n):
+    # your code
+    return n","['assert is_palindrome([1, 232, 54545, 999991], 4) == 54545']"
+476,"Write a function to calculate the binomial coefficient (n choose r) for the given numbers.
+
+Example:
+def nCr(n, r):
+    # your code
+    return n","['assert nCr(10, 5, 1.0/3) == 0.13656454808718185']"
+477,"Write a function that sorts a list of tuples in ascending order based on the last element of each tuple.
+
+Example:
+def sort_tuple(tup):
+    # your code
+    return tup","['assert sort_tuple([(1, 3), (3, 2), (2, 1)] ) == [(2, 1), (3, 2), (1, 3)]']"
+478,"Write a function to calculate the area of a pentagon.
+
+Example:
+def area_pentagon(a):
+    # your code
+    return a
+
+Here, a represents the length of one side of a regular pentagon. Your function should return the area of the pentagon.",['assert area_pentagon(5)==43.01193501472417']
+479,"Write a Python function to find the frequency of the largest value in a given array.
+
+Example:
+def frequency_Of_Largest(n, arr):
+    # your code
+    return n","['assert frequency_Of_Largest(5,[1,2,3,4,4]) == 2']"
+480,"Write a function that, given a list of tuples, extracts all symmetric pairs from the list.
+
+Example:
+def extract_symmetric(test_list):
+    # your code
+    return test_list","['assert extract_symmetric([(6, 7), (2, 3), (7, 6), (9, 8), (10, 2), (8, 9)] ) == {(8, 9), (6, 7)}']"
+481,"Write a function to find the sum of a geometric progression (GP) series.
+
+Example:
+def sum_gp(a, n, r):
+    # your code
+    return a","['assert sum_gp(1,5,2)==31']"
+482,"Write a function to search for an element in a given array using binary search.
+
+Example:
+def binary_search(item_list, item):
+    # your code
+    return item_list","['assert binary_search([1,2,3,5,8], 6) == False']"
+483,"Write a function to calculate a grid of hexagons, where the function should return a list of lists, each containing 6-tuples of (x, y) coordinates representing the vertices of each hexagon.
+
+Example:
+def calculate_polygons(startx, starty, endx, endy, radius):
+    # your code
+    return startx","['assert calculate_polygons(1,1, 4, 4, 3)==[[(-5.0, -4.196152422706632), (-5.0, -0.7320508075688767), (-2.0, 1.0), (1.0, -0.7320508075688767), (1.0, -4.196152422706632), (-2.0, -5.928203230275509), (-5.0, -4.196152422706632)], [(1.0, -4.196152422706632), (1.0, -0.7320508075688767), (4.0, 1.0), (7.0, -0.7320508075688767), (7.0, -4.196152422706632), (4.0, -5.928203230275509), (1.0, -4.196152422706632)], [(7.0, -4.196152422706632), (7.0, -0.7320508075688767), (10.0, 1.0), (13.0, -0.7320508075688767), (13.0, -4.196152422706632), (10.0, -5.928203230275509), (7.0, -4.196152422706632)], [(-2.0, 1.0000000000000004), (-2.0, 4.464101615137755), (1.0, 6.196152422706632), (4.0, 4.464101615137755), (4.0, 1.0000000000000004), (1.0, -0.7320508075688767), (-2.0, 1.0000000000000004)], [(4.0, 1.0000000000000004), (4.0, 4.464101615137755), (7.0, 6.196152422706632), (10.0, 4.464101615137755), (10.0, 1.0000000000000004), (7.0, -0.7320508075688767), (4.0, 1.0000000000000004)], [(-5.0, 6.196152422706632), (-5.0, 9.660254037844387), (-2.0, 11.392304845413264), (1.0, 9.660254037844387), (1.0, 6.196152422706632), (-2.0, 4.464101615137755), (-5.0, 6.196152422706632)], [(1.0, 6.196152422706632), (1.0, 9.660254037844387), (4.0, 11.392304845413264), (7.0, 9.660254037844387), (7.0, 6.196152422706632), (4.0, 4.464101615137755), (1.0, 6.196152422706632)], [(7.0, 6.196152422706632), (7.0, 9.660254037844387), (10.0, 11.392304845413264), (13.0, 9.660254037844387), (13.0, 6.196152422706632), (10.0, 4.464101615137755), (7.0, 6.196152422706632)], [(-2.0, 11.392304845413264), (-2.0, 14.85640646055102), (1.0, 16.588457268119896), (4.0, 14.85640646055102), (4.0, 11.392304845413264), (1.0, 9.660254037844387), (-2.0, 11.392304845413264)], [(4.0, 11.392304845413264), (4.0, 14.85640646055102), (7.0, 16.588457268119896), (10.0, 14.85640646055102), (10.0, 11.392304845413264), (7.0, 9.660254037844387), (4.0, 11.392304845413264)]]']"
+484,"Write a function to convert the given binary tuple into an integer.
+
+Example:
+def binary_to_integer(test_tup):
+    # your code
+    return test_tup","['assert binary_to_integer((1, 1, 0, 1, 0, 0, 1)) == \'105\'']"
+485,"Rewrite in English:
+
+Write a function that removes all lowercase substrings from a given string using regex.
+Example:
+def remove_lowercase(str1):
+    # your code
+    return str1",['assert remove_lowercase(\'KDeoALOklOOHserfLoAJSIskdsf\') == \'KDALOOOHLAJSI\'']
+486,"Write a function that uses the heap queue algorithm to find the smallest n integers from a list of numbers.
+
+Example:
+def heap_queue_smallest(nums, n):
+    # your code
+    return nums","['assert heap_queue_smallest( [25, 35, 22, 85, 14, 65, 75, 25, 58],3)==[14, 22, 25] ']"
+487,"Write a function to calculate the surface area of a cone.
+
+Example:
+def surfacearea_cone(r, h):
+    # your code
+    return r","['assert surfacearea_cone(5,12)==282.7433388230814']"
+488,"Write a Python function to find the greatest common divisor (gcd) of two positive integers.
+
+Example:
+def gcd(x, y):
+    # your code
+    return x","['assert gcd(12, 17) == 1']"
+489,"Write a function to find the diameter of a circle given its radius.
+
+Example:
+def diameter_circle(r):
+    # your code
+    return r",['assert diameter_circle(10)==20']
+490,"Write a function that concatenates all the elements of a given list into a single string.
+
+Example:
+def concatenate_elements(list):
+    # your code
+    return list","['assert concatenate_elements([\'hello\',\'there\',\'have\',\'a\',\'rocky\',\'day\'] ) == \'  hello there have a rocky day\'']"
+491,"Given a cost matrix cost[][], write a function to find the minimum cost path to reach position (m, n) from (0, 0). You can only move either down or right at any point in time.
+
+Example:
+def min_cost(cost, m, n):
+    # your code
+    return cost","['assert min_cost([[1, 2, 3], [4, 8, 2], [1, 5, 3]], 2, 2) == 8']"
+492,"Write a function that finds the common elements from two given lists of tuples.
+
+Example:
+def similar_elements(test_tup1, test_tup2):
+    # your code
+    return test_tup1","['assert similar_elements((3, 4, 5, 6),(5, 7, 4, 10)) == (4, 5)']"
+493,"Write a Python function to determine whether a number is a non-prime (not a prime) number.
+
+Example:
+def is_not_prime(n):
+    # your code
+    return n",['assert is_not_prime(2) == False']
+494,"Write a function that finds the largest integer from a list of numbers using the heap queue algorithm.
+
+Example:
+def heap_queue_largest(nums, n):
+    # your code
+    return nums","['assert heap_queue_largest( [25, 35, 22, 85, 14, 65, 75, 22, 58],3)==[85, 75, 65] ']"
+495,"Write a function that finds the number of ways to completely fill a 3 x n board using 2 x 1 dominoes.
+
+Example:
+def count_ways(n):
+    # your code
+    return n",['assert count_ways(2) == 3']
+496,"Write a Python function that checks whether two numbers differ at exactly one bit position.
+
+Example:
+def is_Power_Of_Two(x):
+    # your code
+    return x","['assert is_Power_Of_Two(13,9) == True']"
+497,"Write a function that uses regex to find all words in a string that are at least 4 characters long.
+
+Example:
+def find_char_long(text):
+    # your code
+    return text","['assert find_char_long(\'Please move back to stream\') == [\'Please\', \'move\', \'back\', \'stream\']']"
+498,"Write a function using a lambda function to find the squares of each unique element in a list.
+
+Example:
+def square_nums(nums):
+    # your code
+    return nums","['assert square_nums([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])==[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]']"
+499,"Write a Python function to find the minimum number of rotations required to obtain the original string again.
+
+Example:
+def find_Rotations(str):
+    # your code
+    return str","['assert find_Rotations(\""aaaa\"") == 1']"
+500,"Write a function that returns the n smallest items from a given dataset.
+
+Example:
+def small_nnum(list1, n):
+    # your code
+    return list1","['assert small_nnum([10, 20, 50, 70, 90, 20, 50, 40, 60, 80, 100],2)==[10,20]']"

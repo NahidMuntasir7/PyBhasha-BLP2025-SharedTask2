@@ -1,0 +1,801 @@
+id,instruction
+1,"Write a function that will determine the longest chain made from a given pair. Example:
+max_chain_length(lst, n)"
+2,"To find the first repeated letter in a given string, type a Python function. Example:
+first_repeated_char(s)"
+3,"Write a function that can get a discrete number smaller or equal to n. Example:
+get_ludic(n)"
+4,"Write a function to reverse the words of a given string. Example:
+reverse_words(s)"
+5,"Write a function to check whether the given integer is a base number. Example:
+prime_num(n)"
+6,"Write a function to convert the radian to a degree. Example:
+radian_degree(n)"
+7,"Enter a function to search for a literal string in a string and use the regex to find the position in the original string where the pattern occurs. Example:
+find_literals(s, s2)"
+8,"Write a Python function to find the nth ball number. Example:
+bell_Number(n)"
+9,"Enter a Python function to find the minimum possible value for the given periodic function. Example:
+floor_Min(n, n2, n3)"
+10,"Enter a Python function to remove the k'th element from a given list. Example:
+remove_kth_element(lst, n)"
+11,"Enter a function to find the maximum number of n-th columns from the given tip list. Example:
+max_of_nth(lst, n)"
+12,"Write a Python function that combines the first and last elements separately in the list of the list. Example:
+merge(lst)"
+13,"Enter a function to find the maximum value of the record list as the top characteristic in the given list. Example:
+maximum_value(lst)"
+14,"Enter a function to find the sequential sum of all values present in the given list of tips. Example:
+cummulative_sum(lst)"
+15,"Write a function to find the average value of a given number of numbers. Example:
+average_tuple(tup)"
+16,"Enter a function to perform the modulo of the two top-up elements given. Example:
+tuple_modulo(tup, tup2)"
+17,"Write a function to test the number of jumps of a given length required to reach a point of a form (d, 0) from a 2D plane to a source. Example:
+min_Jumps(n, n2, n3)"
+18,"Write a function to divide the lists using the map and the lambda function. Example:
+div_list(lst, lst2)"
+19,"Write a function so that all numbers can be transferred to a given string. Example:
+move_num(s)"
+20,"Write a function where each pair is divisible. Example:
+largest_subset(lst, n)"
+21,"Write a function that increases the numerical value by k in given strings. Example:
+increment_numerics(lst, n)"
+22,"Write a function to find the middle of two arranged lines of the same size. Example:
+get_median(lst, lst2, n)"
+23,"Write a function to find the n-th power of individual elements in a list using a Lambda function. Example:
+nth_nums(lst, n)"
+24,"Write a Python function to convert the given string into a larger handed letter. Example:
+is_upper(s)"
+25,"Enter a Python function to exchange the first and last elements of a given list. Example:
+swap_List(lst)"
+26,"Write a Python function so that the largest triangle that can be written in a semi-circle can be found. Example:
+triangle_area(n)"
+27,"To find the smallest missing number from the given array, type a Python function. Example:
+find_First_Missing(lst, n, n2)"
+28,"Enter a function to replace all the spaces of the given string with the letter * list item * list item * list item * list item '%20'. Example:
+replace_spaces(s)"
+29,"Write a Python function to even find numbers from a mixed list. Example:
+Split(lst)"
+30,"Write a function that extracts all the adjacent coordinates of the given coordinate array. Example:
+get_coordinates(tup)"
+31,"Write a function to replace a given string of white space with a redirect and vice versa. Example:
+replace_spaces(s)"
+32,"Write a Python function so that all zeros can be removed at the end of the list. Example:
+move_zero(lst)"
+33,"Write a Python function to find the sum of all the numbers in the given array. Example:
+pair_OR_Sum(lst, n)"
+34,"Write a Python function to find the sum of the fourth powers of the first n prime numbers. Example:
+even_Power_Sum(n)"
+35,"Write a function so that all the values are inserted into a single account and then the small values are extracted one after another. Example:
+heap_sort(lst)"
+36,"Write a Python function to check if the roots of a quadratic equation are competing with each other. Example:
+Check_Solution(n, n2, n3)"
+37,"Write a function that can be checked that there is no gain and no loss on the given amount Example:
+noprofit_noloss(n, n2)"
+38,"Write a function to calculate the air temperature indicator. Example:
+wind_chill(n, n2)"
+39,"Write a function that adds the length of the name after removing the names starting with a small letter from a names list. Example:
+sample_nam(lst)"
+40,"Enter a function to remove the blocked area in a string. Example:
+remove_parenthesis(lst)"
+41,"Write a function to find the nth non-geographic number. Example:
+is_nonagonal(n)"
+42,"Enter a function to remove similar rows from the given Tipol matrix. Example:
+remove_similar_row(lst)"
+43,"Write a function that does not begin or end with a word, but matches a word with a 'z'. Example:
+text_match_wordz_middle(s)"
+44,"Write a Python function to reverse an array in a given position. Example:
+reverse_Array_Upto_K(lst, n)"
+45,"Enter a function to find the product of its kth index in the given tables. Example:
+find_k_product(lst, n)"
+46,"Write a Python function that calculates the number of squares of a square of n size. Example:
+No_of_cubes(n, n2)"
+47,"Write a function to divide a string into large letters. Example:
+split_upperstring(s)"
+48,"Write a function to exchange each n-thm value position (n+1) and (n+1) with n-thm value in a given list. Example:
+exchange_elements(lst)"
+49,"Write a Python function to calculate the sum of the numbers of a list in a specified range of indices. Example:
+sum_Range_list(lst, n, n2)"
+50,"Write a Python function to check whether the given two arrays are equal. Example:
+are_Equal(lst, lst2, n, n2)"
+51,"Enter a function to check whether a tip is a subset of another tip. Example:
+check_subset(tup, tup2)"
+52,"Write a function so that the given tip matrix can be level in the tip list where each tip represents each column. Example:
+matrix_to_list(lst)"
+53,"Write a function that groups a key-value pair in a list dictionary using the collection module. Example:
+grouping_dictionary(lst)"
+54,"Write a function to find the area of a circle. Example:
+rectangle_perimeter(n, n2)"
+55,"Write a Python function that will find the sum of the fifth powers of n natural numbers. Example:
+fifth_Power_Sum(n)"
+56,"Write a Python function to find the minimum sum of two different arrays. Example:
+find_Min_Sum(lst, lst2, n)"
+57,"To find the first digit of a given number of factories, type a Python function. Example:
+first_Digit(n)"
+58,"Enter a function to find the item that appears the most times in a given list. Example:
+max_occurrences(lst)"
+59,"Enter a Python function to print a duplicate from the integer list. Example:
+Repeat(lst)"
+60,"Write a Python function so that it can select points from between two ranges so that there are no points between the two ranges. Example:
+find_Points(n, n2, n3, n4)"
+61,"Write a function so that the maximum sum is obtained which can be formed if the three following elements are not present. Example:
+max_sum_of_three_consecutive(lst, n)"
+62,"Enter a function to select a list in a dictionary. Example:
+sorted_dict(dct)"
+63,"Write a function to find the greatest possible value of k so that k modules x is y. Example:
+find_max_val(n, n2, n3)"
+64,"Write a Python function to find the mean of a certain number. Example:
+average_Even(n)"
+65,"Enter a Python function to move the first element at the end of the given list. Example:
+move_last(lst)"
+66,"Write a function to calculate the presence of a character in a string. Example:
+count_char(s, s2)"
+67,"Write a Python function to calculate the number of syllables in the string. Example:
+Check_Vow(s, s2)"
+68,"Write a Python function so that multiple presence of a character is replaced by a single. Example:
+replace(s, s2)"
+69,"Enter a function to check whether the IP address provided using Rejex is valid. Example:
+check_IP(s)"
+70,"Write a Python function to check if the tendency of a number sequence is decreasing. Example:
+decreasing_trend(lst)"
+71,"To the right, write a Python function to set the maximum bit. Example:
+set_Right_most_Unset_Bit(n)"
+72,"Write a function so that the maximum three numbers are found. Example:
+max_of_three(n, n2, n3)"
+73,"Write a Python function to convert a list of multiple integers into a single integer. Example:
+convert(lst)"
+74,"Write a function to remove duplicate words from a given string. Example:
+remove_duplicate(s)"
+75,"Write a function to add two integers. However, if the addition is within the given range, it will give 20. Example:
+sum_nums(n, n2, n3, n4)"
+76,"Write a function that removes everything except the alphanumeric letters from the given string using RJEX. Example:
+remove_extra_char(s)"
+77,"Write a function so that you can check whether the triangle is valid. Example:
+validity_triangle(n, n2, n3)"
+78,"Write a Python function to remove space from a given string. Example:
+remove_spaces(s)"
+79,"Write a function that accesses the elements of the dictionary key according to the index. Example:
+access_key(dct, n)"
+80,"Write a Python function to check if a number sequence is increasing. Example:
+increasing_trend(lst)"
+81,"Write a Python function to find the denominator of a number of smallest letters. Example:
+smallest_Divisor(n)"
+82,"Write a function to multiply two lists using the map and the length function. Example:
+mul_list(lst, lst2)"
+83,"Write a Python function that can be used to test whether a given number can be represented by the sum of two squares. Example:
+sum_Square(n)"
+84,"Write a Python function to calculate the presence of a character in a repeating string. Example:
+count_Char(s, s2)"
+85,"Write a Python function to find the sum of the prime numbers from 1 to N. Example:
+sum_Of_Primes(n)"
+86,"Enter a function to find the frequency of each element in the given list. Example:
+freq_element(tup)"
+87,"Write a function to find the greatest common divisor (GCD) of two integers using repetition. Example:
+recur_gcd(n, n2)"
+88,"Write a function to get a complex number length. Example:
+len_complex(n, n2)"
+89,"## Write a function so that the minimum number of steps to reach the end of the given integer array is found where each element represents the maximum number of steps that can be taken from that element. > Indented block > Indented block Example:
+min_jumps(lst, n)"
+90,"Write a function to multiply the next number of a given list. Example:
+mul_consecutive_nums(lst)"
+91,"Write a function to group the 1st elements based on the 2nd elements of the given tip list. Example:
+group_element(lst)"
+92,"Write a Python function to find the last two digits of a given number of factories. Example:
+last_Two_Digits(n)"
+93,"Write a function to remove multiple spaces in a string using Rejex. Example:
+remove_multiple_spaces(s)"
+94,"Write a function to extract unique value from the value of the given dictionary. Example:
+extract_unique(dct)"
+95,"Write a function to check whether each element of the second tip is larger than the corresponding index of the first tip. Example:
+check_greater(tup, tup2)"
+96,"Write a function that connects two lists together. Example:
+zip_list(lst, lst2)"
+97,"Enter a function to find the numerical element of the given list using the lambda function. Example:
+count_even(lst)"
+98,"Write a function that selects the items of the dictionary by the bulk of the items of the tip keys for a specific dictionary. Example:
+sort_dict_item(dct)"
+99,"Write a Python function for the minimum number of swaps required to convert a binary string into another. Example:
+min_Swaps(s, s2)"
+100,"Write a function to count the number of elements in a list that are in a specified range. Example:
+count_range_in_list(lst, n, n2)"
+101,"Enter a function to find the balance index of the given array. Example:
+equilibrium_index(lst)"
+102,"Write a function so that the minimum number of elements that should be removed as amx-amin <= k can be found. Example:
+removals(lst, n, n2)"
+103,"Write a function to verify whether the given key is in the dictionary. Example:
+is_key_present(dct, n)"
+104,"Write a function to calculate the harmonic sum of n-1. Example:
+harmonic_sum(n)"
+105,"Enter a function so that the list can be sorted according to length and value. Example:
+sort_sublists(lst)"
+106,"Enter a function to find out if an array is a subset of another array. Example:
+is_subset(lst, n, lst2, n2)"
+107,"Write a Python function to calculate the total set of bits from 1 to N. Example:
+count_Set_Bits(n)"
+108,"Write a Python function to convert a string into a list. Example:
+Convert(s)"
+109,"Write a function so that the unique key for each value present in the tip can be calculated. Example:
+get_unique(lst)"
+110,"Enter a function to access the initial and final data of the given module record. Example:
+front_and_rear(tup)"
+111,"Write a Python function that checks whether the multiplicity of a number of characters is even and oddly equal. Example:
+product_Equal(n)"
+112,"Write a function that removes duplicate from the list. Example:
+remove_duplicate(lst)"
+113,"Enter a function to check whether the given table contains all valid values. Example:
+check_valid(tup)"
+114,"Write a Python function that calculates the number of independent powers of a given number of prime factors. Example:
+count_Fac(n)"
+115,"Write a function that converts an integer into a given string. Example:
+str_to_tuple(s)"
+116,"Write a function to find the range of a rambs. Example:
+rombus_perimeter(n)"
+117,"Write a function to calculate the standard deviation. Example:
+sd_calc(lst)"
+118,"To create a list, type a function that takes an alternative element from another list. Example:
+alternate_elements(lst)"
+119,"Write a function that matches a string in which a after a contains zero or more b. Example:
+text_match(s)"
+120,"Write a function so that a dictionary can be added to the tip. Example:
+add_dict_to_tuple(tup, dct)"
+121,"Write a function that finds a path with the maximum average of all existing paths for a given square matrix of n*n size. Example:
+maxAverageOfPath(lst, n)"
+122,"Write a function that filters the height and width of students which is stored in a dictionary. Example:
+filter_data(dct, n, n2)"
+123,"Write a function to calculate the same pair in two lists using map function. Example:
+count_same_pair(lst, lst2)"
+124,"Write a function that counts the sum of all the numbers in the base at a specific power. Example:
+power_base_sum(n, n2)"
+125,"Enter a function to extract values from quotation marks of the given string using Ragex. Example:
+extract_quotation(s)"
+126,"Write a function to multiply the adjacent elements of the given tip. Example:
+multiply_elements(tup)"
+127,"Write a function to remove all letters without letters and numbers using RJEX Example:
+remove_char(s)"
+128,"Write a function to add two list elements. Example:
+sum_list(lst, lst2)"
+129,"Write a function to add two lists using the map and the lambda function. Example:
+add_list(lst, lst2)"
+130,"Enter a function to remove a duplicate from a given list. Example:
+consecutive_duplicates(lst)"
+131,"Write a function to find a cornered side area. Example:
+lateralsurface_cone(n, n2)"
+132,"Write a function so that all events of spaces, commas or points can be replaced in a column. Example:
+replace_specialchar(s)"
+133,"Enter a function to find the index of the first appearance of the number given in an ordered array. Example:
+find_first_occurrence(lst, n)"
+134,"Write a Python function so that the sum of all possible sub-rays produced is found. Example:
+sum_Of_Subarray_Prod(lst, n)"
+135,"Write a Python function so that the number of bits can be toggled without the first and last bits. Example:
+toggle_middle_bits(n)"
+136,"Enter a function to identify a specific value left entry point. Example:
+left_insertion(lst, n)"
+137,"Write a function that checks whether the given string is starting with a color or not using the regex. Example:
+check_str(s)"
+138,"Write a function to calculate the geometrical sum of n-1. Example:
+geometric_sum(n)"
+139,"Write a Python function so that n-digit smallest triangle number index is found. Example:
+find_Index(n)"
+140,"Write a function that converts a given tip to a key-value dictionary using the attached element. Example:
+tuple_to_dict(tup)"
+141,"Write a Python function to check if all the characters are the same. Example:
+all_Characters_Same(s)"
+142,"Write a function to determine the field of a tetrahydron. Example:
+area_tetrahedron(n)"
+143,"Write a function to turn a specific list in the right direction by a certain number of items. Example:
+rotate_right(lst, n, n2)"
+144,"Enter a function to check if the given tip has a zero value. Example:
+check_none(tup)"
+145,"To find a number in a certain range, write a function where each number is divisible by each digit in it. Example:
+divisible_by_digits(n, n2)"
+146,"Write a function to find the area of a sector. Example:
+sector_area(n, n2)"
+147,"Write a function that finds the longest common removal for the given three strings. Example:
+lcs_of_three(s, s2, s3, n, n2, n3)"
+148,"Write a function to keep space in words that begin with a large letter in a given string. Example:
+capital_words_spaces(s)"
+149,"Write a function that numerically arranges a given string of numbers. Example:
+sort_numeric_strings(lst)"
+150,"Enter a function so that the given tuple can be added to the given list. Example:
+add_tuple(lst, tup)"
+151,"Write a function to check whether the given array represents the minimum heap. Example:
+check_min_heap(lst, n)"
+152,"Enter a function to find the nth jackbustal number. Example:
+jacobsthal_num(n)"
+153,"Enter a function so that the minimum k records from the top list are available. Example:
+min_k(lst, n)"
+154,"Write a function to find the common index element from the three lists. Example:
+extract_index_list(lst, lst2, lst3)"
+155,"Write a function to find the second smallest number in a list. Example:
+second_smallest(lst)"
+156,"Write a function that matches a string that contains a zero or a 'b'. Example:
+text_match_zero_one(s)"
+157,"Enter a function to calculate the pair of opposite strings in the given string list. Example:
+count_reverse_pairs(lst)"
+158,"Enter a function to count the number of unique lists in a list. Example:
+unique_sublists(lst)"
+159,"Write a function that performs a decimal test with the accuracy of 2. Example:
+is_decimal(s)"
+160,"Enter a Python function to check if there is only one separate element in an array. Example:
+unique_Element(lst, n)"
+161,"Write a function to calculate the length of an arc of an angle. Example:
+arc_length(n, n2)"
+162,"Write a function to check whether the given month has 30 days. Example:
+check_monthnumber_number(n)"
+163,"Write a Python function to find the minimum difference between any two elements in a given array. Example:
+find_Min_Diff(tup, n)"
+164,"Write a Python function to calculate the numerical value in a given string. Example:
+number_ctr(s)"
+165,"Write a function to find the nth binary number. Example:
+is_polite(n)"
+166,"Enter a function to repeat on all subsequent items in a given list. Example:
+pair_wise(lst)"
+167,"Write a Python function so that the number of pairs can be calculated whose sum is equal to the sum. Example:
+get_Pairs_Count(lst, n, n2)"
+168,"Write a Python function to test the odd equality of a given number. Example:
+check_Odd_Parity(n)"
+169,"Write a Python function to differentiate between the two lists. Example:
+Diff(lst, lst2)"
+170,"First, write a Python function to find the sum of the fourth powers of the odd natural numbers. Example:
+odd_Num_Sum(n)"
+171,"Write a function to check whether the given expression is balanced. Example:
+check_expression(s)"
+172,"Write a function that removes all the words of k length of a given string. Example:
+remove_length(s, n)"
+173,"Enter a function to find the presence and position of the substring in a string. Example:
+occurance_substring(s, s2)"
+174,"Enter a function to check whether the string is a valid email address or do not use Rejex. Example:
+check_email(s)"
+175,"Write a Python function that checks whether each odd index contains odd numbers in the given list. Example:
+odd_position(lst)"
+176,"Write a function so that the letters that have the adjacent color of the given string can be counted. Example:
+count_vowels(s)"
+177,"To find the sum of the elements that are not repeated in a given array, type a Python function. Example:
+find_Sum(lst, n)"
+178,"Write a function to pack duplicates into sub-lists after the elements of a given list. Example:
+pack_consecutive_duplicates(lst)"
+179,"Enter a function to count the number of unique lists in a list. Example:
+unique_sublists(lst)"
+180,"Enter a function to find the combination of the sets with the given tips in the list. Example:
+find_combinations(lst)"
+181,"Write a Python function to verify whether the divisor number is odd or even. Example:
+count_Divisors(n)"
+182,"Write a Python function to find the sum of all odd lengths. Example:
+Odd_Length_Sum(lst)"
+183,"Write a function that converts rgb color to hsv color. Example:
+rgb_to_hsv(n, n2, n3)"
+184,"Write a function to find the first odd number and the result of a given number. Example:
+mul_even_odd(lst)"
+185,"Write a function that converts a string to a whole number. Example:
+tuple_str_int(s)"
+186,"Enter a function to identify the correct entry point for a specific value. Example:
+right_insertion(lst, n)"
+187,"Write a function that matches a string with a 'a' followed by three 'b'. Example:
+text_match_three(s)"
+188,"Enter a function to create a new template from the given string and list. Example:
+new_tuple(lst, s)"
+189,"Write a function to calculate the range of a regular polygon. Example:
+perimeter_polygon(n, n2)"
+190,"Write a Python function that checks whether each pair of indicators contains a pair of numbers in the given list. Example:
+even_position(lst)"
+191,"Enter a function to remove nested records from the given module. Example:
+remove_nested(tup)"
+192,"Write a Python function to count the list in a specific number of lists. Example:
+count_list(lst)"
+193,"Write a Python function to find the last position of an element in an array. Example:
+last(lst, n, n2)"
+194,"Write a function that matches a string with something after 'a', which ends with 'b'. Example:
+text_starta_endb(s)"
+195,"Enter a function to find items of lowest price from a dataset. Example:
+cheap_items(lst, n)"
+196,"Write a function to find the sum of all the items in the given dictionary. Example:
+return_sum(dct)"
+197,"Write a Python function to find the sum of all the odd natural numbers between l and r. Example:
+sum_in_Range(n, n2)"
+198,"Write a Python function to find the sum of an array. Example:
+_sum(lst)"
+199,"Write a Python function that turns a given number of bits to the left. Example:
+left_Rotate(n, n2)"
+200,"Enter a function to remove all white space from a string. Example:
+remove_all_spaces(s)"
+201,"Write a Python function that counts the number of equal numbers from three integers. Example:
+test_three_equal(n, n2, n3)"
+202,"Write a Python function to calculate the number of rotations required to create an array. Example:
+count_Rotation(lst, n)"
+203,"Write a Python function to check if the given number is a perfect square. Example:
+is_Perfect_Square(n)"
+204,"Write a Python function to check whether the multiples of numbers are paired. Example:
+is_Product_Even(lst, n)"
+205,"Write a function so that a list of elements with the maximum number of elements can be found. Example:
+max_sum_list(lst)"
+206,"Enter a function to find the maximum number of large characters in a given string. Example:
+max_run_uppercase(s)"
+207,"Write a Python function so that the first odd number is found in a given number list. Example:
+first_odd(lst)"
+208,"Write a function that can be checked to see if there is k in the given tables. Example:
+check_K(tup, n)"
+209,"Write a function to check whether each element of the second tip is smaller than the corresponding index of the first tip. Example:
+check_smaller(tup, tup2)"
+210,"Write a function so that the elements repeat the number of times. Example:
+count_variable(n, n2, n3, n4)"
+211,"Write a function that checks whether the two list topals are the same. Example:
+check_identical(lst, lst2)"
+212,"Enter a function to abbreviate 'road' to 'rd.' in a given string. Example:
+road_rd(s)"
+213,"Write a function to find the length of the string. Example:
+string_length(s)"
+214,"Write a function to find a field of rambs. Example:
+rombus_area(n, n2)"
+215,"Enter a function to select a given array without using any sorting algorithm. The given array consists only of 0, 1, and 2. Example:
+sort_by_dnf(lst, n)"
+216,"Write a function to clear the values of the given tables. Example:
+clear_tuple(tup)"
+217,"Write a function to find a number divisible by m or n from the number list using the lambda function. Example:
+div_of_nums(lst, n, n2)"
+218,"Write a Python function to calculate small hand characters in a given string. Example:
+lower_ctr(s)"
+219,"Write a function to calculate the frequency of the duplicate elements in a given number list. Example:
+count_duplic(lst)"
+220,"Write a function that can be used to check whether the given month has 28 days. Example:
+check_monthnum_number(n)"
+221,"Write a function so that two dictionaries are combined into a single expression. Example:
+merge_dictionaries(dct, dct2)"
+222,"Enter a function to return true if the password is valid. Example:
+pass_validity(s)"
+223,"Write a function that checks whether the given string starts with a substring using Rejex. Example:
+check_substring(s, s2)"
+224,"Enter a Python function to remove the same number from a given list. Example:
+remove_even(lst)"
+225,"Enter a Python function to access multiple elements of a specified index from a specified list. Example:
+access_elements(lst, lst2)"
+226,"Write a Python function to find the type of triangle from the given direction. Example:
+check_Type_Of_Triangle(n, n2, n3)"
+227,"Enter a function for the sum of a specific column in a specified list. Example:
+sum_column(lst, n)"
+228,"Write a function to count the letters, numbers and special characters in a given string. Example:
+count_alpha_dig_spl(s)"
+229,"Enter a function to find the second most repeated (or frequent) string of the given order. Example:
+second_frequent(lst)"
+230,"Write a function to round a number to a specified number. Example:
+round_up(n, n2)"
+231,"Write a Python function to calculate the sum of equal elements from a given array. Example:
+count_Pairs(lst, n)"
+232,"Write a function to extract the maximum numeric value from a string using Ragex. Example:
+extract_max(s)"
+233,"Write a function to get a list of what dictionary is. Example:
+get_key(dct)"
+234,"To create a square matrix, write a function that is filled with elements from 1 to n that are raised in order of magnitude to the power of 2. Example:
+generate_matrix(n)"
+235,"Write a Python function to find a linear slope. Example:
+slope(n, n2, n3, n4)"
+236,"Write a function so that the length of the sub-array with the maximum addition can be found. Example:
+max_sub_array_sum(lst, n)"
+237,"First, write a Python function to find the sum of the squares of the odd natural numbers. Example:
+cube_Sum(n)"
+238,"Write a Python function so that the minimum number of swipes is required to equate two binary strings. Example:
+min_Swaps(s, s2)"
+239,"Write a function so that the tables can be arranged alphabetically by the first item of each tab. Example:
+sort_tuple(lst)"
+240,"Write a Python function to check whether the root of a quadratic equation is numerically equal but opposite in the case of a sign. Example:
+Check_Solution(n, n2, n3)"
+241,"Enter a function to calculate the number of opposites in the given array. Example:
+get_inv_count(lst, n)"
+242,"Write a function to find the number of odd times that occur in a given array. Example:
+get_odd_occurence(lst, n)"
+243,"Write a function that uses a hip-key algorithm to find the n-th super-number from a given main list of k sizes. Example:
+nth_super_ugly_number(n, lst)"
+244,"First, write a Python function to find the kth element in an array containing odd elements and then even elements. Example:
+get_Number(n, n2)"
+245,"Write a Python function to calculate the number of factories of a given number. Example:
+find_Digits(n)"
+246,"Enter a function to find the minimum number of platforms required for railway/bus stations. Example:
+find_platform(lst, lst2, n)"
+247,"Write a Python function to copy a list from a singleton tip. Example:
+lcopy(lst)"
+248,"Write a function to find the field of a trapezium. Example:
+area_trapezium(n, n2, n3)"
+249,"Write a Python function to find the sum of all the characters in a given number. Example:
+Sum(n)"
+250,"Write a function with which we can verify that it is possible to create a triangle of a positive field with the given angles. Example:
+is_triangleexists(n, n2, n3)"
+251,"Write a Python function to find the inverse sum of the divisors. Example:
+Sum_of_Inverse_Divisors(n, n2)"
+252,"Write a Python function to remove a negative number from a list. Example:
+remove_negs(lst)"
+253,"Write a Python function to find the sum of odd multiples of a number. Example:
+sum_of_odd_Factors(n)"
+254,"Write a function that takes a random list and converts it to a function using the hip-key algorithm. Example:
+raw_heap(lst)"
+255,"Write a Python function to test the equality of a given number. Example:
+check_Even_Parity(n)"
+256,"Enter a Python function to find the minimum adjacent swaps required to select a binary array. Example:
+find_Min_Swaps(lst, n)"
+257,"Enter a function to list the given strings separately using map function. Example:
+listify_list(lst)"
+258,"Write a list that counts a list list and a list of counting squares. Example:
+count_list(lst)"
+259,"Enter a function to create a given list of all sub-lists. Example:
+sub_lists(lst)"
+260,"Do not enter a function or use regex to check whether the given string is ending with only alphabetic characters. Example:
+check_alphanumeric(s)"
+261,"Enter a function to find all the angles of a string in a given list of strings using the Lambda function. Example:
+anagram_lambda(lst, s)"
+262,"Write a function to find the presence of the most common words in a specific text. Example:
+n_common_words(s, n)"
+263,"Write a function so that the length of the longest sub-order is found so that the elements of the sub-order are consecutive integers. Example:
+find_longest_conseq_subseq(lst, n)"
+264,"Enter a function to find palindromes in a given list of strings using the lambda function. Example:
+palindrome_lambda(lst)"
+265,"Write a function to print a list n times using map function. Example:
+ntimes_list(lst, n)"
+266,"Write a function to check whether there are 31 days in the given month. Example:
+check_monthnumb(s)"
+267,"Write a Python function so that a minimum number can be added so that the sum of the arrays is even. Example:
+min_Num(lst, n)"
+268,"To find the length of the last word of a given string, type a Python function. Example:
+length_Of_Last_Word(s)"
+269,"Enter a function from a given list that will remove the sub-list from a given list outside a given range. Example:
+remove_list_range(lst, n, n2)"
+270,"Write a function to calculate the sum of the positive numbers of a given number list using the Lambda function. Example:
+sum_positivenum(lst)"
+271,"Write a Python function to check whether the given strings rotate with each other. Example:
+are_Rotations(s, s2)"
+272,"Enter a function to check whether a nested list is a subset of another nested list. Example:
+check_subset(lst, lst2)"
+273,"Write a function to solve the problem using repetition. Example:
+fibonacci(n)"
+274,"Enter a Python function to check if a string is connected to another string. Example:
+check_Concat(s, s2)"
+275,"Write a function that finds the minimum difference between the multiple pairs of given sets. Example:
+min_difference(lst)"
+276,"Write a Python function to find the length of two positive integers. Example:
+lcm(n, n2)"
+277,"Except for the following: Example:
+sort_String(s)"
+278,"Enter a function to check if the given tip contains only k elements. Example:
+check_tuples(tup, lst)"
+279,"Write a function that matches a string with something after 'a', ending with 'b' using the regex. Example:
+text_match(s)"
+280,"Write a Python function that will find the number of solutions to the square equation. Example:
+Check_Solution(n, n2, n3)"
+281,"Write a function to find the sum of the first odd numbers and odd numbers in a given list. Example:
+sum_even_odd(lst)"
+282,"Write a function to calculate the range of an equation. Example:
+parallelogram_perimeter(n, n2)"
+283,"Enter a function to find a number divided by m and n from the number list using the lambda function. Example:
+div_of_nums(lst, n, n2)"
+284,"Write a Python function so that all bits are in a certain range to be checked. Example:
+all_Bits_Set_In_The_Given_Range(n, n2, n3)"
+285,"Enter a Python function to verify that the two given strings are isomorphic to each other. Example:
+is_Isomorphic(s, s2)"
+286,"Write a function so that all numbers in a list can be added and divided by the length of the list. Example:
+sum_num(tup)"
+287,"Use the bitwise operator to enter a Python function to check if the given number is odd. Example:
+is_odd(n)"
+288,"Write a function to subtract the elements of the given nested tuple. Example:
+substract_elements(tup, tup2)"
+289,"Write a list that is the opposite of each list list. Example:
+reverse_list_lists(lst)"
+290,"Enter a Python function to find an index of additional elements present in an array. Example:
+find_Extra(lst, lst2, n)"
+291,"Write a Python function so that two numbers have the same number of digits. Example:
+same_Length(n, n2)"
+292,"Write a function to remove multiple spaces in a string. Example:
+remove_spaces(s)"
+293,"Write a Python function to get the last element of each sublist. Example:
+Extract(lst)"
+294,"Type a function to convert a given string of float type to tuple. Example:
+float_to_tuple(s)"
+295,"Write a function to find the maximum sum of the set of elements without any associated elements. Example:
+max_sum_subseq(lst)"
+296,"Write a function that arranges a list in increasing order. Example:
+sort_list_last(lst)"
+297,"Write a Python function to check whether the word is present in a given sentence. Example:
+is_Word_Present(s, s2)"
+298,"Write a function to extract a certain number of elements from a given list, which follow each other continuously. Example:
+extract_elements(lst, n)"
+299,"Enter a Python function to check whether an array can be sorted by selecting only the corner element. Example:
+check(lst, n)"
+300,"Write a function where a string will start with a certain number. Example:
+match_num(s)"
+301,"Write a Python function to find the general division between two numbers in a specific set. Example:
+num_comm_div(n, n2)"
+302,"Write a Python function to find the remaining two numbers. Example:
+find(n, n2)"
+303,"Enter a function to add a number to a given list. Example:
+add_consecutive_nums(lst)"
+304,"First, write a Python function to find the sum of the squares of the natural numbers. Example:
+sum_Of_Series(n)"
+305,"Write a function that removes all zeros at the end of a given row. Example:
+re_order(lst)"
+306,"Write a function to calculate the permutation coefficient of given p (n, k). Example:
+permutation_coefficient(n, n2)"
+307,"Write a function to remove a specific word from a specific list. Example:
+remove_words(lst, lst2)"
+308,"Write a function that checks whether the common elements from the two lists are in the same order. Example:
+same_order(lst, lst2)"
+309,"Write a Python function to find the average number of odd numbers up to a given odd number. Example:
+average_Odd(n)"
+310,"Enter a function to find the number of sub-orders with a product smaller than k for a given non-negative array. Example:
+no_of_subsequences(lst, n)"
+311,"Write a Python function to find the minimum sum of a given number of factors. Example:
+find_Min_Sum(n)"
+312,"Write a function to calculate the frequency of the element on the mixed nested tip. Example:
+count_element_freq(tup)"
+313,"Enter a function to convert the input into a list by adding the given string after each element. Example:
+add_str(tup, s)"
+314,"Enter a function to find the sum of the elements of the given tip list. Example:
+sum_elements(tup)"
+315,"Write a function that checks whether there is a subset with a sum divided by m. Example:
+modular_sum(lst, n, n2)"
+316,"Write a function that selects a list of elements using the radiks selection. Example:
+radix_sort(lst)"
+317,"To find the largest positive number from the given list, type a Python function. Example:
+largest_pos(lst)"
+318,"Write a function for an integer square root. Example:
+sqrt_root(n)"
+319,"Write a function to calculate the volume of a tetrahydron. Example:
+volume_tetrahedron(n)"
+320,"Enter a function to find the lcm of the given array elements. Example:
+get_lcm(lst)"
+321,"Write a function to check whether the triangulation is scaled. Example:
+check_isosceles(n, n2, n3)"
+322,"Enter a function to find the longest bitonic removal for the given array. Example:
+lbs(lst)"
+323,"Write a function using the Lambda function to check whether a given string has a large letter, a small letter, a number and a specific length. Example:
+check_string(s)"
+324,"Write a function to find the sum of the maximum increasing subtractions of the given array. Example:
+max_sum_increasing_subsequence(lst, n)"
+325,"Write a Python function to check whether the two given lines are parallel. Example:
+parallel_lines(lst, lst2)"
+326,"Write a Python function to write the first and last letters of each word of a given string. Example:
+capitalize_first_last_letters(s)"
+327,"Write a function to find all the pairs in an integer array whose sum is equal to a given number. Example:
+get_pairs_count(lst, n, n2)"
+328,"Enter a function to find the list of minimum lengths. Example:
+min_length(lst)"
+329,"Enter a function to find the nth Jacobstall-Luke number. Example:
+jacobsthal_lucas(n)"
+330,"Write a function to find the ratio of negative numbers in an array of integers. Example:
+negative_count(lst)"
+331,"Write a function to find the minimum number of coins that create a given value. Example:
+min_coins(lst, n, n2)"
+332,"Write a function that checks whether these two strings are permutations of each other. Example:
+check_permutation(s, s2)"
+333,"Enter a function to remove specific data type elements from the given module. Example:
+remove_datatype(tup, param)"
+334,"Enter a function to search for a literal string in a string and find the position in the original string where the pattern occurs. Example:
+search_literal(s, s2)"
+335,"Enter a function to find the field of the top or bottom of a cylinder. Example:
+topbottom_surfacearea(n)"
+336,"Enter a function to select the n-th item from a list. Example:
+nth_items(lst, n)"
+337,"Write a Python function to find the first repeated word in a given string. Example:
+first_repeated_word(s)"
+338,"Enter a Python function to convert a given string list to a tip. Example:
+string_list_to_tuple(tup)"
+339,"Write a function to create a list containing the power of these numbers based on the corresponding number of indices using map function. Example:
+basesnum_coresspondingnum(lst, lst2)"
+340,"To find the difference between the highest and lowest frequencies in a given array, type a Python function. Example:
+find_Diff(lst, n)"
+341,"Write a function that will let you know if the given number is abundant. Example:
+check_abundant(n)"
+342,"Write a function that replaces all the events of a given string, comma or point with a column in place of the given string using the regex. Example:
+fill_spaces(s)"
+343,"Write a function to add two numbers and print the sum number. Example:
+count_digits(n, n2)"
+344,"Write a function to level a string to a list of tips. Example:
+flatten_tuple(lst)"
+345,"Write a Python function that toggles a given number first and last bit. Example:
+toggle_F_and_L_bits(n)"
+346,"Write a function to find the last appearance of a letter in a string. Example:
+last_occurence_char(s, s2)"
+347,"Write a Python function so that the sum of all the following numbers from o to n is found. Example:
+Total_Hamming_Distance(n)"
+348,"Write a function to find the length of the longest growing removal of the given sequence. Example:
+longest_increasing_subsequence(lst)"
+349,"First, write a Python function to find the sum of the powers of the fifth natural number. Example:
+odd_Num_Sum(n)"
+350,"Write a Python function to find the most elements in an array arranged and rotated. Example:
+find_Max(lst, n, n2)"
+351,"Enter a function to extract a specific column from a given nested list. Example:
+extract_column(lst, n)"
+352,"Write a Python function to check whether a given order is linear. Example:
+Seq_Linear(lst)"
+353,"Write a function that will convert the given set to a floating-point number. Example:
+tuple_to_float(tup)"
+354,"Write a Python function to find odd numbers from a mixed list. Example:
+Split(lst)"
+355,"Write a Python function to find the difference between the sum of the squares of the first n natural numbers and the sum of the first n natural numbers. Example:
+difference(n)"
+356,"Write a Python function that combines x with odd numbers to calculate. Example:
+find_Odd_Pair(lst, n)"
+357,"Write a function to toggle a character case into a string. Example:
+toggle_string(s)"
+358,"Write a Python function to find the distance between two integers. Example:
+digit_distance_nums(n, n2)"
+359,"Enter a function to find the greatest sum of the adjacent sub-arrays in the given array. Example:
+max_sub_array_sum(lst, n)"
+360,"Write a function to find the union of the elements of the given topals. Example:
+union_elements(tup, tup2)"
+361,"Write a function so that each element, its pair of elements, can be allocated from other similar pair of given tips. Example:
+assign_elements(lst)"
+362,"To find the maximum length of the sublist, type a Python function. Example:
+Find_Max_Length(lst)"
+363,"Enter a function to extract value from a string's quotation marks. Example:
+extract_values(s)"
+364,"Write a Python function to calculate the sum of the elements from the given array. Example:
+count_Pairs(lst, n)"
+365,"Write a Python function to divide a string into letters. Example:
+split(s)"
+366,"Write a function to get a non-negative integer sum. Example:
+sum_digits(n)"
+367,"Enter a function to check if a specific list is arranged. Example:
+issort_list(lst)"
+368,"Write a function to create a list of words. Example:
+empty_list(n)"
+369,"Enter a function to select the sublist of each string of a given list. Example:
+sort_sublists(lst)"
+370,"Enter a function to remove words from a given list of strings containing a letter or string. Example:
+remove_words(lst, lst2)"
+371,"Write a function to find the maximum possible sum of a given number and k for a given number. Example:
+max_sum_pair_diff_lessthan_K(lst, n, n2)"
+372,"Enter a Python function to remove two duplicate numbers from a specified number list. Example:
+two_unique_nums(lst)"
+373,"Write a Python function to calculate the unique number of a given list. Example:
+unique_product(lst)"
+374,"Enter a function to find the area below the surface of a cylinder. Example:
+surfacearea_cylinder(n, n2)"
+375,"To find the n-thm number in an order, write a Python function that is not a polynomial of the given number. Example:
+count_no(n, n2, n3, n4)"
+376,"Write a Python function to check whether one array is a sub-order of another. Example:
+is_Sub_Array(lst, lst2, n, n2)"
+377,"To find the last digit of a given number of factories, type a Python function. Example:
+last_Digit_Factorial(n)"
+378,"Write a function to combine the list of the same length. Example:
+interleave_lists(lst, lst2, lst3)"
+379,"Write a function to find different elements in the given two groups. Example:
+find_dissimilar(tup, tup2)"
+380,"Write a function so that all the elements can be extracted from the nested mixture. Example:
+extract_even(tup)"
+381,"Write a Python function to find the area below the surface of the square pyramid. Example:
+surface_Area(n, n2)"
+382,"Write a function to check if there is a dictionary open. Example:
+my_dict(dct)"
+383,"Write a function for the nth Catalan number. Example:
+catalan_number(n)"
+384,"Use Rejex to write a function to find all the adjectives and their position in a specific sentence. Example:
+find_adverbs(s)"
+385,"Write a function to find items of n-expensive value from a dataset. Example:
+expensive_items(lst, n)"
+386,"Write a Python function so that the array is divided and the first part is added at the end. Example:
+split_Arr(lst, n, n2)"
+387,"Write a function to convert a list to a tip. Example:
+list_tuple(lst)"
+388,"To find the difference between the largest and smallest values in a given array, type a Python function. Example:
+big_diff(lst)"
+389,"Write a function to find the perfect square between two given numbers. Example:
+perfect_squares(n, n2)"
+390,"Write a function that converts a polar coordinate into an area coordinate. Example:
+polar_rect(n, n2)"
+391,"Write a Python function to exchange the first and last elements of a list. Example:
+swap_List(lst)"
+392,"Write a Python function to find the sum of the product of two coefficients. Example:
+sum_Of_product(n)"
+393,"Enter a function to remove the top zeroes from an IP address. Example:
+removezero_ip(s)"
+394,"Write a function to find the difference between the first odd number and odd number in a given list. Example:
+diff_even_odd(lst)"
+395,"Write a Python function to calculate the minimum number of swaps required to convert a binary string into another. Example:
+min_Swaps(s, s2)"
+396,"Write a function to find the size of the given tip. Example:
+tuple_size(tup)"
+397,"Write a function to find the k-most element from the given two ordered arrays. Example:
+find_kth(lst, lst2, n, n2, n3)"
+398,"Enter a function to check whether the given number is armply. Example:
+armstrong_number(n)"
+399,"Write a function to find the sum of the first n natural numbers and the mean. Example:
+sum_average(n)"
+400,"Enter a Python function to check whether the given number is paired using the Bitwise operator. Example:
+is_Even(n)"

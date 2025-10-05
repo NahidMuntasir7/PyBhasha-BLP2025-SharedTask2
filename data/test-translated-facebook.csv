@@ -1,0 +1,2001 @@
+id,instruction
+1,"Enter a Python function to remove the first and last appearance of the given letter from the string. Example:
+def remove_Occ(s,ch):
+    # your code
+    return s"
+2,"Write a function to arrange a given matrix in increasing order according to the sum of its rows. Example:
+def sort_matrix(M):
+    # your code
+    return M"
+3,"Write a function that calculates the most common words in a dictionary. Example:
+def count_common(words):
+    # your code
+    return words"
+4,"Write a Python function to find the size of a triangular prime. Example:
+def find_Volume(l,b,h) :
+    # your code
+    return l"
+5,"Write a function to divide a string into small letters. Example:
+def split_lowerstring(text):
+    # your code
+    return text"
+6,"Write a function so that the sequence of small letters is found. Example:
+def text_lowercase_underscore(text):
+    # your code
+    return text"
+7,"Write a function to find the area of a square. Example:
+def square_perimeter(a):
+    # your code
+    return a"
+8,"Enter a function to remove the characters from the first string to the second string. Example:
+def str_to_list(string):
+    # your code
+    return string"
+9,"Enter a function to find out if there is any replica element in a specific integer array. Example:
+def test_duplicate(arraynums):
+    # your code
+    return arraynums"
+10,"Write a function to check whether the given number is a string. Example:
+def is_woodall(x):
+    # your code
+    return x"
+11,"Write a function that the n-number multiplier of m will find. Example:
+def multiples_of_num(m,n):
+    # your code
+    return m"
+12,"Write a function to find the first duplicate element in an integer array. Example:
+def find_first_duplicate(nums):
+    # your code
+    return nums"
+13,"Write a Python function so that the maximum sum of the elements in the list is available. Example:
+def maximum_Sum(list1):
+    # your code
+    return list1"
+14,"Write a function that converts a given binary number to its decimal equivalent. Example:
+def binary_to_decimal(binary):
+    # your code
+    return binary"
+15,"To find the product of the elements that are not repeated in a given array, type a Python function. Example:
+def find_Product(arr,n):
+    # your code
+    return arr"
+16,"Enter a function to check whether there are elements in the given table. Example:
+def check_k_elements(test_list, K):
+    # your code
+    return test_list"
+17,"Enter a Python function to remove all the points from a string list. Example:
+def remove(list):
+    # your code
+    return list"
+18,"Write a Python function to find the binary. Example:
+def binomial_Coeff(n,k):
+    # your code
+    return n"
+19,"Write a Python function to find the element that appears oddly many times. Example:
+def get_Odd_Occurrence(arr,arr_size):
+    # your code
+    return arr"
+20,"Write a Python function to calculate all the substrings that start and end with the same letter. Example:
+def check_Equality(s):
+    # your code
+    return s"
+21,"Write a function that is arranged using the hip-key algorithm and finds the top k integers that occur most frequently from the list of individual integers. Example:
+def func(nums, k):
+    # your code
+    return nums"
+22,"Write a Python function to find the largest prime factor of a given number. Example:
+def max_Prime_Factors (n):
+    # your code
+    return n"
+23,"Write a Python function to convert a decimal number to a binary number. Example:
+def decimal_To_Binary(N):
+    # your code
+    return N"
+24,"To find missing numbers in an array, type a Python function. Example:
+def find_missing(ar,N):
+    # your code
+    return ar"
+25,"Write a function to find the number of n-th rectangles. Example:
+def find_rect_num(n):
+    # your code
+    return n"
+26,"Write a Python function to find the n-th point of the correct fraction of two given numbers. Example:
+def find_Nth_Digit(p,q,N) :
+    # your code
+    return p"
+27,"Enter a function to select a mixed list of integers and strings. Example:
+def sort_mixed_list(mixed_list):
+    # your code
+    return mixed_list"
+28,"Write a function to find the first sum of a given list and the odd number distribution. Example:
+def div_even_odd(list1):
+    # your code
+    return list1"
+29,"To check whether the letters of a given string can be rearranged, write a function so that the two adjacent letters are different. Example:
+def rearange_string(S):
+    # your code
+    return S"
+30,"Write a function that finds the frequency of elements in a given list of elements in a list using the collection module. Example:
+def freq_element(nums):
+    # your code
+    return nums"
+31,"Write a function to filter the same number using the lambda function. Example:
+def filter_evennumbers(nums):
+    # your code
+    return nums"
+32,"Write a Python function to find the sum of the repeated elements in a given array. Example:
+def find_Sum(arr,n):
+    # your code
+    return arr"
+33,"Write a function to find the sequence of small letters connected by a line using the Rejex. Example:
+def text_match(text):
+    # your code
+    return text"
+34,"Write a function that matches a word at the beginning of the string. Example:
+def text_match_string(text):
+    # your code
+    return text"
+35,"Enter a function to find the GCD of the given array elements. Example:
+def find_gcd(x, y):
+    # your code
+    return x"
+36,"Write a Python function that determines whether all numbers are different from each other. Example:
+def test_distinct(data):
+    # your code
+    return data"
+37,"Write a Python function to find the last digit when a of its factorial divides the factorial of b. Example:
+def compute_Last_Digit(A,B):
+    # your code
+    return A"
+38,"Write a Python function to set all the odd bits of a given number. Example:
+def odd_bit_set_number(n):
+    # your code
+    return n"
+39,"Write a function to extract each element from a given two-dimensional list. Example:
+def specified_element(nums, N):
+    # your code
+    return nums"
+40,"Enter a function to find the list of minimum lengths using the lambda function. Example:
+def min_length_list(input_list):
+    # your code
+    return input_list"
+41,"Write a function so that the printer checks whether the triangle is equal to the side. Example:
+def check_equilateral(x,y,z):
+    # your code
+    return x"
+42,"Write a function to calculate the field of parallel axes. Example:
+def parallelogram_area(b,h):
+    # your code
+    return b"
+43,"Write a Python function to check if the first and last letters of a given string are equal. Example:
+def check_Equality(str):
+    # your code
+    return str"
+44,"Write a function that selects the given array using calculation selection. Example:
+def counting_sort(my_list):
+    # your code
+    return my_list"
+45,"Write a function to find the T-number of the geometric series. Example:
+def tn_gp(a,n,r):
+    # your code
+    return a"
+46,"Write a Python function to check if a given number is less than twice its inverse. Example:
+def rev(num):
+    # your code
+    return num"
+47,"Write a Python function so that the largest number can be created with a given number. Example:
+def find_Max_Num(arr,n) :
+    # your code
+    return arr"
+48,"Write a Python function to check whether two integers have opposite marks. Example:
+def opposite_Signs(x,y):
+    # your code
+    return x"
+49,"Write a function to find the nth octahedral number. Example:
+def is_octagonal(n):
+    # your code
+    return n"
+50,"Enter a function to find the maximum length of the subtraction, including the difference between the adjacent elements for the given array. Example:
+def max_len_sub( arr, n):
+    # your code
+    return arr"
+51,"Write a Python function so that numbers can count substrings with the same number of their lengths. Example:
+def count_Substrings(s,n):
+    # your code
+    return s"
+52,"Write a Python function to find the smallest number in a list. Example:
+def smallest_num(xs):
+    # your code
+    return xs"
+53,"To find the most difference between the available pairs in the given list of tips, type a function. Example:
+def max_difference(test_list):
+    # your code
+    return test_list"
+54,"Enter a function to select a list of tabs using lambda. Example:
+def subject_marks(subjectmarks):
+    # your code
+    return subjectmarks"
+55,"Write a function of the repeating list set. Example:
+def recursive_list_sum(data_list):
+    # your code
+    return data_list"
+56,"Write a Python function to calculate a positive number in a list. Example:
+def pos_count(list):
+    # your code
+    return list"
+57,"Write a function so that there is a number of ways to divide a Bell Number set. Example:
+def bell_number(n):
+    # your code
+    return n"
+58,"Write a Python function to check whether the given array is unique. Example:
+def is_Monotonic(A):
+    # your code
+    return A"
+59,"Enter a function to check whether a list contains a given sub-list. Example:
+def is_sublist(l, s):
+    # your code
+    return l"
+60,"Write a function that will find out if all the topals are equal length. Example:
+def find_equal_tuple(Input, k):
+    # your code
+    return Input"
+61,"Write a function that selects a list of components using compsort. Example:
+def comb_sort(nums):
+    # your code
+    return nums"
+62,"Write a Python function that can be used to test whether a given number can be represented as a difference between two squares. Example:
+def dif_Square(n):
+    # your code
+    return n"
+63,"Write a function to divide the given string by multiple dilimeter using Rejex. Example:
+def multiple_split(text):
+    # your code
+    return text"
+64,"Enter a function that checks whether it follows the order given in the patterns array. Example:
+def is_samepatterns(colors, patterns):
+    # your code
+    return colors"
+65,"Write a function so that tuples are found whose elements are divisible by k. Example:
+def find_tuples(test_list, K):
+    # your code
+    return test_list"
+66,"Write a Python function to calculate the number of squares in a rectangle. Example:
+def count_Squares(m,n):
+    # your code
+    return m"
+67,"Write a Python function so that you can find the difference between the sum of the odd numbers. Example:
+def is_Diff(n):
+    # your code
+    return n"
+68,"Write a Python function to find an integer number with odd number set bits. Example:
+def count_With_Odd_SetBits(n):
+    # your code
+    return n"
+69,"Write a Python function so that the length of the word can be checked. Example:
+def word_len(s):
+    # your code
+    return s"
+70,"Write a function to find the nth tetrahedral number. Example:
+def tetrahedral_number(n):
+    # your code
+    return n"
+71,"Write a function that zips two tuplets. Example:
+def zip_tuples(test_tup1, test_tup2):
+    # your code
+    return test_tup1"
+72,"Write a function to find the diameter of a sphere. Example:
+def volume_sphere(r):
+    # your code
+    return r"
+73,"Enter a Python function to find the character created by adding all the characters in the given string. Example:
+def get_Char(strr):
+    # your code
+    return strr"
+74,"Write a function to find the n-th number of the Newman conway sequence. Example:
+def sequence(n):
+    # your code
+    return n"
+75,"Write a function to find the area below the surface of a sphere. Example:
+def surfacearea_sphere(r):
+    # your code
+    return r"
+76,"Write a function that will find the nth centred hexagonal number. Example:
+def centered_hexagonal_number(n):
+    # your code
+    return n"
+77,"Write a function so that the three dictionaries are combined into a single expression. Example:
+def merge_dictionaries_three(dict1,dict2, dict3):
+    # your code
+    return dict1"
+78,"Write a function to get the frequency of a list of elements. Example:
+def freq_count(list1):
+    # your code
+    return list1"
+79,"Write a function to find the nearest number smaller than n. Example:
+def closest_num(N):
+    # your code
+    return N"
+80,"Write a Python function to find the length of the longest words. Example:
+def len_log(list1):
+    # your code
+    return list1"
+81,"Enter a function to check if a substring is present in a string value list. Example:
+def find_substring(str1, sub_str):
+    # your code
+    return str1"
+82,"Write a function to check whether the given number is waveled. Example:
+def is_undulating(n):
+    # your code
+    return n"
+83,"Write a function to calculate the value of a to the power of b. Example:
+def power(a,b):
+    # your code
+    return a"
+84,"Enter a function to extract the index minimum value record from the given top. Example:
+def index_minimum(test_list):
+    # your code
+    return test_list"
+85,"Enter a Python function so that the minimum length of the sublist is available. Example:
+def Find_Min_Length(lst):
+    # your code
+    return lst"
+86,"Write a Python function to find the divisor number of a given integer. Example:
+def divisor(n):
+    # your code
+    return n"
+87,"Enter a function to find the frequency calculation of the list list. Example:
+def frequency_lists(list1):
+    # your code
+    return list1"
+88,"Write a function so that all the numbers in a list can be multiplied and divided by the length of the list. Example:
+def multiply_num(numbers):
+    # your code
+    return numbers"
+89,"Write a function that converts a given decimal number into its binary equivalent. Example:
+def decimal_to_binary(n):
+    # your code
+    return n"
+90,"Write a function to find the next smallest palindrome of a certain number. Example:
+def next_smallest_palindrome(num):
+    # your code
+    return num"
+91,"Enter a function to find the k-most element in the given array. Example:
+def kth_element(arr, n, k):
+    # your code
+    return arr"
+92,"Write a function that converts a string from a string to a string in a string. Example:
+def snake_to_camel(word):
+    # your code
+    return word"
+93,"Write a function to find a numeric number ((n, m). Example:
+def eulerian_num(n, m):
+    # your code
+    return n"
+94,"Enter a function to select each sublist of strings from a given list of lists using the Lambda function. Example:
+def sort_sublists(input_list):
+    # your code
+    return input_list"
+95,"Write a Python function to calculate the true boolean in the given list. Example:
+def count(lst):
+    # your code
+    return lst"
+96,"Enter a function to add the given toples to the given list. Example:
+def add_lists(test_list, test_tup):
+    # your code
+    return test_list"
+97,"Write a Python function to calculate a sixteenth number for a specific range. Example:
+def count_Hexadecimal(L,R) :
+    # your code
+    return L"
+98,"Write a function to combine multiple sorted inputs using a single sorted iteration using a Hil Q algorithm. Example:
+def merge_sorted_list(num1,num2,num3):
+    # your code
+    return num1"
+99,"Write a Python function to find the number of rotations of a binary string. Example:
+def odd_Equivalent(s,n):
+    # your code
+    return s"
+100,"Write a function that extracts the missing parameters from the given list with the given starting and ending values. Example:
+def extract_missing(test_list, strt_val, stop_val):
+    # your code
+    return test_list"
+101,"Write a function that finds common elements in the given nested lists. * list items * list items * list items * list items * list items * list items Example:
+def common_in_nested_lists(nestedlist):
+    # your code
+    return nestedlist"
+102,"Write a Python function so that a cylinder's range is found. Example:
+def perimeter(diameter,height) :
+    # your code
+    return diameter"
+103,"Write a function to check whether a string represents an integer. Example:
+def check_integer(text):
+    # your code
+    return text"
+104,"Enter a function to set the frequency of each tip in the given tip list. Example:
+def assign_freq(test_list):
+    # your code
+    return test_list"
+105,"Enter a function to check if all dictionaries in a list are empty. Example:
+def empty_dit(list1):
+    # your code
+    return list1"
+106,"Write a function to convert a set of a specific positive integer into an integer. Example:
+def tuple_to_int(nums):
+    # your code
+    return nums"
+107,"Write a function that converts all the convertible elements in the list into real. Example:
+def list_to_float(test_list):
+    # your code
+    return test_list"
+108,"[link text]https:// [link text]https:// [link text]https:// [link text]https://))) Write a function to convert a string into a list. Example:
+def string_to_list(string):
+    # your code
+    return string"
+109,"Enter a Python function to find the element that is displayed only once in an array. Example:
+def search(arr,n) :
+    # your code
+    return arr"
+110,"Enter a function to find the most products from a set of tips in a given list. Example:
+def max_product_tuple(list1):
+    # your code
+    return list1"
+111,"Enter a function to find the triple with the sum of the given numbers Example:
+def check_triplet(A, n, sum, count):
+    # your code
+    return A"
+112,"Write a function to find the nth smart number. Example:
+def smartNumber(n):
+    # your code
+    return n"
+113,"Write a function for the sum of all the positive integers from 1 to a specified number. Example:
+def amicable_numbers_sum(limit):
+    # your code
+    return limit"
+114,"Write a function to get a complex number. Example:
+def angle_complex(a,b):
+    # your code
+    return a"
+115,"Write a function so that the greatest difference between any substring of a given binary string with numbers 0 and 1 can be found. Example:
+def find_length(string, n):
+    # your code
+    return string"
+116,"Write a Python function to find the sum of two given numbers. Example:
+def sum(a,b):
+    # your code
+    return a"
+117,"Write a function to multiply two integers using Python * operator. Example:
+def multiply_int(x, y):
+    # your code
+    return x"
+118,"Write a function that lists short words longer than n from a given word list. Example:
+def long_words(n, str):
+    # your code
+    return n"
+119,"Write a function to calculate the magic square. Example:
+def magic_square_test(my_matrix):
+    # your code
+    return my_matrix"
+120,"Enter a function to find the most frequent item on a given list. Example:
+def max_occurrences(nums):
+    # your code
+    return nums"
+121,"Write a Python function that only reverses the color of a given string. Example:
+def reverse_vowels(str1):
+    # your code
+    return str1"
+122,"Write a function that converts the tip into a string. Example:
+def tup_string(tup1):
+    # your code
+    return tup1"
+123,"Write a function to calculate the sum of the negative numbers of a given number list using the Lambda function. Example:
+def sum_negativenum(nums):
+    # your code
+    return nums"
+124,"Write a Python function that checks whether the last element of a given array is odd or odd even after the operation. Example:
+def check_last (arr,n,p):
+    # your code
+    return arr"
+125,"Write a function to find the sixth number. Example:
+def hexagonal_num(n):
+    # your code
+    return n"
+126,"Write a function to calculate the electricity bill. Example:
+def cal_electbill(units):
+    # your code
+    return units"
+127,"Write a function to find the ratio of zero to an array of integers. Example:
+def zero_count(nums):
+    # your code
+    return nums"
+128,"Write a Python function that can be used to check whether the given number can be represented as the sum of zero-zero energies of 2. Example:
+def is_Sum_Of_Powers_Of_Two(n):
+    # your code
+    return n"
+129,"Write a function to find a circle. Example:
+def circle_circumference(r):
+    # your code
+    return r"
+130,"Enter a function to extract the elements present in the given list of tips. Example:
+def extract_singly(test_list):
+    # your code
+    return test_list"
+131,"Write a function to select a list of components using pancake sorting. Example:
+def pancake_sort(nums):
+    # your code
+    return nums"
+132,"Write a function that counts the same pair in three lists. Example:
+def count_samepair(list1,list2,list3):
+    # your code
+    return list1"
+133,"Enter a function to find the number of lists in the given table. Example:
+def find_lists(Input):
+    # your code
+    return Input"
+134,"Write a Python function to find the sum of all the numbers in the given array. Example:
+def sum_Pairs(arr,n):
+    # your code
+    return arr"
+135,"Write a Python function to find the greatest difference between any two elements in a given array. Example:
+def max_Abs_Diff(arr,n):
+    # your code
+    return arr"
+136,"To find the value of the total letter of a string, type a function. Example:
+def ascii_value_string(str1):
+    # your code
+    return str1"
+137,"Write a function to find the sum of the maximum total paths of the given triangle. Example:
+def max_path_sum(tri, m, n):
+    # your code
+    return tri"
+138,"Write a function to divide a number into two parts so that the sum of the digits is maximal. Example:
+def sum_digits_single(x) :
+    # your code
+    return x"
+139,"Write a function so that the longest sub-order is found so that the distinction between adjacent ones for the given array is one. Example:
+def longest_subseq_with_diff_one(arr, n):
+    # your code
+    return arr"
+140,"Write a Python function to find out if the given number is in an infinite sequence. Example:
+def does_Contain_B(a,b,c):
+    # your code
+    return a"
+141,"Write a Python function to check whether the given number is co-primary. Example:
+def gcd(p,q):
+    # your code
+    return p"
+142,"Write a function that selects using the given array of merges sort. Example:
+def merge(a,b):
+    # your code
+    return a"
+143,"Write a function to find the top of a parabola. Example:
+def parabola_vertex(a, b, c):
+    # your code
+    return a"
+144,"Write a function to extract each specific element from a given two-dimensional list. Example:
+def specified_element(nums, N):
+    # your code
+    return nums"
+145,"Write a Python function to toggle all the bits of a given number. Example:
+def even_bit_toggle_number(n) :
+    # your code
+    return n"
+146,"Write a function that converts a string value into a set of integer values. Example:
+def tuple_int_str(tuple_str):
+    # your code
+    return tuple_str"
+147,"Enter a function to reflect run-length encoding from a list. Example:
+def encode_list(list1):
+    # your code
+    return list1"
+148,"Write a Python function so that k number of operations are required to equate all elements. Example:
+def min_Ops(arr,n,k):
+    # your code
+    return arr"
+149,"Write a function to print the season for the given month and day. Example:
+def month_season(month,days):
+    # your code
+    return month"
+150,"Write a function for x and y that fulfills ax + by = n. Example:
+def solution (a, b, n):
+    # your code
+    return a"
+151,"Enter a function to remove all elements from one list to another. Example:
+def remove_elements(list1, list2):
+    # your code
+    return list1"
+152,"Write a function to calculate the sum of the positive integers of n+(n-2) +(n-4)... (until n-x = < 0). Example:
+def sum_series(n):
+    # your code
+    return n"
+153,"Write a function to calculate the field of a regular polygon. Example:
+def area_polygon(s,l):
+    # your code
+    return s"
+154,"Write a Python function that verifies that the divisor is the same. Example:
+def divSum(n):
+    # your code
+    return n"
+155,"Write a Python function to calculate the letters in the same position as an English character in a given string (down and big letters). Example:
+def count_char_position(str1):
+    # your code
+    return str1"
+156,"Write a Python function that counts numbers paired with xor. Example:
+def find_even_Pair(A,N):
+    # your code
+    return A"
+157,"Write a Python function that finds the smallest power of 2 that is greater than or equal to n. Example:
+def next_Power_Of_2(n):
+    # your code
+    return n"
+158,"Write a Python function to find a number of frequencies in a given array. Example:
+def frequency(a,x):
+    # your code
+    return a"
+159,"Write a function to calculate the nth number. Example:
+def get_pell(n):
+    # your code
+    return n"
+160,"Enter a function to find the sum of the numbers of a list in a specified range of indices. Example:
+def sum_range_list(list1, m, n):
+    # your code
+    return list1"
+161,"Write a function to find a Pentagon's circle. Example:
+def perimeter_pentagon(a):
+    # your code
+    return a"
+162,"Enter a function to find the presence of the letter 'std' in the given string. 1. list item 1. list item 1. list item 2. list item 2. list item 2. list item 2. list item 2. list item 2. list item. Example:
+def count_occurance(s):
+    # your code
+    return s"
+163,"Write a function to remove everything except the alphanumeric letters from a string. Example:
+def remove_splchar(text):
+    # your code
+    return text"
+164,"Write a function that groups a sequence of key-value joints into a dictionary of the list. Example:
+def group_keyvalue(l):
+    # your code
+    return l"
+165,"Write a function that verifies the validity of the string of the bonds. Example:
+def is_valid_parenthese( str1):
+    # your code
+    return str1"
+166,"Write a function to find the circumference of a triangle. Example:
+def perimeter_triangle(a,b,c):
+    # your code
+    return a"
+167,"Write a Python function so that two different numbers are found whose lcm is within the given range. Example:
+def answer(L,R):
+    # your code
+    return L"
+168,"Write a function to search for some literal string in a string. Example:
+def string_literals(patterns,text):
+    # your code
+    return patterns"
+169,"Write a function that lets us know if the given number is a real number. Example:
+def is_num_keith(x):
+    # your code
+    return x"
+170,"Write a function to calculate the distance between two points using latitude and longitude. Example:
+def distance_lat_long(slat,slon,elat,elon):
+    # your code
+    return slat"
+171,"Write a function that finds the longest common symptom among the given string set. Example:
+def common_prefix_util(str1, str2):
+    # your code
+    return str1"
+172,"Write a function to find the value of big, small, special letters and numerals using Rejex. Example:
+def find_character(string):
+    # your code
+    return string"
+173,"Write a function to calculate all the individual joints with the difference of k in any array. Example:
+def count_pairs(arr, n, k):
+    # your code
+    return arr"
+174,"Write a function to find all the values in a list larger than a specified number. Example:
+def greater_specificnum(list,num):
+    # your code
+    return list"
+175,"Write a function to find a parabolic focus. Example:
+def parabola_focus(a, b, c):
+    # your code
+    return a"
+176,"Write a function to search for some literal string of a string using Rejex. Example:
+def check_literals(text, patterns):
+    # your code
+    return text"
+177,"Write a function to find the longest common deletion for the given two sequences. Example:
+def longest_common_subsequence(X, Y, m, n):
+    # your code
+    return X"
+178,"Write a Python function that can be used to test whether a given number can be represented by multiplying two squares. Example:
+def prod_Square(n):
+    # your code
+    return n"
+179,"Write a Python function to find the first missing positive number. Example:
+def first_Missing_Positive(arr,n):
+    # your code
+    return arr"
+180,"Write a Python function to calculate the coordinate number inside a square. Example:
+def count_Intgral_Points(x1,y1,x2,y2):
+    # your code
+    return x1"
+181,"Write a function to check whether the given month has 30 days in its name. Example:
+def check_monthnumber(monthname3):
+    # your code
+    return monthname3"
+182,"Write a Python function to check if there is at least one letter and a number in a string. Example:
+def check_String(str):
+    # your code
+    return str"
+183,"Enter a function to remove duplicate from the given tip. Example:
+def remove_tuple(test_tup):
+    # your code
+    return test_tup"
+184,"Write a Python function to convert the eighth number into a decimal number. Example:
+def octal_To_Decimal(n):
+    # your code
+    return n"
+185,"Write a Python function to find the first position of an element in an array. Example:
+def first(arr,x,n):
+    # your code
+    return arr"
+186,"Write a function so that all the tuple of k length can be removed. Example:
+def remove_tuples(test_list, K):
+    # your code
+    return test_list"
+187,"Write a function to expose the given two tops. Example:
+def find_exponentio(test_tup1, test_tup2):
+    # your code
+    return test_tup1"
+188,"Write a function so that the largest triangle in a circle can be written. Example:
+def largest_triangle(a,b):
+    # your code
+    return a"
+189,"Write a Python function that makes the maximum power of 2 less than or equal to the given number. Example:
+def highest_Power_of_2(n):
+    # your code
+    return n"
+190,"Enter a function to find the position of all the indicators of the highest value in a given list. Example:
+def position_max(list1):
+    # your code
+    return list1"
+191,"Write a Python function to check if the elements of a list are the same. Example:
+def chkList(lst):
+    # your code
+    return lst"
+192,"Write a function to remove equivalent characters from a string. Example:
+def remove_even(str1):
+    # your code
+    return str1"
+193,"Write a Python function that finds the hacking distance between two integers. Example:
+def hamming_Distance(n1,n2) :
+    # your code
+    return n1"
+194,"Write a Python function to calculate the presence of a given character in a string. Example:
+def count(s,c) :
+    # your code
+    return s"
+195,"Enter a function to find the opposites of the tip elements in the given tip list. Example:
+def inversion_elements(test_tup):
+    # your code
+    return test_tup"
+196,"Enter a function to connect the adjacent element to the given topals. Example:
+def concatenate_elements(test_tup):
+    # your code
+    return test_tup"
+197,"Write a function so that the longest repeating subroutines can be calculated so that the same string letters of the two subroutines are not in the same position. Example:
+def find_longest_repeating_subseq(str):
+    # your code
+    return str"
+198,"Write a function to test the given decimal with the accuracy of 2 using RJEX. Example:
+def is_decimal(num):
+    # your code
+    return num"
+199,"Write a function that removes the smallest element from the given hip and then inserts a new item. Example:
+def heap_replace(heap,a):
+    # your code
+    return heap"
+200,"Write a function that uses Rejex to check that the given string contains only a specific set of characters. Example:
+def is_allowed_specific_char(string):
+    # your code
+    return string"
+201,"Write a Python function that calculates the number of bits set to the number of bits. Example:
+def count_Num(n):
+    # your code
+    return n"
+202,"Write a Python function so that the sum of the fourth powers of n natural numbers is found. Example:
+def fourth_Power_Sum(n):
+    # your code
+    return n"
+203,"Enter a function to perform the connections of two string tuple. Example:
+def concatenate_strings(test_tup1, test_tup2):
+    # your code
+    return test_tup1"
+204,"Write a function to convert the radian to a degree. Example:
+def degree_radian(radian):
+    # your code
+    return radian"
+205,"Enter a function to decode a run-length encoded list. Example:
+def decode_list(alist):
+    # your code
+    return alist"
+206,"Enter a function to check whether a nested list is a subset of another nested list. Example:
+def check_subset_list(list1, list2):
+    # your code
+    return list1"
+207,"To find the first repeated letter in a given string, type a Python function. Example:
+def first_Repeated_Char(str):
+    # your code
+    return str"
+208,"Write a Python function to find the minimum operations required to equate two numbers. Example:
+def min_Operations(A,B):
+    # your code
+    return A"
+209,"Write a function to extract the maximum and minimum k elements from the given tip. Example:
+def extract_min_max(test_tup, K):
+    # your code
+    return test_tup"
+210,"Write a function so that the maximum n of spaces, commas or points can be replaced with a callon. Example:
+def replace_max_specialchar(text,n):
+    # your code
+    return text"
+211,"Write a Python function so that the first set of numbers is found in a number list. Example:
+def first_even(nums):
+    # your code
+    return nums"
+212,"Write a function so that all the elements of the tip can be checked to see if they type the same data. Example:
+def check_type(test_tuple):
+    # your code
+    return test_tuple"
+213,"Enter a function to test the majority of elements in the given ordered array. Example:
+def is_majority(arr, n, x):
+    # your code
+    return arr"
+214,"Write a Python function to calculate a set of bits of a given number. Example:
+def count_Set_Bits(n):
+    # your code
+    return n"
+215,"Enter a Python function to find the minimum element in an ordered and rotated array. Example:
+def find_Min(arr,low,high):
+    # your code
+    return arr"
+216,"Write a Python function to remove characters that have odd index value of a given string. Example:
+def odd_values_string(str):
+    # your code
+    return str"
+217,"Write a function so that at least three numbers are found. Example:
+def min_of_three(a,b,c):
+    # your code
+    return a"
+218,"Write a Python function that checks whether all bits are non-set in the given range. Example:
+def all_Bits_Set_In_The_Given_Range(n,l,r):
+    # your code
+    return n"
+219,"Write a function to rearrange the elements of the given array so that all the negative elements appear before the positive ones. Example:
+def re_arrange_array(arr, n):
+    # your code
+    return arr"
+220,"Enter a function to replace the blank space with any letter in a string. Example:
+def replace_blank(str1,char):
+    # your code
+    return str1"
+221,"Write a function so that the maximum sum of the given number of right triangles is obtained. Example:
+def max_sum(tri, n):
+    # your code
+    return tri"
+222,"Enter a function to get the largest item from a dataset. Example:
+def larg_nnum(list1,n):
+    # your code
+    return list1"
+223,"Enter a function to find the side surface area of a cylinder. Example:
+def lateralsuface_cylinder(r,h):
+    # your code
+    return r"
+224,"Write a function to find the area of a cube. Example:
+def volume_cube(l):
+    # your code
+    return l"
+225,"Write a Python function to set all pairs of bits of a given number. Example:
+def even_bit_set_number(n):
+    # your code
+    return n"
+226,"Write a Python function that calculates the maximum number of equilaterals that can be formed in a given triangle. Example:
+def No_of_Triangle(N,K):
+    # your code
+    return N"
+227,"Write a function to test the events of records that occurred at the same time in the given tuple. Example:
+def check_occurences(test_list):
+    # your code
+    return test_list"
+228,"Write a Python function to calculate the number of non-empty substrings of a given string. Example:
+def number_of_substrings(str):
+    # your code
+    return str"
+229,"Write a function so that the number of possible sequences of length n is found so that each of the subsequent elements is greater or equal to twice the previous element but less than or equal to m. Example:
+def get_total_number_of_sequences(m,n):
+    # your code
+    return m"
+230,"Enter a function so that the last element of the list is replaced with another list. Example:
+def replace_list(list1,list2):
+    # your code
+    return list1"
+231,"Write a function so that a 3D array is created with each element '*'. Example:
+def array_3d(m,n,o):
+    # your code
+    return m"
+232,"Write a function to calculate the total letters of a string. Example:
+def count_charac(str1):
+    # your code
+    return str1"
+233,"Write a function that selects the given list based on the event of the first element of the tuple. Example:
+def sort_on_occurence(lst):
+    # your code
+    return lst"
+234,"Write a Python function to find the next full square instead of a given number. Example:
+def next_Perfect_Square(N):
+    # your code
+    return N"
+235,"To find the maximum sum of the two-tonic sub-order for the given array, type a function. Example:
+def max_sum(arr, n):
+    # your code
+    return arr"
+236,"Write a function for the calculation of the square root using the bibillonian method. Example:
+def babylonian_squareroot(number):
+    # your code
+    return number"
+237,"Enter a function to find the longest palindromic subsequence in a given string. Example:
+def lps(str):
+    # your code
+    return str"
+238,"Write a function to calculate the harmonic sum of n-1. Example:
+def harmonic_sum(n):
+    # your code
+    return n"
+239,"Write a function to find the intersection of two arrays using the lambda function. Example:
+def intersection_array(array_nums1,array_nums2):
+    # your code
+    return array_nums1"
+240,"Write a Python function to calculate the presence of an element in a table. Example:
+def count_X(tup, x):
+    # your code
+    return tup"
+241,"Write a function so that an element can be inserted before each element in a list. Example:
+def insert_element(list,element):
+    # your code
+    return list"
+242,"Write a Python function to convert complex numbers into linear coordinates. Example:
+def convert(numbers):
+    # your code
+    return numbers"
+243,"Write a Python function to calculate an integer from a given list. Example:
+def count_integer(list1):
+    # your code
+    return list1"
+244,"Enter a function to find all words beginning with 'a' or 'e' in a given string. Example:
+def words_ae(text):
+    # your code
+    return text"
+245,"Write a function to select a certain number of colors from three different colors and create all the combinations with repetition. Example:
+def combinations_colors(l, n):
+    # your code
+    return l"
+246,"Write a Python function to calculate the number of prime numbers less than a given non-negative number. Example:
+def count_Primes_nums(n):
+    # your code
+    return n"
+247,"Write a function to exchange two numbers. Example:
+def swap_numbers(a,b):
+    # your code
+    return a"
+248,"Enter a function to find the number of odd elements in the given list using the Lambda function. Example:
+def count_odd(array_nums):
+    # your code
+    return array_nums"
+249,"Write a function that maximizes the two tops. Example:
+def maximize_elements(test_tup1, test_tup2):
+    # your code
+    return test_tup1"
+250,"Write a function to find the nth Newman Shanks Williams prime number. Example:
+def newman_prime(n):
+    # your code
+    return n"
+251,"Enter a function to perform a mathematical division operation in the given topals. Example:
+def division_elements(test_tup1, test_tup2):
+    # your code
+    return test_tup1"
+252,"Write a function to divide a list into two parts where the length of the first part of the list is given. Example:
+def split_two_parts(list1, L):
+    # your code
+    return list1"
+253,"Write a function to combine the two dictionaries. Example:
+def merge_dict(d1,d2):
+    # your code
+    return d1"
+254,"Write a function to calculate a dog's age. Example:
+def dog_age(h_age):
+    # your code
+    return h_age"
+255,"Write a function that shares a list for each n-th element. Example:
+def list_split(S, step):
+    # your code
+    return S"
+256,"Write a function to find the area of a square. Example:
+def lateralsurface_cube(l):
+    # your code
+    return l"
+257,"First, write a Python function to find the sum of the squares of odd natural numbers. Example:
+def square_Sum(n):
+    # your code
+    return n"
+258,"Enter a function to find the n'th star number. Example:
+def find_star_num(n):
+    # your code
+    return n"
+259,"Write a function to find the value of a letter. Example:
+def ascii_value(k):
+    # your code
+    return k"
+260,"Write a Python function so that you find the sum of the numbers in the same position. Example:
+def sum_even_and_even_index(arr,n):
+    # your code
+    return arr"
+261,"Write a Python function to add the first n numbers to the fifth power. Example:
+def even_Power_Sum(n):
+    # your code
+    return n"
+262,"Enter a function to execute the rear element extraction from the top record list. Example:
+def rear_extract(test_list):
+    # your code
+    return test_list"
+263,"Write a function so that the content of a tip can be subtracted from the corresponding index of another tip. Example:
+def substract_elements(test_tup1, test_tup2):
+    # your code
+    return test_tup1"
+264,"Write a Python function so that the pair of indices can be found. Example:
+def even_binomial_Coeff_Sum( n):
+    # your code
+    return n"
+265,"Enter a Python function to find the location of the last removed element from the given array. Example:
+def get_Position(a,n,m):
+    # your code
+    return a"
+266,"Write a function to find the diameter of a cylinder. Example:
+def volume_cylinder(r,h):
+    # your code
+    return r"
+267,"Write a function to filter a dictionary based on the value. Example:
+def dict_filter(dict,n):
+    # your code
+    return dict"
+268,"Enter a function to find the element counted before the given table records. Example:
+def count_first_elements(test_tup):
+    # your code
+    return test_tup"
+269,"Write a function to find the nth decimal number. Example:
+def is_num_decagonal(n):
+    # your code
+    return n"
+270,"Enter a function to search for an element in the given array using a sequential search. Example:
+def sequential_search(dlist, item):
+    # your code
+    return dlist"
+271,"Write a Python function to check whether the elements of a given list are unique. Example:
+def all_unique(test_list):
+    # your code
+    return test_list"
+272,"Write a function to substruct two lists using map and length functions. Example:
+def sub_list(nums1,nums2):
+    # your code
+    return nums1"
+273,"Write a Python function that checks whether the frequency of each digit is less than or equal to a digit. Example:
+def validate(n):
+    # your code
+    return n"
+274,"Enter a function to check if all items from a list are equal to a given string. Example:
+def check_element(list,element):
+    # your code
+    return list"
+275,"Write a function that matches a string with a of which there is an a followed by two to three b. Example:
+def text_match_two_three(text):
+    # your code
+    return text"
+276,"Write a function that finds the largest sum of the adjacent arrays in the modified array that is formed by repeating the given array k times. Example:
+def max_sub_array_sum_repeated(a, n, k):
+    # your code
+    return a"
+277,"Write a Python function to find the sum of the first n integers of the natural numbers squared. Example:
+def square_Sum(n):
+    # your code
+    return n"
+278,"Write a function so that the elements of an array can be calculated whose modular is the opposite of the given prime number p. Example:
+def modular_inverse(arr, N, P):
+    # your code
+    return arr"
+279,"Write a Python function to calculate the number of odd days in a given year. Example:
+def odd_Days(N):
+    # your code
+    return N"
+280,"To find the list of maximum lengths, type a function. Example:
+def max_length(list1):
+    # your code
+    return list1"
+281,"Write a function that finds the number of ways the barrel can be drawn so that the given barrel has the same color for a maximum of 2 adjacent posts with n posts and k colors. Example:
+def count_no_of_ways(n, k):
+    # your code
+    return n"
+282,"Write a Python function to find the sum of two numbers. Example:
+def find(n,m):
+    # your code
+    return n"
+283,"Write a function for the third part of a right angle triangle. Example:
+def otherside_rightangle(w,h):
+    # your code
+    return w"
+284,"Enter a function to find the maximum value in a specific variable list. Example:
+def max_val(listval):
+    # your code
+    return listval"
+285,"Write a function to give the sum of all the divisors of a number. Example:
+def sum_div(number):
+    # your code
+    return number"
+286,"Write a Python function to calculate the inverse in an array. Example:
+def get_Inv_Count(arr,n):
+    # your code
+    return arr"
+287,"Write a function to level a given nested list structure. Example:
+def flatten_list(list1):
+    # your code
+    return list1"
+288,"Enter a function to find the nested list elements in another list. Example:
+def intersection_nested_lists(l1, l2):
+    # your code
+    return l1"
+289,"Enter a function to count the maximum number from the top list. Example:
+def max_aggregate(stdata):
+    # your code
+    return stdata"
+290,"Write a function so that the calculation of all binary sequences of 2n length is available so that the sum of the first n bits is equal to the sum of the last n bits. Example:
+def count_binary_seq(n):
+    # your code
+    return n"
+291,"Write a function to find the depth of a dictionary. Example:
+def dict_depth(d):
+    # your code
+    return d"
+292,"To find the most important bit number, type a Python function that is a set bit. Example:
+def set_Bit_Number(n):
+    # your code
+    return n"
+293,"Write a Python function that checks whether two types of opposite calculations are the same or not. Example:
+def solve(a,n):
+    # your code
+    return a"
+294,"To find an element of a given index, type a Python function after a spin number. Example:
+def find_Element(arr,ranges,rotations,index) :
+    # your code
+    return arr"
+295,"Write a function together with two words from the list of words beginning with the letter P. Example:
+def start_withp(words):
+    # your code
+    return words"
+296,"Write a function that finds the maximum sum of the increasing symptoms from prefix to the th indicator and a given kth element that is after i, i.e., k > i. Example:
+def max_sum_increasing_subseq(a, n, index, k):
+    # your code
+    return a"
+297,"Write a function to get a call to a top. Example:
+def colon_tuplex(tuplex,m,n):
+    # your code
+    return tuplex"
+298,"Enter a function to find the specific number of the largest products from the two lists. Example:
+def large_product(nums1, nums2, N):
+    # your code
+    return nums1"
+299,"Write a Python function to find the maximum number of two numbers. Example:
+def maximum(a,b):
+    # your code
+    return a"
+300,"Write a function to convert a given string to a tip. Example:
+def string_to_tuple(str1):
+    # your code
+    return str1"
+301,"To set the left most unknown bit, type a Python function. Example:
+def set_left_most_unset_bit(n):
+    # your code
+    return n"
+302,"Write a function to find a cone size. Example:
+def volume_cone(r,h):
+    # your code
+    return r"
+303,"Write a Python function to print a positive number in a list. Example:
+def pos_nos(list1):
+    # your code
+    return list1"
+304,"Write a function so that the maximum sum is obtained so that no two selected numbers are adjacent to a given rectangular grid of 2 x n dimensions. Example:
+def max_sum_rectangular_grid(grid, n) :
+    # your code
+    return grid"
+305,"Write a Python function so that the first maximum length of the word is found. Example:
+def find_Max_Len_Even(str):
+    # your code
+    return str"
+306,"Enter a function to find the index of the last presence of a given number in an ordered array. Example:
+def find_last_occurrence(A, x):
+    # your code
+    return A"
+307,"Enter a function to reflect the changed run-length encoding from a list. Example:
+def modified_encode(alist):
+    # your code
+    return alist"
+308,"Write a Python function so that the maximum volume of a cube is obtained. Example:
+def max_volume (s):
+    # your code
+    return s"
+309,"Write a function that uses Rejex to find the long words of all five letters in the given string. Example:
+def find_long_word(text):
+    # your code
+    return text"
+310,"Write a function to calculate the difference between the sum of the first n natural numbers squared and the first n natural numbers squared. Example:
+def sum_difference(n):
+    # your code
+    return n"
+311,"Enter a function to find the default number for the given number. Example:
+def find_demlo(s):
+    # your code
+    return s"
+312,"Enter a function to find the position of all the indicators of the lowest value in a given list. Example:
+def position_min(list1):
+    # your code
+    return list1"
+313,"Write a function that rearranges the given array into positives and negatives. Example:
+def right_rotate(arr, n, out_of_place, cur):
+    # your code
+    return arr"
+314,"Write a function that sums the alternative chains of the topals. Example:
+def sum_of_alternates(test_tuple):
+    # your code
+    return test_tuple"
+315,"Write a Python function whose sum is equal to a given number, whose least number is a square to find. Example:
+def get_Min_Squares(n):
+    # your code
+    return n"
+316,"Enter a function to get the word with the highest number of appearances in the given string list. Example:
+def most_occurrences(test_list):
+    # your code
+    return test_list"
+317,"Write a function so that the printer checks whether the triangle is equal. Example:
+def check_isosceles(x,y,z):
+    # your code
+    return x"
+318,"Write a specific list that is rounded by a certain number of items on the left. Example:
+def rotate_left(list1,m,n):
+    # your code
+    return list1"
+319,"Write a Python function to calculate a negative number in a list. Example:
+def neg_count(list):
+    # your code
+    return list"
+320,"Write a function that uses Rejex to find the long words of three, four, five letters of a given string. Example:
+def find_char(text):
+    # your code
+    return text"
+321,"Write a Python function to calculate a given number of non-set bits. Example:
+def count_unset_bits(n):
+    # your code
+    return n"
+322,"Write a function to calculate the character frequency of a given string. Example:
+def char_frequency(str1):
+    # your code
+    return str1"
+323,"Write a Python function to arrange a list according to the second element of the sub-list. Example:
+def Sort(sub_li):
+    # your code
+    return sub_li"
+324,"Write a Python function so you can check if a triangle is given a direction, then it is valid. Example:
+def check_Validity(a,b,c):
+    # your code
+    return a"
+325,"Write a function so that the sum of the numbers is found. Example:
+def ap_sum(a,n,d):
+    # your code
+    return a"
+326,"Write a function to check whether the given month has 28 days. Example:
+def check_monthnum(monthname1):
+    # your code
+    return monthname1"
+327,"Write a function that matches a word at the end of the string, with an optional layout symbol. Example:
+def text_match_word(text):
+    # your code
+    return text"
+328,"Write a Python function to calculate the number of substrings with the same first and last letters. Example:
+def check_Equality(s):
+    # your code
+    return s"
+329,"Write a Python function to find the most commonly occurring differential. Example:
+def find_Divisor(x,y):
+    # your code
+    return x"
+330,"Write a Python function so that the sum of three least positive numbers from a given number list is found. Example:
+def sum_three_smallest_nums(lst):
+    # your code
+    return lst"
+331,"Enter a function to convert the given set to an ordered set. Example:
+def set_to_tuple(s):
+    # your code
+    return s"
+332,"Write a function so that the smallest range is found so that at least one element from each of the given arrays is included. Example:
+def __init__(self, value, list_num, index):
+    # your code
+    return value"
+333,"Write a function to count the number of letters and numbers in a string. Example:
+def dig_let(s):
+    # your code
+    return s"
+334,"Write a Python function to find the number of elements with a certain range of odd factors. Example:
+def count_Odd_Squares(n,m):
+    # your code
+    return n"
+335,"Write a function to find the difference between two consecutive numbers in a given list. Example:
+def diff_consecutivenums(nums):
+    # your code
+    return nums"
+336,"Write a function so that the entering number e ((n, k) is found. Example:
+def zigzag(n, k):
+    # your code
+    return n"
+337,"Write a Python function to calculate the number of squares in a rectangle. Example:
+def count_Squares(m,n):
+    # your code
+    return m"
+338,"Write a function that calculates the sequences of a given length which have a non-negative sum that can be generated by a given value. Example:
+def bin_coff(n, r):
+    # your code
+    return n"
+339,"Enter a Python function to check whether the given string is a binary string. Example:
+def check(string) :
+    # your code
+    return string"
+340,"Simply write a Python function to minimize the length of the string by removing the presence of a single letter. Example:
+def minimum_Length(s) :
+    # your code
+    return s"
+341,"Write a Python function to find the first element that occurs k times in a given array. Example:
+def first_Element(arr,n,k):
+    # your code
+    return arr"
+342,"Enter a Python function to check if all the characters in a given string are unique. Example:
+def unique_Characters(str):
+    # your code
+    return str"
+343,"Enter a function to remove a specific column from a given nested list. Example:
+def remove_column(list1, n):
+    # your code
+    return list1"
+344,"Write a function that finds the t-nth term of the numerology process. Example:
+def tn_ap(a,n,d):
+    # your code
+    return a"
+345,"Write a Python function that calculates the number of angles in a circle of radius r. Example:
+def count_Rectangles(radius):
+    # your code
+    return radius"
+346,"Write a function to find the third angle of a triangle. Example:
+def find_angle(a,b):
+    # your code
+    return a"
+347,"Write a function that finds the maximum element of all the given top-up records. Example:
+def find_max(test_list):
+    # your code
+    return test_list"
+348,"Enter a function to find the division of two list modules using the map and the lambda function. Example:
+def moddiv_list(nums1,nums2):
+    # your code
+    return nums1"
+349,"Write a Python function to verify whether a square root of an equation is twice the root of another. Example:
+def Check_Solution(a,b,c):
+    # your code
+    return a"
+350,"Write a function to find the nth carol number. Example:
+def get_carol(n):
+    # your code
+    return n"
+351,"Enter a function to remove a blank list from a given list. Example:
+def remove_empty(list1):
+    # your code
+    return list1"
+352,"Enter a Python function to find the item that appears the most times in a given list. Example:
+def max_occurrences(nums):
+    # your code
+    return nums"
+353,"Write a function so that k elements can be added to each element of the tip. Example:
+def add_K_element(test_list, K):
+    # your code
+    return test_list"
+354,"Write a function that finds the number of flip required to create a sequence of alternate characters in a given binary string. Example:
+def make_flip(ch):
+    # your code
+    return ch"
+355,"Write a Python function to calculate the number of digits of a given number. Example:
+def count_Digit(n):
+    # your code
+    return n"
+356,"Write a Python function that finds the largest product of the set of adjacent elements from a given integer list. Example:
+def adjacent_num_product(list_nums):
+    # your code
+    return list_nums"
+357,"Write a function to check if a binary tree is balanced. Example:
+def __init__(self, data):
+    # your code
+    return data"
+358,"Write a function that repeats the given tip n times. Example:
+def repeat_tuples(test_tup, N):
+    # your code
+    return test_tup"
+359,"Write a function that finds the field of the page across the cube Example:
+def lateralsurface_cuboid(l,w,h):
+    # your code
+    return l"
+360,"Write a function so that a tip can be arranged by its float element. Example:
+def float_sort(price):
+    # your code
+    return price"
+361,"Enter a function to find the smallest missing element in a classified array. Example:
+def smallest_missing(A, left_element, right_element):
+    # your code
+    return A"
+362,"Write a function to sort a given element list in increasing order using the hip-key algorithm. Example:
+def heap_assending(nums):
+    # your code
+    return nums"
+363,"Write a function to find the area of a cube. Example:
+def volume_cuboid(l,w,h):
+    # your code
+    return l"
+364,"Enter a function to print duplicate with all permutations of a given string. Example:
+def permute_string(str):
+    # your code
+    return str"
+365,"Write a function to round the given number with the nearest quotient of a given number. Example:
+def round_num(n,m):
+    # your code
+    return n"
+366,"Write a function so that the duplicate elements that appear multiple times can be removed and replace them with some custom values. Example:
+def remove_replica(test_tup):
+    # your code
+    return test_tup"
+367,"Write a Python function to remove all the presence of a given string. Example:
+def remove_Char(s,c) :
+    # your code
+    return s"
+368,"Write a Python function that transfers the last element of the given list to the first position. Example:
+def move_first(test_list):
+    # your code
+    return test_list"
+369,"Write a function to find the area below the surface of a cube. Example:
+def surfacearea_cuboid(l,w,h):
+    # your code
+    return l"
+370,"Write a function to create a two-dimensional array. Example:
+def multi_list(rownum,colnum):
+    # your code
+    return rownum"
+371,"Enter a function that selects a list of lists by the given index of the internal list. Example:
+def index_on_inner_list(list_data, index_no):
+    # your code
+    return list_data"
+372,"Enter a function to find the number of rounds in a circularly arranged array. Example:
+def find_rotation_count(A):
+    # your code
+    return A"
+373,"Write a Python function to toggle all the bits of a given number. Example:
+def even_bit_toggle_number(n) :
+    # your code
+    return n"
+374,"To find the smallest frequency of a given array, type a Python function. Example:
+def frequency_Of_Smallest(n,arr):
+    # your code
+    return n"
+375,"Write a function to find the n'th parin number using repetition. Example:
+def get_perrin(n):
+    # your code
+    return n"
+376,"Enter a function for the minimum number of swaps required for bracket balancing on a given string. Example:
+def swap_count(s):
+    # your code
+    return s"
+377,"Write a Python function to check if the sixteenth number is odd or odd. Example:
+def even_or_odd(N):
+    # your code
+    return N"
+378,"Write a Python function with the maximum power of 2 which is less than or equal to n. Example:
+def highest_Power_of_2(n):
+    # your code
+    return n"
+379,"Write a function to find the n'th Lucas number. Example:
+def find_lucas(n):
+    # your code
+    return n"
+380,"Enter a function so that a specific string can be inserted at the beginning of all items in a list. Example:
+def add_string(list,string):
+    # your code
+    return list"
+381,"Write a function to convert a list into a nested dictionary. Example:
+def convert_list_dictionary(l1, l2, l3):
+    # your code
+    return l1"
+382,"The given equation f (n) = max (f (n/2) + f (n/3) + f (n/4) + f (n/5)), n using a function to find the maximum possible sum. Example:
+def get_max_sum (n):
+    # your code
+    return n"
+383,"Enter a function to find the list of maximum lengths using the lambda function. Example:
+def max_length_list(input_list):
+    # your code
+    return input_list"
+384,"Enter a function to check whether the given tip is independent. Example:
+def check_distinct(test_tup):
+    # your code
+    return test_tup"
+385,"To find the first non-repeated letter of a given string, type a Python function. Example:
+def first_non_repeating_character(str1):
+    # your code
+    return str1"
+386,"Write a function that checks whether the given string begins and ends with the same letter or does not use the regex. Example:
+def check_char(string):
+    # your code
+    return string"
+387,"Write a function to find the mean of three specific numbers. Example:
+def median_numbers(a,b,c):
+    # your code
+    return a"
+388,"Write a function to calculate the sum of each number of digits in a given list. Example:
+def sum_of_digits(nums):
+    # your code
+    return nums"
+389,"Enter a function to perform the mathematical bitwise expression operation in the given tuple. Example:
+def bitwise_xor(test_tup1, test_tup2):
+    # your code
+    return test_tup1"
+390,"Enter a function to find the frequency of the unique tuple in the given list order. Example:
+def extract_freq(test_list):
+    # your code
+    return test_list"
+391,"Write a function that adds the index-knowledge of the given two nested top to the top elements. Example:
+def add_nested_tuples(test_tup1, test_tup2):
+    # your code
+    return test_tup1"
+392,"Write a function to calculate the value of ncr%p. Example:
+def ncr_modp(n, r, p):
+    # your code
+    return n"
+393,"Enter a function to check if a URL is valid. Example:
+def is_valid_URL(str):
+    # your code
+    return str"
+394,"Write a Python function to find the minimum number of two numbers. Example:
+def minimum(a,b):
+    # your code
+    return a"
+395,"Write a function that checks whether an element exists in a sample. Example:
+def check_tuplex(tuplex,tuple1):
+    # your code
+    return tuplex"
+396,"Write a Python function to find a given number of equations. Example:
+def find_Parity(x):
+    # your code
+    return x"
+397,"Write a function to rearrange a given number of digits to create the next larger number. Example:
+def rearrange_bigger(n):
+    # your code
+    return n"
+398,"Write a function to find k number pairs consisting of an element from the first row and an element from the second row. Example:
+def k_smallest_pairs(nums1, nums2, k):
+    # your code
+    return nums1"
+399,"Enter a function to find the lowest product from the set of tips in a given list. Example:
+def min_product_tuple(list1):
+    # your code
+    return list1"
+400,"Enter a function to find the minimum value in a specific variable list. Example:
+def min_val(listval):
+    # your code
+    return listval"
+401,"Write a function that converts a snake hair strings using Rejex into a hair strings. Example:
+def snake_to_camel(word):
+    # your code
+    return word"
+402,"Write a Python function to remove odd numbers from a given list. Example:
+def remove_odd(l):
+    # your code
+    return l"
+403,"Enter a function to extract the n-th element from a given top-list. Example:
+def extract_nth_element(list1, n):
+    # your code
+    return list1"
+404,"Write a Python function so that the value can be checked to see if it exists in a sequence. Example:
+def overlapping(list1,list2):
+    # your code
+    return list1"
+405,"Enter a Python function to find a pair with the highest product from a given integer array. Example:
+def max_Product(arr):
+    # your code
+    return arr"
+406,"Write a function that we can sum to the maximum. We divide the number into three parts and then we can sum to that number. Example:
+def breakSum(n):
+    # your code
+    return n"
+407,"Write a function that finds the general first element of the tip list. Example:
+def group_tuples(Input):
+    # your code
+    return Input"
+408,"To find the maximum length of the sub-list, type a Python function. Example:
+def Find_Max(lst):
+    # your code
+    return lst"
+409,"Write a function to round each number in a given number list and multiply the total sum by the length of the list. Example:
+def round_and_sum(list1):
+    # your code
+    return list1"
+410,"Write a Python function to find the sum of the squares of the first n equal numbers. Example:
+def cube_Sum(n):
+    # your code
+    return n"
+411,"Write a function so that each element can be connected by a delimiter. Example:
+def concatenate_tuple(test_tup):
+    # your code
+    return test_tup"
+412,"First, write a Python function to find the mean of the natural number squares. Example:
+def find_Average_Of_Cube(n):
+    # your code
+    return n"
+413,"Write a function to solve the gold mining problem. Example:
+def get_maxgold(gold, m, n):
+    # your code
+    return gold"
+414,"Write a function that extracts only the rear index element of each string from the given tip. Example:
+def extract_rear(test_tuple):
+    # your code
+    return test_tuple"
+415,"Write a function to calculate the number of sub-lists containing a specific element. Example:
+def count_element_in_list(list1, x):
+    # your code
+    return list1"
+416,"Write a function to filter odd numbers using the lambda function. Example:
+def filter_oddnumbers(nums):
+    # your code
+    return nums"
+417,"Write a function to convert a date to dd-mm-yyyy format using RJEX. Example:
+def change_date_format(dt):
+    # your code
+    return dt"
+418,"Enter a function to select the given array using shell selection. Example:
+def shell_sort(my_list):
+    # your code
+    return my_list"
+419,"Write a function to extract the element and the element from the given two tubes. Example:
+def and_tuples(test_tup1, test_tup2):
+    # your code
+    return test_tup1"
+420,"Write a function to find a parabola directrix. Example:
+def parabola_directrix(a, b, c):
+    # your code
+    return a"
+421,"Write a function that accepts two lists and returns the truth if they have at least one common element. Example:
+def common_element(list1, list2):
+    # your code
+    return list1"
+422,"Write a function to find the middle of the trapezium. Example:
+def median_trapezium(base1,base2,height):
+    # your code
+    return base1"
+423,"Write a function to check whether the number entered is larger than the elements of the given array. Example:
+def check_greater(arr, number):
+    # your code
+    return arr"
+424,"Write a function that matches a string that contains one or more b. Example:
+def text_match_one(text):
+    # your code
+    return text"
+425,"Write a Python function to find the last digit of a given number. Example:
+def last_Digit(n) :
+    # your code
+    return n"
+426,"Write a Python function to print a negative number in a list. Example:
+def neg_nos(list1):
+    # your code
+    return list1"
+427,"Write a function to remove the odd letters in a string. Example:
+def remove_odd(str1):
+    # your code
+    return str1"
+428,"Write a function to calculate the two-sided tuple pair. Example:
+def count_bidirectional(test_list):
+    # your code
+    return test_list"
+429,"Write a function to convert a list of multiple integers into a single integer. Example:
+def multiple_to_single(L):
+    # your code
+    return L"
+430,"Write a function to find all the actions and their position in a specific sentence. Example:
+def find_adverb_position(text):
+    # your code
+    return text"
+431,"Write a function to find the area below the surface of a cube. Example:
+def surfacearea_cube(l):
+    # your code
+    return l"
+432,"Write a function to find the ratio of positive numbers in an array of integers. Example:
+def positive_count(nums):
+    # your code
+    return nums"
+433,"To find the largest negative number from the given list, type a Python function. Example:
+def largest_neg(list1):
+    # your code
+    return list1"
+434,"Enter a function to trim each tube by k in the given tube list. Example:
+def trim_tuple(test_list, K):
+    # your code
+    return test_list"
+435,"Write a function that performs an indexed multiplier of the given two top-up top-up elements. Example:
+def index_multiplication(test_tup1, test_tup2):
+    # your code
+    return test_tup1"
+436,"Write a Python function so that all elements in a list appear in a table. Example:
+def count_Occurrence(tup, lst):
+    # your code
+    return tup"
+437,"Write a function to find the cubes of the individual elements of a list using the lambda function. Example:
+def cube_nums(nums):
+    # your code
+    return nums"
+438,"Write a function to calculate the sum of the numbers. Example:
+def cal_sum(n):
+    # your code
+    return n"
+439,"Write a Python function to check if the triangle is valid if given 3 points. Example:
+def check_Triangle(x1,y1,x2,y2,x3,y3):
+    # your code
+    return x1"
+440,"Enter a function to extract a specified size of strings from a list of string values. Example:
+def extract_string(str, l):
+    # your code
+    return str"
+441,"Write a function that removes all white space from the given string using Rejex. Example:
+def remove_whitespaces(text1):
+    # your code
+    return text1"
+442,"Write a function that returns the amount of damage if the amount given is damaged otherwise no refund is given. Example:
+def loss_amount(actual_cost,sale_amount):
+    # your code
+    return actual_cost"
+443,"Write a Python function to find the sum of a number pairs of multiples. Example:
+def sumofFactors(n) :
+    # your code
+    return n"
+444,"Write a function that matches a word containing 'z'. Example:
+def text_match_wordz(text):
+    # your code
+    return text"
+445,"Write a function to check whether the given month has 31 days. Example:
+def check_monthnumb_number(monthnum2):
+    # your code
+    return monthnum2"
+446,"Enter a function to reverse strings in a given list of string values. Example:
+def reverse_string_list(stringlist):
+    # your code
+    return stringlist"
+447,"To find the sub-list of minimum length, type a Python function. Example:
+def Find_Min(lst):
+    # your code
+    return lst"
+448,"Write a function to find a field of a field. Example:
+def rectangle_area(l,b):
+    # your code
+    return l"
+449,"Write a function to remove large substrings using a given string. Example:
+def remove_uppercase(str1):
+    # your code
+    return str1"
+450,"Write a Python function to get the first element of each sublist. Example:
+def Extract(lst):
+    # your code
+    return lst"
+451,"Write a Python function to calculate the large handles of a given string. Example:
+def upper_ctr(str):
+    # your code
+    return str"
+452,"Enter a function to find all possible combinations of elements in a given list. Example:
+def combinations_list(list1):
+    # your code
+    return list1"
+453,"Enter a function to find the most products in the given array. Example:
+def max_subarray_product(arr):
+    # your code
+    return arr"
+454,"Write a function that checks whether all values are the same. Example:
+def check_value(dict, n):
+    # your code
+    return dict"
+455,"Write a function to exclude empty items from a specific dictionary. Example:
+def drop_empty(dict1):
+    # your code
+    return dict1"
+456,"Enter a function to find the selected element in the given array. Example:
+def find_peak_util(arr, low, high, n):
+    # your code
+    return arr"
+457,"Write a Python function to convert a decimal number to an eighth number. Example:
+def decimal_to_Octal(deciNum):
+    # your code
+    return deciNum"
+458,"Write a function so that the highest product formed by multiplying the increasing number of subtractions of that array is obtained. Example:
+def max_product(arr, n ):
+    # your code
+    return arr"
+459,"Write a function that finds the maximum amount of profit from the stock transaction Example:
+def max_profit(price, k):
+    # your code
+    return price"
+460,"Write a function to add to the sum of the elements of the given tuple. Example:
+def add_pairwise(test_tup):
+    # your code
+    return test_tup"
+461,"Write a Python function so that the remaining part of the array can be divided by n. Example:
+def find_remainder(arr, lens, n):
+    # your code
+    return arr"
+462,"Enter a Python function to check if there are any numbers in the given list. Example:
+def check_Consecutive(l):
+    # your code
+    return l"
+463,"Write a function so that the elements of the given tip list are found in the tip section, regardless of their order. Example:
+def tuple_intersection(test_list1, test_list2):
+    # your code
+    return test_list1"
+464,"Write a function to replace a string character. Example:
+def replace_char(str1,ch,newch):
+    # your code
+    return str1"
+465,"Enter a function to select counter according to value. Example:
+def sort_counter(dict1):
+    # your code
+    return dict1"
+466,"To find the largest and smallest value of a given array, type a Python function. Example:
+def big_sum(nums):
+    # your code
+    return nums"
+467,"Write a Python function to convert the given string into small hand letters. Example:
+def is_lower(string):
+    # your code
+    return string"
+468,"Write a function to remove small handed substrings from a given string. Example:
+def remove_lowercase(str1):
+    # your code
+    return str1"
+469,"Write a Python function to find the first digit of a given number. Example:
+def first_Digit(n) :
+    # your code
+    return n"
+470,"To find the most displayed characters in a given string, type a Python function. Example:
+def get_max_occuring_char(str1):
+    # your code
+    return str1"
+471,"Write a function that determines whether a given set has a subset whose sum is equal to the given set. Example:
+def is_subset_sum(set, n, sum):
+    # your code
+    return set"
+472,"Write a function that uses Rejex to find the sequence of small letters after a large handwritten letter of a given string. Example:
+def match(text):
+    # your code
+    return text"
+473,"To find the first natural number, write a Python function whose factorial is divisible by x. Example:
+def first_Factorial_Divisible_Number(x):
+    # your code
+    return x"
+474,"Write a function that will remove the connected tuple from the given two tuple. Example:
+def remove_matching_tuple(test_list1, test_list2):
+    # your code
+    return test_list1"
+475,"Enter a function to find the largest palindromic number in the given array. Example:
+def is_palindrome(n) :
+    # your code
+    return n"
+476,"Write a function to calculate the binary probability for a given number. Example:
+def nCr(n, r):
+    # your code
+    return n"
+477,"Write a function that selects a list of the topals in increasing order by the last element of each pile. Example:
+def sort_tuple(tup):
+    # your code
+    return tup"
+478,"Write a function to find a field of a Pentagon. Example:
+def area_pentagon(a):
+    # your code
+    return a"
+479,"Write a Python function to find the greatest frequency of a given array. Example:
+def frequency_Of_Largest(n,arr):
+    # your code
+    return n"
+480,"Write a function that extracts all the parallel pairs in the given tip list. Example:
+def extract_symmetric(test_list):
+    # your code
+    return test_list"
+481,"Write a function to find the sum of a geometrically increasing series. Example:
+def sum_gp(a,n,r):
+    # your code
+    return a"
+482,"Enter a function to search for an element in a given array using binary search. Example:
+def binary_search(item_list,item):
+    # your code
+    return item_list"
+483,"Write a function to calculate a grid of hexagonal coordinates where the function provides a list of 6 tipped lists of x, y point coordinates. Example:
+def calculate_polygons(startx, starty, endx, endy, radius):
+    # your code
+    return startx"
+484,"Write a function to convert the given binary proposition to an integer. Example:
+def binary_to_integer(test_tup):
+    # your code
+    return test_tup"
+485,"Write a function to remove small handed substrings using a given string. Example:
+def remove_lowercase(str1):
+    # your code
+    return str1"
+486,"Write a function that uses the Hip-Q algorithm to find the smallest integer from a list of numbers. Example:
+def heap_queue_smallest(nums,n):
+    # your code
+    return nums"
+487,"Write a function to find a conical surface area. Example:
+def surfacearea_cone(r,h):
+    # your code
+    return r"
+488,"Write a Python function to find the GCD of two positive integers. Example:
+def gcd(x, y):
+    # your code
+    return x"
+489,"Write a function to find the radius of a circle. Example:
+def diameter_circle(r):
+    # your code
+    return r"
+490,"Write a function that connects all the elements in a given list to a string. Example:
+def concatenate_elements(list):
+    # your code
+    return list"
+491,"প্রদত্ত খরচ ম্যাট্রিক্স খরচ [][] and খরচ [][] write a function to find the path to the minimum cost to reach a position (m, n) for (0, 0) from (m, n). Example:
+def min_cost(cost, m, n):
+    # your code
+    return cost"
+492,"Enter a function to find similar elements from the given two tips list. Example:
+def similar_elements(test_tup1, test_tup2):
+    # your code
+    return test_tup1"
+493,"Write a Python function to mark non-prime numbers. Example:
+def is_not_prime(n):
+    # your code
+    return n"
+494,"Write a function to find the largest integer from a list of numbers using the hip-key algorithm. Example:
+def heap_queue_largest(nums,n):
+    # your code
+    return nums"
+495,"Write a function that finds the number of ways to fill out a 2x1 domain for a 3xn board. Example:
+def count_ways(n):
+    # your code
+    return n"
+496,"Write a Python function that checks whether two numbers differ only in one bit position. Example:
+def is_Power_Of_Two (x):
+    # your code
+    return x"
+497,"Write a function that uses Rejex to find all words in a string of at least 4 characters in length. Example:
+def find_char_long(text):
+    # your code
+    return text"
+498,"Write a function to find the square of the individual elements of a list using a lambda function. Example:
+def square_nums(nums):
+    # your code
+    return nums"
+499,"Enter a Python function to find the minimum spin number required to get the same string. Example:
+def find_Rotations(str):
+    # your code
+    return str"
+500,"Enter a function to get the smallest item from a dataset. Example:
+def small_nnum(list1,n):
+    # your code
+    return list1"
