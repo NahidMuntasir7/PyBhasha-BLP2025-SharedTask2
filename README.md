@@ -5,7 +5,7 @@ Our system, **PyBhasha**, investigates how the *semantic quality of translated i
 
 ---
 
-## 🧠 Overview
+## Overview
 
 Large Language Models (LLMs) such as Codex, CodeLLaMA, and DeepSeek-Coder have demonstrated strong code-generation ability in English, yet performance remains limited for low-resource languages like **Bangla**.  
 This work explores how translation quality and instruction formulation affect Bangla-to-Python generation across multiple open-source and proprietary models.
